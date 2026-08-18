@@ -1,0 +1,1588 @@
+---
+MainSourceFile:  'C:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/.autopilot/db/chirp.pp.0.cpp'
+Diagnostics:
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_676_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\ap_int_ref.h'
+      FileOffset:      676
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          759921
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_676_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_690_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\ap_int_ref.h'
+      FileOffset:      690
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          760392
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_690_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_704_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\ap_int_ref.h'
+      FileOffset:      704
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          760864
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_704_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1251_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\ap_fixed_base.h'
+      FileOffset:      1251
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          1057466
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1251_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_61_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+      FileOffset:      61
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2290294
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_61_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_117_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+      FileOffset:      117
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2291117
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_117_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_289_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+      FileOffset:      289
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2293788
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_289_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_449_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+      FileOffset:      449
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2296524
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_449_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_629_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+      FileOffset:      629
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2299694
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_629_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_633_2:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+      FileOffset:      633
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2299780
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_633_2: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_743_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+      FileOffset:      743
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2302094
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_743_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_840_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+      FileOffset:      840
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2303592
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_840_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_859_2:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+      FileOffset:      859
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2303829
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_859_2: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1176_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+      FileOffset:      1176
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2310087
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1176_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1259_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+      FileOffset:      1259
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2311690
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1259_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_68_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      68
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2319582
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_68_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_74_2:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      74
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2319747
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_74_2: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_78_3:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      78
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2319863
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_78_3: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_145_4:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      145
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2321705
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_145_4: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_151_5:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      151
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2321870
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_151_5: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_155_6:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      155
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2321986
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_155_6: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_170_7:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      170
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2322386
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_170_7: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_178_8:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      178
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2322628
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_178_8: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_243_9:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      243
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2326050
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_243_9: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_249_10:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      249
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2326217
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_249_10: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_253_11:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      253
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2326336
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_253_11: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_268_12:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      268
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2326737
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_268_12: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_276_13:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      276
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2326986
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_276_13: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_505_14:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      505
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2342558
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_505_14: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_511_15:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      511
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2342725
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_511_15: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_515_16:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      515
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2342843
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_515_16: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_525_17:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      525
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2343039
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_525_17: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_529_18:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      529
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2343148
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_529_18: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_539_19:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      539
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2343444
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_539_19: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_547_20:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      547
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2343710
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_547_20: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_908_21:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      908
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2375966
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_908_21: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_914_22:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      914
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2376133
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_914_22: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_918_23:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      918
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2376252
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_918_23: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1034_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      1034
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2378964
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1034_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1040_2:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      1040
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2379129
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1040_2: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1044_3:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      1044
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2379246
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1044_3: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1131_4:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      1131
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2382735
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1131_4: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1137_5:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      1137
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2382901
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1137_5: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1141_6:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      1141
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2383019
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1141_6: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1160_7:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      1160
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2383518
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1160_7: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1167_8:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      1167
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2383771
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1167_8: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1283_9:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      1283
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2389236
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1283_9: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1289_10:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      1289
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2389403
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1289_10: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1293_11:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      1293
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2389521
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1293_11: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1313_12:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      1313
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2390049
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1313_12: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1320_13:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      1320
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2390309
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1320_13: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1582_14:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      1582
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2407604
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1582_14: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1588_15:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      1588
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2407771
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1588_15: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1592_16:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      1592
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2407890
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1592_16: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1616_17:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      1616
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2408383
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1616_17: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1623_18:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      1623
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2408661
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1623_18: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2053_19:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      2053
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2447119
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2053_19: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2059_20:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      2059
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2447286
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2059_20: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2063_21:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      2063
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2447405
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2063_21: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2192_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      2192
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2450035
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2192_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2199_2:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      2199
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2450213
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2199_2: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2203_3:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      2203
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2450324
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2203_3: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2250_4:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      2250
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2451952
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2250_4: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2257_5:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      2257
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2452129
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2257_5: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2261_6:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      2261
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2452240
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2261_6: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2279_7:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      2279
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2452632
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2279_7: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2334_8:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      2334
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2455109
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2334_8: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2341_9:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      2341
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2455291
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2341_9: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2345_10:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      2345
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2455403
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2345_10: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2363_11:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      2363
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2455803
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2363_11: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2452_12:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      2452
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2461255
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2452_12: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2459_13:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      2459
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2461438
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2459_13: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2463_14:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      2463
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2461551
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2463_14: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2473_15:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      2473
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2461741
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2473_15: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2477_16:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      2477
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2461843
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2477_16: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2488_17:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      2488
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2462136
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2488_17: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2496_18:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      2496
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2462334
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2496_18: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2821_19:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      2821
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2496823
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2821_19: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2828_20:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      2828
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2497006
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2828_20: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2832_21:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      2832
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2497119
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2832_21: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2920_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      2920
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2498924
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2920_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2927_2:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      2927
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2499035
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2927_2: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2931_3:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      2931
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2499110
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2931_3: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2946_4:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      2946
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2499402
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2946_4: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2978_5:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      2978
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2500618
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2978_5: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2985_6:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      2985
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2500732
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2985_6: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_2989_7:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      2989
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2500809
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_2989_7: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_3004_8:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      3004
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2501108
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_3004_8: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_3054_9:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      3054
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2504443
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_3054_9: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_3061_10:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      3061
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2504557
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_3061_10: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_3065_11:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      3065
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2504634
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_3065_11: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_3080_12:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      3080
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2504934
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_3080_12: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_3217_13:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      3217
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2524248
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_3217_13: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_3224_14:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      3224
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2524365
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_3224_14: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_3228_15:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      3228
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2524444
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_3228_15: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_3243_16:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      3243
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2524735
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_3243_16: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_3403_17:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      3403
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2550347
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_3403_17: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_3410_18:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      3410
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2550464
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_3410_18: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_3414_19:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_exp_apfixed.h'
+      FileOffset:      3414
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2550545
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_3414_19: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_703_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_log_apfixed.h'
+      FileOffset:      703
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2584636
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_703_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_921_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_log_apfixed.h'
+      FileOffset:      921
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2593043
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_921_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_1345_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_log_apfixed.h'
+      FileOffset:      1345
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2612038
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_1345_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_243_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_sqrt_apfixed.h'
+      FileOffset:      243
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2627023
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_243_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_271_2:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_sqrt_apfixed.h'
+      FileOffset:      271
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2627555
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_271_2: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_48_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_pow_apfixed.h'
+      FileOffset:      48
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2643567
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_48_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_109_2:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_pow_apfixed.h'
+      FileOffset:      109
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2644734
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_109_2: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_123_3:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_pow_apfixed.h'
+      FileOffset:      123
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2645050
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_123_3: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_153_4:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_pow_apfixed.h'
+      FileOffset:      153
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2645575
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_153_4: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_281_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_pow_apfixed.h'
+      FileOffset:      281
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2647448
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_281_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_301_2:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_pow_apfixed.h'
+      FileOffset:      301
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2647828
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_301_2: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_315_3:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_pow_apfixed.h'
+      FileOffset:      315
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2648154
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_315_3: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_433_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_pow_apfixed.h'
+      FileOffset:      433
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2650007
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_433_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_447_2:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_pow_apfixed.h'
+      FileOffset:      447
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2650346
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_447_2: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_33_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_diff_apfixed.h'
+      FileOffset:      33
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2653039
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_33_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_183_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_diff_apfixed.h'
+      FileOffset:      183
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2655961
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_183_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_248_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_diff_apfixed.h'
+      FileOffset:      248
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2657270
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_248_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_44_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_frexp_apfixed.h'
+      FileOffset:      44
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2662934
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_44_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_16_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_all_any_apfixed.h'
+      FileOffset:      16
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2668259
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_16_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_27_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_all_any_apfixed.h'
+      FileOffset:      27
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2668437
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_27_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_38_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_all_any_apfixed.h'
+      FileOffset:      38
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2668601
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_38_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_49_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_all_any_apfixed.h'
+      FileOffset:      49
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2668766
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_49_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_60_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_all_any_apfixed.h'
+      FileOffset:      60
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2668943
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_60_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_71_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_all_any_apfixed.h'
+      FileOffset:      71
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2669121
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_71_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_82_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_all_any_apfixed.h'
+      FileOffset:      82
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2669285
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_82_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_93_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_all_any_apfixed.h'
+      FileOffset:      93
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2669450
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_93_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_26_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_mad_apfixed.h'
+      FileOffset:      26
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2741201
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_26_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_40_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_cbrt_apfixed.h'
+      FileOffset:      40
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2742971
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_40_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_49_1:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_hypot_apfixed.h'
+      FileOffset:      49
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2747510
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_49_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_81_2:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_hypot_apfixed.h'
+      FileOffset:      81
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2748245
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_81_2: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_169_3:  '
+      FilePath:        'C:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\etc\hls_hypot_apfixed.h'
+      FileOffset:      169
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2749934
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_169_3: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_60_1:  '
+      FilePath:        chirp.cpp
+      FileOffset:      60
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2803194
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_60_1: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+  - DiagnosticName:  xilinx-label-all-loops
+    DiagnosticMessage:
+      Message:         'Added loop label VITIS_LOOP_63_2:  '
+      FilePath:        chirp.cpp
+      FileOffset:      63
+      Replacements:
+        - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
+          Offset:          2803253
+          Length:          0
+          ReplacementText: 'VITIS_LOOP_63_2: '
+    Level:           Remark
+    BuildDirectory:  'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator'
+...

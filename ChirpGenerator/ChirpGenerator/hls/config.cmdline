@@ -1,0 +1,3 @@
+relativeroot=C:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator
+original_argv=--mode hls --impl --config C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\hls_config.cfg --work_dir ChirpGenerator 
+

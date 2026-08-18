@@ -1,0 +1,27 @@
+[
+  {
+    "directory": "C:\\Users\\vempa\\Documents\\Projects\\RADAR_Chirp_Engine\\ChirpGenerator",
+    "arguments": [
+      "C:\\AMDDesignTools\\2025.2\\Vitis\\win64\\tools\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=C:\\AMDDesignTools\\2025.2\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\AMDDesignTools\\2025.2\\Vitis\\common\\technology\\autopilot",
+      "-fhlstoplevel=chirp",
+      "-c",
+      "C:\\Users\\vempa\\Documents\\Projects\\RADAR_Chirp_Engine\\ChirpGenerator\\chirp.cpp"
+    ],
+    "file": "C:\\Users\\vempa\\Documents\\Projects\\RADAR_Chirp_Engine\\ChirpGenerator\\chirp.cpp"
+  },
+  {
+    "directory": "C:\\Users\\vempa\\Documents\\Projects\\RADAR_Chirp_Engine\\ChirpGenerator",
+    "arguments": [
+      "C:\\AMDDesignTools\\2025.2\\Vitis\\win64\\tools\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=C:\\AMDDesignTools\\2025.2\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls-tb",
+      "-hls-sim-headers-dir=C:\\AMDDesignTools\\2025.2\\Vitis\\include",
+      "-c",
+      "C:\\Users\\vempa\\Documents\\Projects\\RADAR_Chirp_Engine\\ChirpGenerator\\chirp_tb.cpp"
+    ],
+    "file": "C:\\Users\\vempa\\Documents\\Projects\\RADAR_Chirp_Engine\\ChirpGenerator\\chirp_tb.cpp"
+  }
+]

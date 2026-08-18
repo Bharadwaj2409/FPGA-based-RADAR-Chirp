@@ -1,0 +1,157 @@
+<ENTRY>
+{
+ "thisFile": "C:/Users\\vempa\\Documents\\Projects\\RADAR_Chirp_Engine\\ChirpGenerator\\ChirpGenerator\\ChirpGenerator.hlsrun_csim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "08/18/26 14:56:08",
+ "timestampMillis": "1787045168844",
+ "buildStep": {
+  "cmdId": "7949aa89-a382-4d0f-b121-6e1611f0daad",
+  "name": "vitis-run",
+  "logFile": "C:/Users\\vempa\\Documents\\Projects\\RADAR_Chirp_Engine\\ChirpGenerator\\ChirpGenerator\\logs\\ChirpGenerator.steps.log",
+  "commandLine": "C:/AMDDesignTools/2025.2/Vitis/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --csim --config C:\\Users\\vempa\\Documents\\Projects\\RADAR_Chirp_Engine\\ChirpGenerator\\hls_config.cfg --work_dir ChirpGenerator ",
+  "args": [
+   "--mode",
+   "hls",
+   "--csim",
+   "--config",
+   "C:\\Users\\vempa\\Documents\\Projects\\RADAR_Chirp_Engine\\ChirpGenerator\\hls_config.cfg",
+   "--work_dir",
+   "ChirpGenerator"
+  ],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\vempa\\Documents\\Projects\\RADAR_Chirp_Engine\\ChirpGenerator"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "08/18/26 14:56:08",
+ "timestampMillis": "1787045168844",
+ "status": {
+  "cmdId": "7949aa89-a382-4d0f-b121-6e1611f0daad",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "08/18/26 14:56:12",
+ "timestampMillis": "1787045172294",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_C_SIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "chirp",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/Users\\vempa\\Documents\\Projects\\RADAR_Chirp_Engine\\ChirpGenerator\\chirp.cpp",
+     "C:/Users\\vempa\\Documents\\Projects\\RADAR_Chirp_Engine\\ChirpGenerator\\chirp.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "08/18/26 14:56:12",
+ "timestampMillis": "1787045172295",
+ "buildStep": {
+  "cmdId": "7dfb900e-379c-4ea9-b042-dbd70d4cb20b",
+  "name": "",
+  "logFile": "C:/Users\\vempa\\Documents\\Projects\\RADAR_Chirp_Engine\\ChirpGenerator\\ChirpGenerator\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\vempa\\Documents\\Projects\\RADAR_Chirp_Engine\\ChirpGenerator"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "08/18/26 14:56:12",
+ "timestampMillis": "1787045172295",
+ "status": {
+  "cmdId": "7dfb900e-379c-4ea9-b042-dbd70d4cb20b",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "08/18/26 14:56:18",
+ "timestampMillis": "1787045178650",
+ "status": {
+  "cmdId": "7dfb900e-379c-4ea9-b042-dbd70d4cb20b",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "08/18/26 14:56:18",
+ "timestampMillis": "1787045178742",
+ "status": {
+  "cmdId": "7949aa89-a382-4d0f-b121-6e1611f0daad",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "08/18/26 14:56:18",
+ "timestampMillis": "1787045178742",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "08/18/26 14:56:18",
+ "timestampMillis": "1787045178743",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

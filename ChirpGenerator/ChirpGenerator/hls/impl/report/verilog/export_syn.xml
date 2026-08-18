@@ -1,0 +1,185 @@
+<profile>
+  <RunData>
+    <RUN_TYPE>synth</RUN_TYPE>
+    <VIVADO_VERSION>v.2025.2</VIVADO_VERSION>
+    <ROOT_MODULE_CELL>bd_0_i/hls_inst</ROOT_MODULE_CELL>
+  </RunData>
+  <TimingReport>
+    <TargetClockPeriod>10.000</TargetClockPeriod>
+    <AchievedClockPeriod>8.276</AchievedClockPeriod>
+    <CLOCK_NAME>ap_clk</CLOCK_NAME>
+    <CP_FINAL>8.276</CP_FINAL>
+    <CP_ROUTE>NA</CP_ROUTE>
+    <CP_SYNTH>8.276</CP_SYNTH>
+    <CP_TARGET>10.000</CP_TARGET>
+    <SLACK_FINAL>1.724</SLACK_FINAL>
+    <SLACK_ROUTE/>
+    <SLACK_SYNTH>1.724</SLACK_SYNTH>
+    <TIMING_MET>TRUE</TIMING_MET>
+    <TNS_FINAL>0.000</TNS_FINAL>
+    <TNS_ROUTE>NA</TNS_ROUTE>
+    <TNS_SYNTH>0.000</TNS_SYNTH>
+    <WNS_FINAL>1.724</WNS_FINAL>
+    <WNS_ROUTE>NA</WNS_ROUTE>
+    <WNS_SYNTH>1.724</WNS_SYNTH>
+  </TimingReport>
+  <AreaReport>
+    <Resources>
+      <BRAM>0</BRAM>
+      <CLB>0</CLB>
+      <DSP>39</DSP>
+      <FF>3407</FF>
+      <LATCH>0</LATCH>
+      <LUT>3245</LUT>
+      <SRL>198</SRL>
+      <URAM>0</URAM>
+    </Resources>
+    <AvailableResources>
+      <BRAM>280</BRAM>
+      <CLB>0</CLB>
+      <DSP>220</DSP>
+      <FF>106400</FF>
+      <LUT>53200</LUT>
+      <URAM>0</URAM>
+    </AvailableResources>
+  </AreaReport>
+  <RtlModules>
+    <RtlModule CELL="inst" DEPTH="0" IS_TOP="1" TYPE="function" MODULENAME="chirp" DISPNAME="inst" RTLNAME="chirp">
+      <SubModules count="4">fdiv_32ns_32ns_32_16_no_dsp_1_U53 fmul_32ns_32ns_32_4_max_dsp_1_U52 grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92 mul_31ns_31ns_62_2_1_U54</SubModules>
+      <Resources LogicLUT="3047" SRL="198"/>
+      <LocalResources LogicLUT="5"/>
+    </RtlModule>
+    <RtlModule CELL="inst/fdiv_32ns_32ns_32_16_no_dsp_1_U53" DEPTH="1" TYPE="resource" MODULENAME="fdiv_32ns_32ns_32_16_no_dsp_1" DISPNAME="fdiv_32ns_32ns_32_16_no_dsp_1_U53" RTLNAME="chirp_fdiv_32ns_32ns_32_16_no_dsp_1">
+      <Resources LogicLUT="786" SRL="34"/>
+      <LocalResources LogicLUT="32"/>
+    </RtlModule>
+    <RtlModule CELL="inst/fmul_32ns_32ns_32_4_max_dsp_1_U52" DEPTH="1" TYPE="resource" MODULENAME="fmul_32ns_32ns_32_4_max_dsp_1" DISPNAME="fmul_32ns_32ns_32_4_max_dsp_1_U52" RTLNAME="chirp_fmul_32ns_32ns_32_4_max_dsp_1">
+      <Resources LogicLUT="108"/>
+      <LocalResources LogicLUT="33"/>
+    </RtlModule>
+    <RtlModule CELL="inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92" DEPTH="1" TYPE="function" MODULENAME="chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2" DISPNAME="grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92" RTLNAME="chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2">
+      <SubModules count="21">ctlz_30_30_1_1_U17 ctlz_32_32_1_1_U20 ctlz_32_32_1_1_U21 dmul_64ns_64ns_64_7_max_dsp_1_U10 fadd_32ns_32ns_32_5_full_dsp_1_U1 fcmp_32ns_32ns_1_2_no_dsp_1_U9 flow_control_loop_pipe_sequential_init_U fmul_32ns_32ns_32_4_max_dsp_1_U3 fmul_32ns_32ns_32_4_max_dsp_1_U4 fpext_32ns_64_2_no_dsp_1_U8 fptrunc_64ns_32_2_no_dsp_1_U7 mul_15ns_15ns_30_1_1_U18 mul_15ns_15s_30_1_1_U19 mul_23s_22ns_45_1_1_U11 mul_30s_29ns_58_2_1_U12 mul_80s_24ns_80_5_1_U13 ref_4oPi_table_100_U second_order_float_sin_cos_K0_U second_order_float_sin_cos_K1_U second_order_float_sin_cos_K2_U sitofp_32ns_32_6_no_dsp_1_U6</SubModules>
+      <Resources LogicLUT="2009" SRL="164"/>
+      <LocalResources LogicLUT="779" SRL="132"/>
+    </RtlModule>
+    <RtlModule CELL="inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/ctlz_30_30_1_1_U17" DEPTH="2" TYPE="resource" MODULENAME="ctlz_30_30_1_1" DISPNAME="ctlz_30_30_1_1_U17" RTLNAME="chirp_ctlz_30_30_1_1"/>
+    <RtlModule CELL="inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/ctlz_32_32_1_1_U20" DEPTH="2" TYPE="resource" MODULENAME="ctlz_32_32_1_1" DISPNAME="ctlz_32_32_1_1_U20" RTLNAME="chirp_ctlz_32_32_1_1"/>
+    <RtlModule CELL="inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/ctlz_32_32_1_1_U21" DEPTH="2" TYPE="resource" MODULENAME="ctlz_32_32_1_1" DISPNAME="ctlz_32_32_1_1_U21" RTLNAME="chirp_ctlz_32_32_1_1"/>
+    <RtlModule CELL="inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/dmul_64ns_64ns_64_7_max_dsp_1_U10" DEPTH="2" TYPE="resource" MODULENAME="dmul_64ns_64ns_64_7_max_dsp_1" DISPNAME="dmul_64ns_64ns_64_7_max_dsp_1_U10" RTLNAME="chirp_dmul_64ns_64ns_64_7_max_dsp_1">
+      <Resources LogicLUT="74" SRL="17"/>
+      <LocalResources/>
+    </RtlModule>
+    <RtlModule CELL="inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fadd_32ns_32ns_32_5_full_dsp_1_U1" DEPTH="2" TYPE="resource" MODULENAME="fadd_32ns_32ns_32_5_full_dsp_1" DISPNAME="fadd_32ns_32ns_32_5_full_dsp_1_U1" RTLNAME="chirp_fadd_32ns_32ns_32_5_full_dsp_1">
+      <Resources LogicLUT="225"/>
+      <LocalResources/>
+    </RtlModule>
+    <RtlModule CELL="inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fcmp_32ns_32ns_1_2_no_dsp_1_U9" DEPTH="2" TYPE="resource" MODULENAME="fcmp_32ns_32ns_1_2_no_dsp_1" DISPNAME="fcmp_32ns_32ns_1_2_no_dsp_1_U9" RTLNAME="chirp_fcmp_32ns_32ns_1_2_no_dsp_1">
+      <Resources LogicLUT="53"/>
+      <LocalResources LogicLUT="9"/>
+    </RtlModule>
+    <RtlModule CELL="inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/flow_control_loop_pipe_sequential_init_U" DEPTH="2" TYPE="rtl" MODULENAME="flow_control_loop_pipe_sequential_init" DISPNAME="flow_control_loop_pipe_sequential_init_U" RTLNAME="chirp_flow_control_loop_pipe_sequential_init"/>
+    <RtlModule CELL="inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fmul_32ns_32ns_32_4_max_dsp_1_U3" DEPTH="2" TYPE="resource" MODULENAME="fmul_32ns_32ns_32_4_max_dsp_1" DISPNAME="fmul_32ns_32ns_32_4_max_dsp_1_U3" RTLNAME="chirp_fmul_32ns_32ns_32_4_max_dsp_1">
+      <Resources LogicLUT="75"/>
+      <LocalResources/>
+    </RtlModule>
+    <RtlModule CELL="inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fmul_32ns_32ns_32_4_max_dsp_1_U4" DEPTH="2" TYPE="resource" MODULENAME="fmul_32ns_32ns_32_4_max_dsp_1" DISPNAME="fmul_32ns_32ns_32_4_max_dsp_1_U4" RTLNAME="chirp_fmul_32ns_32ns_32_4_max_dsp_1">
+      <Resources LogicLUT="75"/>
+    </RtlModule>
+    <RtlModule CELL="inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fpext_32ns_64_2_no_dsp_1_U8" DEPTH="2" TYPE="resource" MODULENAME="fpext_32ns_64_2_no_dsp_1" DISPNAME="fpext_32ns_64_2_no_dsp_1_U8" RTLNAME="chirp_fpext_32ns_64_2_no_dsp_1">
+      <Resources LogicLUT="67"/>
+    </RtlModule>
+    <RtlModule CELL="inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fptrunc_64ns_32_2_no_dsp_1_U7" DEPTH="2" TYPE="resource" MODULENAME="fptrunc_64ns_32_2_no_dsp_1" DISPNAME="fptrunc_64ns_32_2_no_dsp_1_U7" RTLNAME="chirp_fptrunc_64ns_32_2_no_dsp_1">
+      <Resources LogicLUT="42"/>
+      <LocalResources/>
+    </RtlModule>
+    <RtlModule CELL="inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/mul_15ns_15ns_30_1_1_U18" DEPTH="2" TYPE="resource" MODULENAME="mul_15ns_15ns_30_1_1" DISPNAME="mul_15ns_15ns_30_1_1_U18" RTLNAME="chirp_mul_15ns_15ns_30_1_1">
+      <Resources LogicLUT="96"/>
+    </RtlModule>
+    <RtlModule CELL="inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/mul_15ns_15s_30_1_1_U19" DEPTH="2" TYPE="resource" MODULENAME="mul_15ns_15s_30_1_1" DISPNAME="mul_15ns_15s_30_1_1_U19" RTLNAME="chirp_mul_15ns_15s_30_1_1"/>
+    <RtlModule CELL="inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/mul_23s_22ns_45_1_1_U11" DEPTH="2" TYPE="resource" MODULENAME="mul_23s_22ns_45_1_1" DISPNAME="mul_23s_22ns_45_1_1_U11" RTLNAME="chirp_mul_23s_22ns_45_1_1"/>
+    <RtlModule CELL="inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/mul_30s_29ns_58_2_1_U12" DEPTH="2" TYPE="resource" MODULENAME="mul_30s_29ns_58_2_1" DISPNAME="mul_30s_29ns_58_2_1_U12" RTLNAME="chirp_mul_30s_29ns_58_2_1"/>
+    <RtlModule CELL="inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/mul_80s_24ns_80_5_1_U13" DEPTH="2" TYPE="resource" MODULENAME="mul_80s_24ns_80_5_1" DISPNAME="mul_80s_24ns_80_5_1_U13" RTLNAME="chirp_mul_80s_24ns_80_5_1"/>
+    <RtlModule CELL="inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/ref_4oPi_table_100_U" DEPTH="2" TYPE="resource" MODULENAME="chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_ref_4oPi_table_100_ROM_1P_LUTRbkb" DISPNAME="ref_4oPi_table_100_U" RTLNAME="chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_ref_4oPi_table_100_ROM_1P_LUTRbkb">
+      <Resources LogicLUT="57"/>
+    </RtlModule>
+    <RtlModule CELL="inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/second_order_float_sin_cos_K0_U" DEPTH="2" TYPE="resource" MODULENAME="chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K0_cud" DISPNAME="second_order_float_sin_cos_K0_U" RTLNAME="chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K0_cud">
+      <Resources LogicLUT="107"/>
+    </RtlModule>
+    <RtlModule CELL="inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/second_order_float_sin_cos_K1_U" DEPTH="2" TYPE="resource" MODULENAME="chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K1_dEe" DISPNAME="second_order_float_sin_cos_K1_U" RTLNAME="chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K1_dEe">
+      <Resources LogicLUT="88"/>
+    </RtlModule>
+    <RtlModule CELL="inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/second_order_float_sin_cos_K2_U" DEPTH="2" TYPE="resource" MODULENAME="chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K2_eOg" DISPNAME="second_order_float_sin_cos_K2_U" RTLNAME="chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K2_eOg"/>
+    <RtlModule CELL="inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/sitofp_32ns_32_6_no_dsp_1_U6" DEPTH="2" TYPE="resource" MODULENAME="sitofp_32ns_32_6_no_dsp_1" DISPNAME="sitofp_32ns_32_6_no_dsp_1_U6" RTLNAME="chirp_sitofp_32ns_32_6_no_dsp_1">
+      <Resources LogicLUT="122"/>
+    </RtlModule>
+    <RtlModule CELL="inst/mul_31ns_31ns_62_2_1_U54" DEPTH="1" TYPE="resource" MODULENAME="mul_31ns_31ns_62_2_1" DISPNAME="mul_31ns_31ns_62_2_1_U54" RTLNAME="chirp_mul_31ns_31ns_62_2_1">
+      <Resources LogicLUT="139"/>
+    </RtlModule>
+  </RtlModules>
+  <TimingPaths>
+    <TPATH DATAPATH_DELAY="2.63471412658691406" DATAPATH_LOGIC_DELAY="0.81300008296966553" DATAPATH_NET_DELAY="1.82171428203582764" ENDPOINT_PIN="grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fadd_32ns_32ns_32_5_full_dsp_1_U1/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip_u/U0/i_synth/ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/i_no_versal_es1_workaround.DSP/INMODE[1]" LOGIC_LEVELS="1" MAX_FANOUT="18" SLACK="1.72428023815155029" STARTPOINT_PIN="grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fadd_32ns_32ns_32_5_full_dsp_1_U1/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip_u/U0/i_synth/ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.EXP/BMA_EXP_DELAY/i_pipe/opt_has_pipe.first_q_reg[5]/C">
+      <CELL NAME="grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fadd_32ns_32ns_32_5_full_dsp_1_U1/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip_u/U0/i_synth/ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.EXP/BMA_EXP_DELAY/i_pipe/opt_has_pipe.first_q_reg[5]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="xbip_pipe_v3_0_vh_rfs.vhd" LINE_NUMBER="1" MODULE_INSTNAME="fadd_32ns_32ns_32_5_full_dsp_1_U1" IS_FUNCINST="0"/>
+      <CELL NAME="grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fadd_32ns_32ns_32_5_full_dsp_1_U1/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip_u/U0/i_synth/ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.EXP/BMA_EXP_DELAY/i_pipe/i_no_versal_es1_workaround.DSP_i_64" PRIMITIVE_TYPE="LUT.others.LUT6" FILE_NAME="floating_point_v7_1_vh_rfs.vhd" LINE_NUMBER="1" MODULE_INSTNAME="fadd_32ns_32ns_32_5_full_dsp_1_U1" IS_FUNCINST="0"/>
+      <CELL NAME="grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fadd_32ns_32ns_32_5_full_dsp_1_U1/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip_u/U0/i_synth/ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/i_no_versal_es1_workaround.DSP" PRIMITIVE_TYPE="MULT.dsp.DSP48E1" FILE_NAME="floating_point_v7_1_vh_rfs.vhd" LINE_NUMBER="1" MODULE_INSTNAME="fadd_32ns_32ns_32_5_full_dsp_1_U1" IS_FUNCINST="0"/>
+      <MODULE_INSTANCES>fadd_32ns_32ns_32_5_full_dsp_1_U1</MODULE_INSTANCES>
+    </TPATH>
+    <TPATH DATAPATH_DELAY="2.63471412658691406" DATAPATH_LOGIC_DELAY="0.81300008296966553" DATAPATH_NET_DELAY="1.82171428203582764" ENDPOINT_PIN="grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fadd_32ns_32ns_32_5_full_dsp_1_U1/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip_u/U0/i_synth/ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/i_no_versal_es1_workaround.DSP/INMODE[2]" LOGIC_LEVELS="1" MAX_FANOUT="18" SLACK="1.72428023815155029" STARTPOINT_PIN="grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fadd_32ns_32ns_32_5_full_dsp_1_U1/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip_u/U0/i_synth/ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.EXP/BMA_EXP_DELAY/i_pipe/opt_has_pipe.first_q_reg[5]/C">
+      <CELL NAME="grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fadd_32ns_32ns_32_5_full_dsp_1_U1/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip_u/U0/i_synth/ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.EXP/BMA_EXP_DELAY/i_pipe/opt_has_pipe.first_q_reg[5]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="xbip_pipe_v3_0_vh_rfs.vhd" LINE_NUMBER="1" MODULE_INSTNAME="fadd_32ns_32ns_32_5_full_dsp_1_U1" IS_FUNCINST="0"/>
+      <CELL NAME="grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fadd_32ns_32ns_32_5_full_dsp_1_U1/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip_u/U0/i_synth/ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.EXP/BMA_EXP_DELAY/i_pipe/i_no_versal_es1_workaround.DSP_i_64" PRIMITIVE_TYPE="LUT.others.LUT6" FILE_NAME="floating_point_v7_1_vh_rfs.vhd" LINE_NUMBER="1" MODULE_INSTNAME="fadd_32ns_32ns_32_5_full_dsp_1_U1" IS_FUNCINST="0"/>
+      <CELL NAME="grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fadd_32ns_32ns_32_5_full_dsp_1_U1/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip_u/U0/i_synth/ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/i_no_versal_es1_workaround.DSP" PRIMITIVE_TYPE="MULT.dsp.DSP48E1" FILE_NAME="floating_point_v7_1_vh_rfs.vhd" LINE_NUMBER="1" MODULE_INSTNAME="fadd_32ns_32ns_32_5_full_dsp_1_U1" IS_FUNCINST="0"/>
+      <MODULE_INSTANCES>fadd_32ns_32ns_32_5_full_dsp_1_U1</MODULE_INSTANCES>
+    </TPATH>
+    <TPATH DATAPATH_DELAY="2.37171435356140137" DATAPATH_LOGIC_DELAY="0.81300008296966553" DATAPATH_NET_DELAY="1.55871415138244629" ENDPOINT_PIN="grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fadd_32ns_32ns_32_5_full_dsp_1_U1/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip_u/U0/i_synth/ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/i_no_versal_es1_workaround.DSP/A[0]" LOGIC_LEVELS="1" MAX_FANOUT="3" SLACK="2.07028031349182129" STARTPOINT_PIN="grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fadd_32ns_32ns_32_5_full_dsp_1_U1/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip_u/U0/i_synth/ADDSUB_OP.ADDSUB/DSP.OP/A_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[0]/C">
+      <CELL NAME="grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fadd_32ns_32ns_32_5_full_dsp_1_U1/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip_u/U0/i_synth/ADDSUB_OP.ADDSUB/DSP.OP/A_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[0]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="xbip_pipe_v3_0_vh_rfs.vhd" LINE_NUMBER="1" MODULE_INSTNAME="fadd_32ns_32ns_32_5_full_dsp_1_U1" IS_FUNCINST="0"/>
+      <CELL NAME="grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fadd_32ns_32ns_32_5_full_dsp_1_U1/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip_u/U0/i_synth/ADDSUB_OP.ADDSUB/DSP.OP/A_IP_DELAY/i_pipe/i_no_versal_es1_workaround.DSP_i_40" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="floating_point_v7_1_vh_rfs.vhd" LINE_NUMBER="1" MODULE_INSTNAME="fadd_32ns_32ns_32_5_full_dsp_1_U1" IS_FUNCINST="0"/>
+      <CELL NAME="grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fadd_32ns_32ns_32_5_full_dsp_1_U1/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip_u/U0/i_synth/ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/i_no_versal_es1_workaround.DSP" PRIMITIVE_TYPE="MULT.dsp.DSP48E1" FILE_NAME="floating_point_v7_1_vh_rfs.vhd" LINE_NUMBER="1" MODULE_INSTNAME="fadd_32ns_32ns_32_5_full_dsp_1_U1" IS_FUNCINST="0"/>
+      <MODULE_INSTANCES>fadd_32ns_32ns_32_5_full_dsp_1_U1</MODULE_INSTANCES>
+    </TPATH>
+    <TPATH DATAPATH_DELAY="2.37171435356140137" DATAPATH_LOGIC_DELAY="0.81300008296966553" DATAPATH_NET_DELAY="1.55871415138244629" ENDPOINT_PIN="grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fadd_32ns_32ns_32_5_full_dsp_1_U1/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip_u/U0/i_synth/ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/i_no_versal_es1_workaround.DSP/A[10]" LOGIC_LEVELS="1" MAX_FANOUT="3" SLACK="2.07028031349182129" STARTPOINT_PIN="grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fadd_32ns_32ns_32_5_full_dsp_1_U1/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip_u/U0/i_synth/ADDSUB_OP.ADDSUB/DSP.OP/A_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[10]/C">
+      <CELL NAME="grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fadd_32ns_32ns_32_5_full_dsp_1_U1/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip_u/U0/i_synth/ADDSUB_OP.ADDSUB/DSP.OP/A_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[10]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="xbip_pipe_v3_0_vh_rfs.vhd" LINE_NUMBER="1" MODULE_INSTNAME="fadd_32ns_32ns_32_5_full_dsp_1_U1" IS_FUNCINST="0"/>
+      <CELL NAME="grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fadd_32ns_32ns_32_5_full_dsp_1_U1/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip_u/U0/i_synth/ADDSUB_OP.ADDSUB/DSP.OP/A_IP_DELAY/i_pipe/i_no_versal_es1_workaround.DSP_i_30" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="floating_point_v7_1_vh_rfs.vhd" LINE_NUMBER="1" MODULE_INSTNAME="fadd_32ns_32ns_32_5_full_dsp_1_U1" IS_FUNCINST="0"/>
+      <CELL NAME="grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fadd_32ns_32ns_32_5_full_dsp_1_U1/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip_u/U0/i_synth/ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/i_no_versal_es1_workaround.DSP" PRIMITIVE_TYPE="MULT.dsp.DSP48E1" FILE_NAME="floating_point_v7_1_vh_rfs.vhd" LINE_NUMBER="1" MODULE_INSTNAME="fadd_32ns_32ns_32_5_full_dsp_1_U1" IS_FUNCINST="0"/>
+      <MODULE_INSTANCES>fadd_32ns_32ns_32_5_full_dsp_1_U1</MODULE_INSTANCES>
+    </TPATH>
+    <TPATH DATAPATH_DELAY="2.37171435356140137" DATAPATH_LOGIC_DELAY="0.81300008296966553" DATAPATH_NET_DELAY="1.55871415138244629" ENDPOINT_PIN="grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fadd_32ns_32ns_32_5_full_dsp_1_U1/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip_u/U0/i_synth/ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/i_no_versal_es1_workaround.DSP/A[11]" LOGIC_LEVELS="1" MAX_FANOUT="3" SLACK="2.07028031349182129" STARTPOINT_PIN="grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fadd_32ns_32ns_32_5_full_dsp_1_U1/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip_u/U0/i_synth/ADDSUB_OP.ADDSUB/DSP.OP/A_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[11]/C">
+      <CELL NAME="grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fadd_32ns_32ns_32_5_full_dsp_1_U1/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip_u/U0/i_synth/ADDSUB_OP.ADDSUB/DSP.OP/A_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[11]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="xbip_pipe_v3_0_vh_rfs.vhd" LINE_NUMBER="1" MODULE_INSTNAME="fadd_32ns_32ns_32_5_full_dsp_1_U1" IS_FUNCINST="0"/>
+      <CELL NAME="grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fadd_32ns_32ns_32_5_full_dsp_1_U1/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip_u/U0/i_synth/ADDSUB_OP.ADDSUB/DSP.OP/A_IP_DELAY/i_pipe/i_no_versal_es1_workaround.DSP_i_29" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="floating_point_v7_1_vh_rfs.vhd" LINE_NUMBER="1" MODULE_INSTNAME="fadd_32ns_32ns_32_5_full_dsp_1_U1" IS_FUNCINST="0"/>
+      <CELL NAME="grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fadd_32ns_32ns_32_5_full_dsp_1_U1/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip_u/U0/i_synth/ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/i_no_versal_es1_workaround.DSP" PRIMITIVE_TYPE="MULT.dsp.DSP48E1" FILE_NAME="floating_point_v7_1_vh_rfs.vhd" LINE_NUMBER="1" MODULE_INSTNAME="fadd_32ns_32ns_32_5_full_dsp_1_U1" IS_FUNCINST="0"/>
+      <MODULE_INSTANCES>fadd_32ns_32ns_32_5_full_dsp_1_U1</MODULE_INSTANCES>
+    </TPATH>
+  </TimingPaths>
+  <VivadoReportFiles>
+    <ReportFile TYPE="design_analysis" PATH="verilog/report/chirp_design_analysis_synth.rpt"/>
+    <ReportFile TYPE="failfast" PATH="verilog/report/chirp_failfast_synth.rpt"/>
+    <ReportFile TYPE="power" PATH="verilog/report/chirp_power_synth.rpt"/>
+    <ReportFile TYPE="timing" PATH="verilog/report/chirp_timing_synth.rpt"/>
+    <ReportFile TYPE="timing_paths" PATH="verilog/report/chirp_timing_paths_synth.rpt"/>
+    <ReportFile TYPE="utilization" PATH="verilog/report/chirp_utilization_synth.rpt"/>
+    <ReportFile TYPE="utilization_hierarchical" PATH="verilog/report/chirp_utilization_hierarchical_synth.rpt"/>
+  </VivadoReportFiles>
+  <GeneralInfo NAME="General Information">
+    <item NAME="Date" VALUE="Tue Aug 18 15:04:38 +0530 2026"/>
+    <item NAME="Version" VALUE="2025.2 (Build 6295257 on Nov 14 2025)"/>
+    <item NAME="Project" VALUE="ChirpGenerator"/>
+    <item NAME="Solution" VALUE="hls (Vivado IP Flow Target)"/>
+    <item NAME="Product family" VALUE="zynq"/>
+    <item NAME="Target device" VALUE="xc7z020-clg484-1"/>
+  </GeneralInfo>
+  <RunOptions NAME="Run Constraints &amp; Options">
+    <General NAME="Design Constraints &amp; Options">
+      <item NAME="RTL Synthesis target clock" VALUE="10 ns"/>
+      <item NAME="C-Synthesis target clock" VALUE=""/>
+      <item NAME="C-Synthesis uncertainty" VALUE="27%"/>
+      <item NAME="config_export -ip_xdc_file" VALUE=""/>
+      <item NAME="config_export -ip_xdc_ooc_file" VALUE=""/>
+    </General>
+    <Syn NAME="RTL Synthesis Options">
+      <item NAME="config_export -vivado_synth_strategy" VALUE="default"/>
+      <item NAME="config_export -vivado_synth_design_args" VALUE="-directive sdx_optimization_effort_high"/>
+    </Syn>
+    <Reporting NAME="Reporting Options">
+      <item NAME="config_export -vivado_report_level" VALUE="2"/>
+      <item NAME="config_export -vivado_max_timing_paths" VALUE="10"/>
+    </Reporting>
+  </RunOptions>
+</profile>

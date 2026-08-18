@@ -1,0 +1,11 @@
+INFO: [SIM 2] *************** CSIM start ***************
+   Compiling ../../../../chirp_tb.cpp in debug mode
+   Compiling ../../../../chirp.cpp in debug mode
+   Generating csim.exe
+FMCW Frame Generated
+Chirps/frame = 128
+Samples/chirp = 2048
+Tchirp = 5.5e-05 seconds
+Frame time = 0.00704 seconds
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************
