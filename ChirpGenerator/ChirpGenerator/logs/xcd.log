@@ -179,3 +179,109 @@
 08/18/26 15:04:38: Socket received request to stop server.
 08/18/26 15:04:38: Dispatch Server: do_await_stop
 08/18/26 15:04:38: SERVER: destructor for server bound to port 59613
+08/18/26 15:45:47: Running xcd server. This server was built by gradle.
+08/18/26 15:45:47: Server was asked to start on port: '55426'
+08/18/26 15:45:47: Server is using token UUID: '6907cead-56f2-41fd-8d5b-aaaa935ce0c8'
+08/18/26 15:45:47: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+08/18/26 15:45:47: Attempting to start server on port '55426'
+08/18/26 15:45:47: Running Dispatch Server
+08/18/26 15:45:47: Version 2.2.0
+08/18/26 15:45:49: Dispatch Server: Accepted socket connection from client
+08/18/26 15:45:49: Starting Socket connection
+08/18/26 15:45:49: EXCHANGE_TOKEN received, server token: 6907cead-56f2-41fd-8d5b-aaaa935ce0c8, passed token: 6907cead-56f2-41fd-8d5b-aaaa935ce0c8
+08/18/26 15:45:49: DISPATCH_HANDLER: Adding handler from function makeHandler in library xv_system_diagram
+08/18/26 15:45:49: SESSION_MGR: creating session with session uuid: '5775bc31-020f-4ab6-99e5-f81293a11921' and name 'vitis-run_compile_ChirpGenerator'
+08/18/26 15:45:49: KERNEL_SVC: creating session with uuid: '5775bc31-020f-4ab6-99e5-f81293a11921' and name 'vitis-run_compile_ChirpGenerator'
+08/18/26 15:45:49: GUIDANCE_SMGR: creating guidance session with uuid: '5775bc31-020f-4ab6-99e5-f81293a11921' and name 'vitis-run_compile_ChirpGenerator'
+08/18/26 15:45:49: SYSTEM_DIAGRAM: creating session with uuid: '5775bc31-020f-4ab6-99e5-f81293a11921' and name 'vitis-run_compile_ChirpGenerator'
+08/18/26 15:45:53: Dispatch Server: Accepted socket connection from client
+08/18/26 15:45:53: Starting Socket connection
+08/18/26 15:45:59: SESSION_MGR: closing session for UUID '5775bc31-020f-4ab6-99e5-f81293a11921' with name 'vitis-run_compile_ChirpGenerator'
+08/18/26 15:45:59: KERNEL_SVC: closing session for UUID '5775bc31-020f-4ab6-99e5-f81293a11921' with name 'vitis-run_compile_ChirpGenerator'
+08/18/26 15:45:59: GUIDANCE_SMGR: closing session for UUID '5775bc31-020f-4ab6-99e5-f81293a11921' with name 'vitis-run_compile_ChirpGenerator'
+08/18/26 15:45:59: SYSTEM_DIAGRAM: closing session for UUID '5775bc31-020f-4ab6-99e5-f81293a11921' with name 'vitis-run_compile_ChirpGenerator'
+08/18/26 15:45:59: STOP_SERVER received, server token: 6907cead-56f2-41fd-8d5b-aaaa935ce0c8, passed token: 6907cead-56f2-41fd-8d5b-aaaa935ce0c8
+08/18/26 15:45:59: Socket received request to stop server.
+08/18/26 15:45:59: Dispatch Server: do_await_stop
+08/18/26 15:45:59: SERVER: destructor for server bound to port 55426
+08/18/26 15:46:04: Running xcd server. This server was built by gradle.
+08/18/26 15:46:04: Server was asked to start on port: '55430'
+08/18/26 15:46:04: Server is using token UUID: '88080623-3c27-44c6-a308-7799bd71d412'
+08/18/26 15:46:04: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+08/18/26 15:46:04: Attempting to start server on port '55430'
+08/18/26 15:46:04: Running Dispatch Server
+08/18/26 15:46:04: Version 2.2.0
+08/18/26 15:46:06: Dispatch Server: Accepted socket connection from client
+08/18/26 15:46:06: Starting Socket connection
+08/18/26 15:46:06: EXCHANGE_TOKEN received, server token: 88080623-3c27-44c6-a308-7799bd71d412, passed token: 88080623-3c27-44c6-a308-7799bd71d412
+08/18/26 15:46:06: DISPATCH_HANDLER: Adding handler from function makeHandler in library xv_system_diagram
+08/18/26 15:46:06: SESSION_MGR: creating session with session uuid: '80f33575-31fc-415b-a7ac-2632b13224c9' and name 'v++_compile_ChirpGenerator'
+08/18/26 15:46:06: KERNEL_SVC: creating session with uuid: '80f33575-31fc-415b-a7ac-2632b13224c9' and name 'v++_compile_ChirpGenerator'
+08/18/26 15:46:06: GUIDANCE_SMGR: creating guidance session with uuid: '80f33575-31fc-415b-a7ac-2632b13224c9' and name 'v++_compile_ChirpGenerator'
+08/18/26 15:46:06: SYSTEM_DIAGRAM: creating session with uuid: '80f33575-31fc-415b-a7ac-2632b13224c9' and name 'v++_compile_ChirpGenerator'
+08/18/26 15:46:10: Dispatch Server: Accepted socket connection from client
+08/18/26 15:46:10: Starting Socket connection
+08/18/26 15:46:54: SESSION_MGR: closing session for UUID '80f33575-31fc-415b-a7ac-2632b13224c9' with name 'v++_compile_ChirpGenerator'
+08/18/26 15:46:54: KERNEL_SVC: closing session for UUID '80f33575-31fc-415b-a7ac-2632b13224c9' with name 'v++_compile_ChirpGenerator'
+08/18/26 15:46:54: GUIDANCE_SMGR: closing session for UUID '80f33575-31fc-415b-a7ac-2632b13224c9' with name 'v++_compile_ChirpGenerator'
+08/18/26 15:46:54: SYSTEM_DIAGRAM: closing session for UUID '80f33575-31fc-415b-a7ac-2632b13224c9' with name 'v++_compile_ChirpGenerator'
+08/18/26 15:46:54: STOP_SERVER received, server token: 88080623-3c27-44c6-a308-7799bd71d412, passed token: 88080623-3c27-44c6-a308-7799bd71d412
+08/18/26 15:46:54: Socket received request to stop server.
+08/18/26 15:46:54: Dispatch Server: do_await_stop
+08/18/26 15:46:54: SERVER: destructor for server bound to port 55430
+08/18/26 15:57:44: Running xcd server. This server was built by gradle.
+08/18/26 15:57:44: Server was asked to start on port: '49360'
+08/18/26 15:57:44: Server is using token UUID: 'ae358926-c2f0-4d32-bf7d-934c24058dce'
+08/18/26 15:57:44: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+08/18/26 15:57:44: Attempting to start server on port '49360'
+08/18/26 15:57:44: Running Dispatch Server
+08/18/26 15:57:44: Version 2.2.0
+08/18/26 15:57:46: Dispatch Server: Accepted socket connection from client
+08/18/26 15:57:46: Starting Socket connection
+08/18/26 15:57:46: EXCHANGE_TOKEN received, server token: ae358926-c2f0-4d32-bf7d-934c24058dce, passed token: ae358926-c2f0-4d32-bf7d-934c24058dce
+08/18/26 15:57:47: DISPATCH_HANDLER: Adding handler from function makeHandler in library xv_system_diagram
+08/18/26 15:57:47: SESSION_MGR: creating session with session uuid: '17ab44bf-c816-452f-8943-33d349c4f21e' and name 'vitis-run_compile_ChirpGenerator'
+08/18/26 15:57:47: KERNEL_SVC: creating session with uuid: '17ab44bf-c816-452f-8943-33d349c4f21e' and name 'vitis-run_compile_ChirpGenerator'
+08/18/26 15:57:47: GUIDANCE_SMGR: creating guidance session with uuid: '17ab44bf-c816-452f-8943-33d349c4f21e' and name 'vitis-run_compile_ChirpGenerator'
+08/18/26 15:57:47: SYSTEM_DIAGRAM: creating session with uuid: '17ab44bf-c816-452f-8943-33d349c4f21e' and name 'vitis-run_compile_ChirpGenerator'
+08/18/26 15:57:50: Dispatch Server: Accepted socket connection from client
+08/18/26 15:57:50: Starting Socket connection
+08/18/26 15:58:16: SESSION_MGR: closing session for UUID '17ab44bf-c816-452f-8943-33d349c4f21e' with name 'vitis-run_compile_ChirpGenerator'
+08/18/26 15:58:16: KERNEL_SVC: closing session for UUID '17ab44bf-c816-452f-8943-33d349c4f21e' with name 'vitis-run_compile_ChirpGenerator'
+08/18/26 15:58:16: GUIDANCE_SMGR: closing session for UUID '17ab44bf-c816-452f-8943-33d349c4f21e' with name 'vitis-run_compile_ChirpGenerator'
+08/18/26 15:58:16: SYSTEM_DIAGRAM: closing session for UUID '17ab44bf-c816-452f-8943-33d349c4f21e' with name 'vitis-run_compile_ChirpGenerator'
+08/18/26 15:58:16: STOP_SERVER received, server token: ae358926-c2f0-4d32-bf7d-934c24058dce, passed token: ae358926-c2f0-4d32-bf7d-934c24058dce
+08/18/26 15:58:16: Socket received request to stop server.
+08/18/26 15:58:16: Dispatch Server: do_await_stop
+08/18/26 15:58:16: SERVER: destructor for server bound to port 49360
+08/18/26 15:58:30: Running xcd server. This server was built by gradle.
+08/18/26 15:58:30: Server was asked to start on port: '61376'
+08/18/26 15:58:30: Server is using token UUID: 'c38735ca-8919-42e5-9bc4-535a9bc27cdc'
+08/18/26 15:58:30: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+08/18/26 15:58:30: Attempting to start server on port '61376'
+08/18/26 15:58:30: Running Dispatch Server
+08/18/26 15:58:30: Version 2.2.0
+08/18/26 15:58:33: Dispatch Server: Accepted socket connection from client
+08/18/26 15:58:33: Starting Socket connection
+08/18/26 15:58:33: EXCHANGE_TOKEN received, server token: c38735ca-8919-42e5-9bc4-535a9bc27cdc, passed token: c38735ca-8919-42e5-9bc4-535a9bc27cdc
+08/18/26 15:58:33: DISPATCH_HANDLER: Adding handler from function makeHandler in library xv_system_diagram
+08/18/26 15:58:33: SESSION_MGR: creating session with session uuid: 'da06f903-c72a-4bf7-b4ca-7e60d681ba58' and name 'vitis-run_compile_ChirpGenerator'
+08/18/26 15:58:33: KERNEL_SVC: creating session with uuid: 'da06f903-c72a-4bf7-b4ca-7e60d681ba58' and name 'vitis-run_compile_ChirpGenerator'
+08/18/26 15:58:33: GUIDANCE_SMGR: creating guidance session with uuid: 'da06f903-c72a-4bf7-b4ca-7e60d681ba58' and name 'vitis-run_compile_ChirpGenerator'
+08/18/26 15:58:33: SYSTEM_DIAGRAM: creating session with uuid: 'da06f903-c72a-4bf7-b4ca-7e60d681ba58' and name 'vitis-run_compile_ChirpGenerator'
+08/18/26 15:58:36: Dispatch Server: Accepted socket connection from client
+08/18/26 15:58:36: Starting Socket connection
+08/18/26 15:59:33: Dispatch Server: Accepted socket connection from client
+08/18/26 15:59:33: Starting Socket connection
+08/18/26 16:01:20: Dispatch Server: Accepted socket connection from client
+08/18/26 16:01:20: Starting Socket connection
+08/18/26 16:02:26: Dispatch Server: Accepted socket connection from client
+08/18/26 16:02:26: Starting Socket connection
+08/18/26 16:04:00: SESSION_MGR: closing session for UUID 'da06f903-c72a-4bf7-b4ca-7e60d681ba58' with name 'vitis-run_compile_ChirpGenerator'
+08/18/26 16:04:00: KERNEL_SVC: closing session for UUID 'da06f903-c72a-4bf7-b4ca-7e60d681ba58' with name 'vitis-run_compile_ChirpGenerator'
+08/18/26 16:04:00: GUIDANCE_SMGR: closing session for UUID 'da06f903-c72a-4bf7-b4ca-7e60d681ba58' with name 'vitis-run_compile_ChirpGenerator'
+08/18/26 16:04:00: SYSTEM_DIAGRAM: closing session for UUID 'da06f903-c72a-4bf7-b4ca-7e60d681ba58' with name 'vitis-run_compile_ChirpGenerator'
+08/18/26 16:04:00: STOP_SERVER received, server token: c38735ca-8919-42e5-9bc4-535a9bc27cdc, passed token: c38735ca-8919-42e5-9bc4-535a9bc27cdc
+08/18/26 16:04:00: Socket received request to stop server.
+08/18/26 16:04:00: Dispatch Server: do_await_stop
+08/18/26 16:04:00: SERVER: destructor for server bound to port 61376

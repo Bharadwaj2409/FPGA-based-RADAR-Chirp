@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2'
 ================================================================
-* Date:           Tue Aug 18 14:57:53 2026
+* Date:           Tue Aug 18 15:46:48 2026
 
 * Version:        2025.2 (Build 6295257 on Nov 14 2025)
 * Project:        ChirpGenerator
@@ -512,15 +512,15 @@ ST_68 : Operation 293 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%add_
 ST_68 : Operation 294 [1/1] (3.69ns) (root node of TernaryAdder)   --->   "%newexp = sub i9 %add_ln300, i9 %zext_ln286" [C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:300->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:252->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\common\hls_hotbm_float.cpp:127->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp:13->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp:45->chirp.cpp:86]   --->   Operation 294 'sub' 'newexp' <Predicate = (!icmp_ln60 & and_ln75_1)> <Delay = 3.69> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.84> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
 ST_68 : Operation 295 [1/1] (0.00ns) (grouped into LUT with out node or_ln282)   --->   "%tmp_9 = bitselect i1 @_ssdm_op_BitSelect.i1.i9.i32, i9 %newexp, i32 8" [C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:306->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:252->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\common\hls_hotbm_float.cpp:127->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp:13->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp:45->chirp.cpp:86]   --->   Operation 295 'bitselect' 'tmp_9' <Predicate = (!icmp_ln60 & and_ln75_1)> <Delay = 0.00>
 ST_68 : Operation 296 [1/1] (0.00ns) (grouped into LUT with out node or_ln282)   --->   "%or_ln306 = or i1 %tmp_9, i1 %icmp_ln306" [C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:306->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:252->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\common\hls_hotbm_float.cpp:127->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp:13->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp:45->chirp.cpp:86]   --->   Operation 296 'or' 'or_ln306' <Predicate = (!icmp_ln60 & and_ln75_1)> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_68 : Operation 297 [1/1] (0.00ns) (grouped into LUT with out node results_exp_1)   --->   "%empty_29 = trunc i9 %newexp" [C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:300->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:252->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\common\hls_hotbm_float.cpp:127->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp:13->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp:45->chirp.cpp:86]   --->   Operation 297 'trunc' 'empty_29' <Predicate = (!icmp_ln60 & and_ln75_1 & !and_ln271)> <Delay = 0.00>
+ST_68 : Operation 297 [1/1] (0.00ns) (grouped into LUT with out node results_exp_1)   --->   "%empty_30 = trunc i9 %newexp" [C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:300->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:252->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\common\hls_hotbm_float.cpp:127->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp:13->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp:45->chirp.cpp:86]   --->   Operation 297 'trunc' 'empty_30' <Predicate = (!icmp_ln60 & and_ln75_1 & !and_ln271)> <Delay = 0.00>
 ST_68 : Operation 298 [1/1] (0.00ns) (grouped into LUT with out node results_sig_1)   --->   "%tmp_5 = partselect i23 @_ssdm_op_PartSelect.i23.i28.i32.i32, i28 %in_shift_2, i32 5, i32 27" [C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:291->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:252->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\common\hls_hotbm_float.cpp:127->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp:13->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp:45->chirp.cpp:86]   --->   Operation 298 'partselect' 'tmp_5' <Predicate = (!icmp_ln60 & and_ln75_1 & !and_ln271 & icmp_ln292)> <Delay = 0.00>
 ST_68 : Operation 299 [1/1] (0.00ns) (grouped into LUT with out node results_sig_1)   --->   "%tmp_6 = partselect i23 @_ssdm_op_PartSelect.i23.i28.i32.i32, i28 %in_shift_1, i32 5, i32 27" [C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:291->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:252->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\common\hls_hotbm_float.cpp:127->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp:13->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp:45->chirp.cpp:86]   --->   Operation 299 'partselect' 'tmp_6' <Predicate = (!icmp_ln60 & and_ln75_1 & !and_ln271 & !icmp_ln292)> <Delay = 0.00>
-ST_68 : Operation 300 [1/1] (0.00ns) (grouped into LUT with out node results_sig_1)   --->   "%empty_30 = select i1 %icmp_ln292, i23 %tmp_5, i23 %tmp_6" [C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:292->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:252->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\common\hls_hotbm_float.cpp:127->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp:13->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp:45->chirp.cpp:86]   --->   Operation 300 'select' 'empty_30' <Predicate = (!icmp_ln60 & and_ln75_1 & !and_ln271)> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.69> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_68 : Operation 300 [1/1] (0.00ns) (grouped into LUT with out node results_sig_1)   --->   "%empty_31 = select i1 %icmp_ln292, i23 %tmp_5, i23 %tmp_6" [C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:292->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:252->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\common\hls_hotbm_float.cpp:127->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp:13->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp:45->chirp.cpp:86]   --->   Operation 300 'select' 'empty_31' <Predicate = (!icmp_ln60 & and_ln75_1 & !and_ln271)> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.69> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
 ST_68 : Operation 301 [1/1] (0.00ns) (grouped into LUT with out node results_exp_1)   --->   "%select_ln282 = select i1 %icmp_ln282, i8 255, i8 0" [C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:282->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\common\hls_hotbm_float.cpp:127->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp:13->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp:45->chirp.cpp:86]   --->   Operation 301 'select' 'select_ln282' <Predicate = (!icmp_ln60 & and_ln75_1 & !and_ln271)> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.99> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
 ST_68 : Operation 302 [1/1] (0.97ns) (out node of the LUT)   --->   "%or_ln282 = or i1 %icmp_ln282, i1 %or_ln306" [C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:282->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\common\hls_hotbm_float.cpp:127->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp:13->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp:45->chirp.cpp:86]   --->   Operation 302 'or' 'or_ln282' <Predicate = (!icmp_ln60 & and_ln75_1)> <Delay = 0.97> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_68 : Operation 303 [1/1] (0.00ns) (grouped into LUT with out node results_exp_1)   --->   "%results_exp = select i1 %or_ln282, i8 %select_ln282, i8 %empty_29" [C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:282->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\common\hls_hotbm_float.cpp:127->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp:13->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp:45->chirp.cpp:86]   --->   Operation 303 'select' 'results_exp' <Predicate = (!icmp_ln60 & and_ln75_1 & !and_ln271)> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 1.24> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_68 : Operation 303 [1/1] (0.00ns) (grouped into LUT with out node results_exp_1)   --->   "%results_exp = select i1 %or_ln282, i8 %select_ln282, i8 %empty_30" [C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:282->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\common\hls_hotbm_float.cpp:127->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp:13->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp:45->chirp.cpp:86]   --->   Operation 303 'select' 'results_exp' <Predicate = (!icmp_ln60 & and_ln75_1 & !and_ln271)> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 1.24> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
 ST_68 : Operation 304 [1/1] (0.00ns) (grouped into LUT with out node results_sig_1)   --->   "%select_ln282_2 = select i1 %icmp_ln282, i23 8388607, i23 0" [C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:282->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\common\hls_hotbm_float.cpp:127->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp:13->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp:45->chirp.cpp:86]   --->   Operation 304 'select' 'select_ln282_2' <Predicate = (!icmp_ln60 & and_ln75_1 & !and_ln271)> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.99> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_68 : Operation 305 [1/1] (0.00ns) (grouped into LUT with out node results_sig_1)   --->   "%results_sig = select i1 %or_ln282, i23 %select_ln282_2, i23 %empty_30" [C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:282->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\common\hls_hotbm_float.cpp:127->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp:13->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp:45->chirp.cpp:86]   --->   Operation 305 'select' 'results_sig' <Predicate = (!icmp_ln60 & and_ln75_1 & !and_ln271)> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.69> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_68 : Operation 305 [1/1] (0.00ns) (grouped into LUT with out node results_sig_1)   --->   "%results_sig = select i1 %or_ln282, i23 %select_ln282_2, i23 %empty_31" [C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:282->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\common\hls_hotbm_float.cpp:127->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp:13->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp:45->chirp.cpp:86]   --->   Operation 305 'select' 'results_sig' <Predicate = (!icmp_ln60 & and_ln75_1 & !and_ln271)> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.69> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
 ST_68 : Operation 306 [1/1] (1.24ns) (out node of the LUT)   --->   "%results_exp_1 = select i1 %and_ln271, i8 127, i8 %results_exp" [C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:271->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\common\hls_hotbm_float.cpp:127->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp:13->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp:45->chirp.cpp:86]   --->   Operation 306 'select' 'results_exp_1' <Predicate = (!icmp_ln60 & and_ln75_1)> <Delay = 1.24> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 1.24> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
 ST_68 : Operation 307 [1/1] (0.99ns) (out node of the LUT)   --->   "%results_sig_1 = select i1 %and_ln271, i23 0, i23 %results_sig" [C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:271->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\common\hls_hotbm_float.cpp:127->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp:13->C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp:45->chirp.cpp:86]   --->   Operation 307 'select' 'results_sig_1' <Predicate = (!icmp_ln60 & and_ln75_1)> <Delay = 0.99> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.69> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
 ST_68 : Operation 317 [1/1] (1.58ns)   --->   "%ret_ln0 = ret"   --->   Operation 317 'ret' 'ret_ln0' <Predicate = (icmp_ln60)> <Delay = 1.58>
@@ -742,10 +742,10 @@ add_ln300                          (add           ) [ 00000000000000000000000000
 newexp                             (sub           ) [ 0000000000000000000000000000000000000000000000000000000000000000000000]
 tmp_9                              (bitselect     ) [ 0000000000000000000000000000000000000000000000000000000000000000000000]
 or_ln306                           (or            ) [ 0000000000000000000000000000000000000000000000000000000000000000000000]
-empty_29                           (trunc         ) [ 0000000000000000000000000000000000000000000000000000000000000000000000]
+empty_30                           (trunc         ) [ 0000000000000000000000000000000000000000000000000000000000000000000000]
 tmp_5                              (partselect    ) [ 0000000000000000000000000000000000000000000000000000000000000000000000]
 tmp_6                              (partselect    ) [ 0000000000000000000000000000000000000000000000000000000000000000000000]
-empty_30                           (select        ) [ 0000000000000000000000000000000000000000000000000000000000000000000000]
+empty_31                           (select        ) [ 0000000000000000000000000000000000000000000000000000000000000000000000]
 select_ln282                       (select        ) [ 0000000000000000000000000000000000000000000000000000000000000000000000]
 or_ln282                           (or            ) [ 0000000000000000000000000000000000000000000000000000000000000000000000]
 results_exp                        (select        ) [ 0000000000000000000000000000000000000000000000000000000000000000000000]
@@ -4215,14 +4215,14 @@ ret_ln0                            (ret           ) [ 00000000000000000000000000
 </bind>
 </comp>
 
-<comp id="1441" class="1004" name="empty_29_fu_1441">
+<comp id="1441" class="1004" name="empty_30_fu_1441">
 <pin_list>
 <pin id="1442" dir="0" index="0" bw="9" slack="0"/>
 <pin id="1443" dir="1" index="1" bw="8" slack="0"/>
 </pin_list>
 <bind>
 <opcode="trunc(33) " fcode="trunc"/>
-<opset="empty_29/68 "/>
+<opset="empty_30/68 "/>
 </bind>
 </comp>
 
@@ -4254,7 +4254,7 @@ ret_ln0                            (ret           ) [ 00000000000000000000000000
 </bind>
 </comp>
 
-<comp id="1464" class="1004" name="empty_30_fu_1464">
+<comp id="1464" class="1004" name="empty_31_fu_1464">
 <pin_list>
 <pin id="1465" dir="0" index="0" bw="1" slack="1"/>
 <pin id="1466" dir="0" index="1" bw="23" slack="0"/>
@@ -4263,7 +4263,7 @@ ret_ln0                            (ret           ) [ 00000000000000000000000000
 </pin_list>
 <bind>
 <opcode="select(49) " fcode="select"/>
-<opset="empty_30/68 "/>
+<opset="empty_31/68 "/>
 </bind>
 </comp>
 
@@ -6449,9 +6449,9 @@ ret_ln0                            (ret           ) [ 00000000000000000000000000
 		newexp : 3
 		tmp_9 : 4
 		or_ln306 : 5
-		empty_29 : 4
+		empty_30 : 4
 		tmp_5 : 2
-		empty_30 : 3
+		empty_31 : 3
 		or_ln282 : 5
 		results_exp : 5
 		results_sig : 5
@@ -6515,7 +6515,7 @@ ret_ln0                            (ret           ) [ 00000000000000000000000000
 |  select  |           Mx_1_fu_1147          |    0    |    0    |    29   |
 |          |           Ex_2_fu_1173          |    0    |    0    |    8    |
 |          |         shift_2_fu_1406         |    0    |    0    |    5    |
-|          |         empty_30_fu_1464        |    0    |    0    |    23   |
+|          |         empty_31_fu_1464        |    0    |    0    |    23   |
 |          |       select_ln282_fu_1471      |    0    |    0    |    2    |
 |          |       results_exp_fu_1483       |    0    |    0    |    8    |
 |          |      select_ln282_2_fu_1491     |    0    |    0    |    2    |
@@ -6609,7 +6609,7 @@ ret_ln0                            (ret           ) [ 00000000000000000000000000
 |          |            B_fu_1143            |    0    |    0    |    0    |
 |          |       trunc_ln281_fu_1352       |    0    |    0    |    0    |
 |          |      trunc_ln281_1_fu_1368      |    0    |    0    |    0    |
-|          |         empty_29_fu_1441        |    0    |    0    |    0    |
+|          |         empty_30_fu_1441        |    0    |    0    |    0    |
 |----------|---------------------------------|---------|---------|---------|
 |          |           tmp_3_fu_543          |    0    |    0    |    0    |
 |          |             X_fu_737            |    0    |    0    |    0    |

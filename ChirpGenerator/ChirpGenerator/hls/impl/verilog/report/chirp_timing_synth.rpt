@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
-| Date         : Tue Aug 18 15:02:43 2026
+| Date         : Tue Aug 18 16:02:08 2026
 | Host         : BHARADWAJ running 64-bit major release  (build 9200)
 | Command      : report_timing_summary -file ./report/chirp_timing_synth.rpt
 | Design       : bd_0_wrapper
@@ -255,9 +255,9 @@ Slack (MET) :             1.724ns  (required time - arrival time)
 Min Delay Paths
 --------------------------------------------------------------------------------------
 Slack (MET) :             0.191ns  (arrival time - required time)
-  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/chirp_1_fu_286_reg[0]/C
+  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/chirp_1_fu_286_reg[0]/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
-  Destination:            bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/chirp_1_fu_286_reg[1]/D
+  Destination:            bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/chirp_1_fu_286_reg[1]/D
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
   Path Group:             ap_clk
   Path Type:              Hold (Min at Fast Process Corner)
@@ -273,23 +273,23 @@ Slack (MET) :             0.191ns  (arrival time - required time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=3643, unset)         0.410     0.410    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/ap_clk
-                         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/chirp_1_fu_286_reg[0]/C
+                         net (fo=3643, unset)         0.410     0.410    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/ap_clk
+                         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/chirp_1_fu_286_reg[0]/C
   -------------------------------------------------------------------    -------------------
-                         FDRE (Prop_fdre_C_Q)         0.164     0.574 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/chirp_1_fu_286_reg[0]/Q
-                         net (fo=4, unplaced)         0.091     0.665    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/chirp_1_fu_286_reg[0]
+                         FDRE (Prop_fdre_C_Q)         0.164     0.574 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/chirp_1_fu_286_reg[0]/Q
+                         net (fo=4, unplaced)         0.091     0.665    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/chirp_1_fu_286_reg[0]
                          CARRY4 (Prop_carry4_DI[0]_O[1])
-                                                      0.092     0.757 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/chirp_1_fu_286_reg[0]_i_1/O[1]
-                         net (fo=1, unplaced)         0.000     0.757    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/chirp_1_fu_286_reg[0]_i_1_n_6
-                         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/chirp_1_fu_286_reg[1]/D
+                                                      0.092     0.757 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/chirp_1_fu_286_reg[0]_i_1/O[1]
+                         net (fo=1, unplaced)         0.000     0.757    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/chirp_1_fu_286_reg[0]_i_1_n_6
+                         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/chirp_1_fu_286_reg[1]/D
   -------------------------------------------------------------------    -------------------
 
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=3643, unset)         0.432     0.432    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/ap_clk
-                         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/chirp_1_fu_286_reg[1]/C
+                         net (fo=3643, unset)         0.432     0.432    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/ap_clk
+                         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/chirp_1_fu_286_reg[1]/C
                          clock pessimism              0.000     0.432    
-                         FDRE (Hold_fdre_C_D)         0.134     0.566    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/chirp_1_fu_286_reg[1]
+                         FDRE (Hold_fdre_C_D)         0.134     0.566    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/chirp_1_fu_286_reg[1]
   -------------------------------------------------------------------
                          required time                         -0.566    
                          arrival time                           0.757    

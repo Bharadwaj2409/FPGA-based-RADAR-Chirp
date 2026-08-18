@@ -2,12 +2,43 @@
   "design": {
     "design_info": {
       "boundary_crc": "0x0",
+      "device": "xc7z020clg484-1",
       "gen_directory": "../../../../RADAR_Chirp_Engine.gen/sources_1/bd/customHLS",
       "name": "customHLS",
       "rev_ctrl_bd_flag": "RevCtrlBdOff",
       "synth_flow_mode": "Hierarchical",
       "tool_version": "2025.2"
     },
-    "design_tree": {}
+    "design_tree": {
+      "ZmodAWGController_0": "",
+      "floating_point_0": "",
+      "proc_sys_reset_0": ""
+    },
+    "components": {
+      "ZmodAWGController_0": {
+        "vlnv": "digilent.com:user:ZmodAWGController:1.1",
+        "ip_revision": "4",
+        "xci_name": "customHLS_ZmodAWGController_0_0",
+        "xci_path": "ip\\customHLS_ZmodAWGController_0_0\\customHLS_ZmodAWGController_0_0.xci",
+        "inst_hier_path": "ZmodAWGController_0",
+        "has_run_ip_tcl": "true"
+      },
+      "floating_point_0": {
+        "vlnv": "xilinx.com:ip:floating_point:7.1",
+        "ip_revision": "21",
+        "xci_name": "customHLS_floating_point_0_0",
+        "xci_path": "ip\\customHLS_floating_point_0_0\\customHLS_floating_point_0_0.xci",
+        "inst_hier_path": "floating_point_0",
+        "has_run_ip_tcl": "true"
+      },
+      "proc_sys_reset_0": {
+        "vlnv": "xilinx.com:ip:proc_sys_reset:5.0",
+        "ip_revision": "17",
+        "xci_name": "customHLS_proc_sys_reset_0_0",
+        "xci_path": "ip\\customHLS_proc_sys_reset_0_0\\customHLS_proc_sys_reset_0_0.xci",
+        "inst_hier_path": "proc_sys_reset_0",
+        "has_run_ip_tcl": "true"
+      }
+    }
   }
 }

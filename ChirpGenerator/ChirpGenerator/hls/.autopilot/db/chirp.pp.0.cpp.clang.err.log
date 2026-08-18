@@ -653,25 +653,10 @@ chirp.cpp:35:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ Prag
 chirp.cpp:36:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=chirp_XLX_SEP_ PragmaOptions=ap_none port=B_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS INTERFACE ap_none port=B
 ^
-chirp.cpp:38:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=chirp_XLX_SEP_ PragmaOptions=ap_none port=Tc_XLX_SEP_ [-Wdump-hls-pragmas]
-#pragma HLS INTERFACE ap_none port=Tc
-^
-chirp.cpp:39:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=chirp_XLX_SEP_ PragmaOptions=ap_none port=Ti_XLX_SEP_ [-Wdump-hls-pragmas]
-#pragma HLS INTERFACE ap_none port=Ti
-^
-chirp.cpp:40:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=chirp_XLX_SEP_ PragmaOptions=ap_none port=Tg_XLX_SEP_ [-Wdump-hls-pragmas]
-#pragma HLS INTERFACE ap_none port=Tg
-^
-chirp.cpp:42:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=chirp_XLX_SEP_ PragmaOptions=ap_none port=Nframe_XLX_SEP_ [-Wdump-hls-pragmas]
-#pragma HLS INTERFACE ap_none port=Nframe
-^
-chirp.cpp:43:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=chirp_XLX_SEP_ PragmaOptions=ap_none port=N_SAMPLES_USED_XLX_SEP_ [-Wdump-hls-pragmas]
-#pragma HLS INTERFACE ap_none port=N_SAMPLES_USED
-^
 chirp.cpp:46:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=chirp_XLX_SEP_ PragmaOptions=ap_ctrl_hs port=return_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS INTERFACE ap_ctrl_hs port=return
 ^
 chirp.cpp:66:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=chirp_XLX_SEP_ PragmaOptions=II=1_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS PIPELINE II=1
 ^
-213 warnings generated.
+208 warnings generated.

@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'chirp'" level="0">
-<item name = "Date">Tue Aug 18 14:57:54 2026
+<item name = "Date">Tue Aug 18 15:46:50 2026
 </item>
 <item name = "Version">2025.2 (Build 6295257 on Nov 14 2025)</item>
 <item name = "Project">ChirpGenerator</item>
@@ -31,7 +31,7 @@
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
-<column name="grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92">chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2, ?, ?, ?, ?, 0, 0, loop pipeline stp</column>
+<column name="grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96">chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2, ?, ?, ?, ?, 0, 0, loop pipeline stp</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">

@@ -48,11 +48,11 @@
 
 
 // IP VLNV: xilinx.com:hls:chirp:1.0
-// IP Revision: 2114746858
+// IP Revision: 2114746918
 
 (* X_CORE_INFO = "chirp,Vivado 2025.2" *)
 (* CHECK_LICENSE_TYPE = "bd_0_hls_inst_0,chirp,{}" *)
-(* CORE_GENERATION_INFO = "bd_0_hls_inst_0,chirp,{x_ipProduct=Vivado 2025.2,x_ipVendor=xilinx.com,x_ipLibrary=hls,x_ipName=chirp,x_ipVersion=1.0,x_ipCoreRevision=2114746858,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED}" *)
+(* CORE_GENERATION_INFO = "bd_0_hls_inst_0,chirp,{x_ipProduct=Vivado 2025.2,x_ipVendor=xilinx.com,x_ipLibrary=hls,x_ipName=chirp,x_ipVersion=1.0,x_ipCoreRevision=2114746918,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED}" *)
 (* IP_DEFINITION_SOURCE = "HLS" *)
 (* DowngradeIPIdentifiedWarnings = "yes" *)
 module bd_0_hls_inst_0 (

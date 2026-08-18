@@ -1568,7 +1568,7 @@ Diagnostics:
       FileOffset:      60
       Replacements:
         - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
-          Offset:          2803194
+          Offset:          2803001
           Length:          0
           ReplacementText: 'VITIS_LOOP_60_1: '
     Level:           Remark
@@ -1580,7 +1580,7 @@ Diagnostics:
       FileOffset:      63
       Replacements:
         - FilePath:        'C:\Users\vempa\Documents\Projects\RADAR_Chirp_Engine\ChirpGenerator\ChirpGenerator\hls\.autopilot\db\chirp.pp.0.cpp'
-          Offset:          2803253
+          Offset:          2803060
           Length:          0
           ReplacementText: 'VITIS_LOOP_63_2: '
     Level:           Remark

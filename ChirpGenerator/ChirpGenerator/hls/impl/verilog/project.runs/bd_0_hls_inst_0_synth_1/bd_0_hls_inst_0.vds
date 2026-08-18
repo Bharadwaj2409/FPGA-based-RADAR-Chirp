@@ -3,8 +3,8 @@
 # SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
 # IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
 # SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
-# Start of session at: Tue Aug 18 14:59:45 2026
-# Process ID         : 8464
+# Start of session at: Tue Aug 18 15:59:31 2026
+# Process ID         : 30956
 # Current directory  : C:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.runs/bd_0_hls_inst_0_synth_1
 # Command line       : vivado.exe -log bd_0_hls_inst_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source bd_0_hls_inst_0.tcl
 # Log file           : C:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.runs/bd_0_hls_inst_0_synth_1/bd_0_hls_inst_0.vds
@@ -19,10 +19,10 @@
 # Host memory        : 34277 MB
 # Swap memory        : 2147 MB
 # Total Virtual      : 36425 MB
-# Available Virtual  : 13579 MB
+# Available Virtual  : 12912 MB
 #-----------------------------------------------------------
 source bd_0_hls_inst_0.tcl -notrace
-INFO: Dispatch client connection id - 59613
+INFO: Dispatch client connection id - 61376
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/ip'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/AMDDesignTools/2025.2/Vivado/data/ip'.
@@ -35,26 +35,26 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020
 INFO: [Device 21-403] Loading part xc7z020clg484-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 7408
+INFO: [Synth 8-7075] Helper process launched with PID 31248
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1329.539 ; gain = 541.734
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1327.355 ; gain = 541.008
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'bd_0_hls_inst_0' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/synth/bd_0_hls_inst_0.v:53]
-INFO: [Synth 8-6157] synthesizing module 'chirp' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp.v:9]
-INFO: [Synth 8-6157] synthesizing module 'chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2.v:9]
-INFO: [Synth 8-6157] synthesizing module 'chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_ref_4oPi_table_100_ROM_1P_LUTRbkb' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_ref_4oPi_table_100_ROM_1P_LUTRbkb.v:7]
-INFO: [Synth 8-3876] $readmem data file './chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_ref_4oPi_table_100_ROM_1P_LUTRbkb.dat' is read successfully [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_ref_4oPi_table_100_ROM_1P_LUTRbkb.v:28]
-INFO: [Synth 8-6155] done synthesizing module 'chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_ref_4oPi_table_100_ROM_1P_LUTRbkb' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_ref_4oPi_table_100_ROM_1P_LUTRbkb.v:7]
-INFO: [Synth 8-6157] synthesizing module 'chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K0_cud' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K0_cud.v:7]
-INFO: [Synth 8-3876] $readmem data file './chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K0_cud.dat' is read successfully [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K0_cud.v:28]
-INFO: [Synth 8-6155] done synthesizing module 'chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K0_cud' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K0_cud.v:7]
-INFO: [Synth 8-6157] synthesizing module 'chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K1_dEe' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K1_dEe.v:7]
-INFO: [Synth 8-3876] $readmem data file './chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K1_dEe.dat' is read successfully [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K1_dEe.v:28]
-INFO: [Synth 8-6155] done synthesizing module 'chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K1_dEe' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K1_dEe.v:7]
-INFO: [Synth 8-6157] synthesizing module 'chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K2_eOg' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K2_eOg.v:7]
-INFO: [Synth 8-3876] $readmem data file './chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K2_eOg.dat' is read successfully [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K2_eOg.v:28]
-INFO: [Synth 8-6155] done synthesizing module 'chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K2_eOg' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K2_eOg.v:7]
-INFO: [Synth 8-6157] synthesizing module 'chirp_fadd_32ns_32ns_32_5_full_dsp_1' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_fadd_32ns_32ns_32_5_full_dsp_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'chirp' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp.v:9]
+INFO: [Synth 8-6157] synthesizing module 'chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2.v:9]
+INFO: [Synth 8-6157] synthesizing module 'chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_ref_4oPi_table_100_ROM_1P_LUTRbkb' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_ref_4oPi_table_100_ROM_1P_LUTRbkb.v:7]
+INFO: [Synth 8-3876] $readmem data file './chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_ref_4oPi_table_100_ROM_1P_LUTRbkb.dat' is read successfully [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_ref_4oPi_table_100_ROM_1P_LUTRbkb.v:28]
+INFO: [Synth 8-6155] done synthesizing module 'chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_ref_4oPi_table_100_ROM_1P_LUTRbkb' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_ref_4oPi_table_100_ROM_1P_LUTRbkb.v:7]
+INFO: [Synth 8-6157] synthesizing module 'chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K0_cud' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K0_cud.v:7]
+INFO: [Synth 8-3876] $readmem data file './chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K0_cud.dat' is read successfully [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K0_cud.v:28]
+INFO: [Synth 8-6155] done synthesizing module 'chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K0_cud' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K0_cud.v:7]
+INFO: [Synth 8-6157] synthesizing module 'chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K1_dEe' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K1_dEe.v:7]
+INFO: [Synth 8-3876] $readmem data file './chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K1_dEe.dat' is read successfully [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K1_dEe.v:28]
+INFO: [Synth 8-6155] done synthesizing module 'chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K1_dEe' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K1_dEe.v:7]
+INFO: [Synth 8-6157] synthesizing module 'chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K2_eOg' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K2_eOg.v:7]
+INFO: [Synth 8-3876] $readmem data file './chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K2_eOg.dat' is read successfully [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K2_eOg.v:28]
+INFO: [Synth 8-6155] done synthesizing module 'chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K2_eOg' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K2_eOg.v:7]
+INFO: [Synth 8-6157] synthesizing module 'chirp_fadd_32ns_32ns_32_5_full_dsp_1' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_fadd_32ns_32ns_32_5_full_dsp_1.v:9]
 INFO: [Synth 8-638] synthesizing module 'chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/hdl/ip/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/synth/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip.vhd:72]
 	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
 	Parameter C_PART bound to: xc7z020clg484-1 - type: string 
@@ -135,8 +135,8 @@ INFO: [Synth 8-638] synthesizing module 'chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip
 	Parameter C_FIXED_DATA_UNSIGNED bound to: 0 - type: integer 
 INFO: [Synth 8-3491] module 'floating_point_v7_1_21' declared at 'c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/hdl/ip/chirp_sitofp_32ns_32_6_no_dsp_1_ip/hdl/floating_point_v7_1_vh_rfs.vhd:93266' bound to instance 'U0' of component 'floating_point_v7_1_21' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/hdl/ip/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/synth/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip.vhd:217]
 INFO: [Synth 8-256] done synthesizing module 'chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/hdl/ip/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/synth/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip.vhd:72]
-INFO: [Synth 8-6155] done synthesizing module 'chirp_fadd_32ns_32ns_32_5_full_dsp_1' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_fadd_32ns_32ns_32_5_full_dsp_1.v:9]
-INFO: [Synth 8-6157] synthesizing module 'chirp_fmul_32ns_32ns_32_4_max_dsp_1' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_fmul_32ns_32ns_32_4_max_dsp_1.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'chirp_fadd_32ns_32ns_32_5_full_dsp_1' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_fadd_32ns_32ns_32_5_full_dsp_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'chirp_fmul_32ns_32ns_32_4_max_dsp_1' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_fmul_32ns_32ns_32_4_max_dsp_1.v:9]
 INFO: [Synth 8-638] synthesizing module 'chirp_fmul_32ns_32ns_32_4_max_dsp_1_ip' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/hdl/ip/chirp_fmul_32ns_32ns_32_4_max_dsp_1_ip/synth/chirp_fmul_32ns_32ns_32_4_max_dsp_1_ip.vhd:72]
 	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
 	Parameter C_PART bound to: xc7z020clg484-1 - type: string 
@@ -217,8 +217,8 @@ INFO: [Synth 8-638] synthesizing module 'chirp_fmul_32ns_32ns_32_4_max_dsp_1_ip'
 	Parameter C_FIXED_DATA_UNSIGNED bound to: 0 - type: integer 
 INFO: [Synth 8-3491] module 'floating_point_v7_1_21' declared at 'c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/hdl/ip/chirp_sitofp_32ns_32_6_no_dsp_1_ip/hdl/floating_point_v7_1_vh_rfs.vhd:93266' bound to instance 'U0' of component 'floating_point_v7_1_21' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/hdl/ip/chirp_fmul_32ns_32ns_32_4_max_dsp_1_ip/synth/chirp_fmul_32ns_32ns_32_4_max_dsp_1_ip.vhd:217]
 INFO: [Synth 8-256] done synthesizing module 'chirp_fmul_32ns_32ns_32_4_max_dsp_1_ip' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/hdl/ip/chirp_fmul_32ns_32ns_32_4_max_dsp_1_ip/synth/chirp_fmul_32ns_32ns_32_4_max_dsp_1_ip.vhd:72]
-INFO: [Synth 8-6155] done synthesizing module 'chirp_fmul_32ns_32ns_32_4_max_dsp_1' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_fmul_32ns_32ns_32_4_max_dsp_1.v:9]
-INFO: [Synth 8-6157] synthesizing module 'chirp_sitofp_32ns_32_6_no_dsp_1' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_sitofp_32ns_32_6_no_dsp_1.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'chirp_fmul_32ns_32ns_32_4_max_dsp_1' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_fmul_32ns_32ns_32_4_max_dsp_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'chirp_sitofp_32ns_32_6_no_dsp_1' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_sitofp_32ns_32_6_no_dsp_1.v:9]
 INFO: [Synth 8-638] synthesizing module 'chirp_sitofp_32ns_32_6_no_dsp_1_ip' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/hdl/ip/chirp_sitofp_32ns_32_6_no_dsp_1_ip/synth/chirp_sitofp_32ns_32_6_no_dsp_1_ip.vhd:70]
 	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
 	Parameter C_PART bound to: xc7z020clg484-1 - type: string 
@@ -299,8 +299,8 @@ INFO: [Synth 8-638] synthesizing module 'chirp_sitofp_32ns_32_6_no_dsp_1_ip' [c:
 	Parameter C_FIXED_DATA_UNSIGNED bound to: 0 - type: integer 
 INFO: [Synth 8-3491] module 'floating_point_v7_1_21' declared at 'c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/hdl/ip/chirp_sitofp_32ns_32_6_no_dsp_1_ip/hdl/floating_point_v7_1_vh_rfs.vhd:93266' bound to instance 'U0' of component 'floating_point_v7_1_21' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/hdl/ip/chirp_sitofp_32ns_32_6_no_dsp_1_ip/synth/chirp_sitofp_32ns_32_6_no_dsp_1_ip.vhd:211]
 INFO: [Synth 8-256] done synthesizing module 'chirp_sitofp_32ns_32_6_no_dsp_1_ip' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/hdl/ip/chirp_sitofp_32ns_32_6_no_dsp_1_ip/synth/chirp_sitofp_32ns_32_6_no_dsp_1_ip.vhd:70]
-INFO: [Synth 8-6155] done synthesizing module 'chirp_sitofp_32ns_32_6_no_dsp_1' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_sitofp_32ns_32_6_no_dsp_1.v:9]
-INFO: [Synth 8-6157] synthesizing module 'chirp_fptrunc_64ns_32_2_no_dsp_1' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_fptrunc_64ns_32_2_no_dsp_1.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'chirp_sitofp_32ns_32_6_no_dsp_1' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_sitofp_32ns_32_6_no_dsp_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'chirp_fptrunc_64ns_32_2_no_dsp_1' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_fptrunc_64ns_32_2_no_dsp_1.v:9]
 INFO: [Synth 8-638] synthesizing module 'chirp_fptrunc_64ns_32_2_no_dsp_1_ip' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/hdl/ip/chirp_fptrunc_64ns_32_2_no_dsp_1_ip/synth/chirp_fptrunc_64ns_32_2_no_dsp_1_ip.vhd:68]
 	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
 	Parameter C_PART bound to: xc7z020clg484-1 - type: string 
@@ -381,8 +381,8 @@ INFO: [Synth 8-638] synthesizing module 'chirp_fptrunc_64ns_32_2_no_dsp_1_ip' [c
 	Parameter C_FIXED_DATA_UNSIGNED bound to: 0 - type: integer 
 INFO: [Synth 8-3491] module 'floating_point_v7_1_21' declared at 'c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/hdl/ip/chirp_sitofp_32ns_32_6_no_dsp_1_ip/hdl/floating_point_v7_1_vh_rfs.vhd:93266' bound to instance 'U0' of component 'floating_point_v7_1_21' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/hdl/ip/chirp_fptrunc_64ns_32_2_no_dsp_1_ip/synth/chirp_fptrunc_64ns_32_2_no_dsp_1_ip.vhd:203]
 INFO: [Synth 8-256] done synthesizing module 'chirp_fptrunc_64ns_32_2_no_dsp_1_ip' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/hdl/ip/chirp_fptrunc_64ns_32_2_no_dsp_1_ip/synth/chirp_fptrunc_64ns_32_2_no_dsp_1_ip.vhd:68]
-INFO: [Synth 8-6155] done synthesizing module 'chirp_fptrunc_64ns_32_2_no_dsp_1' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_fptrunc_64ns_32_2_no_dsp_1.v:9]
-INFO: [Synth 8-6157] synthesizing module 'chirp_fpext_32ns_64_2_no_dsp_1' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_fpext_32ns_64_2_no_dsp_1.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'chirp_fptrunc_64ns_32_2_no_dsp_1' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_fptrunc_64ns_32_2_no_dsp_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'chirp_fpext_32ns_64_2_no_dsp_1' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_fpext_32ns_64_2_no_dsp_1.v:9]
 INFO: [Synth 8-638] synthesizing module 'chirp_fpext_32ns_64_2_no_dsp_1_ip' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/hdl/ip/chirp_fpext_32ns_64_2_no_dsp_1_ip/synth/chirp_fpext_32ns_64_2_no_dsp_1_ip.vhd:68]
 	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
 	Parameter C_PART bound to: xc7z020clg484-1 - type: string 
@@ -463,8 +463,8 @@ INFO: [Synth 8-638] synthesizing module 'chirp_fpext_32ns_64_2_no_dsp_1_ip' [c:/
 	Parameter C_FIXED_DATA_UNSIGNED bound to: 0 - type: integer 
 INFO: [Synth 8-3491] module 'floating_point_v7_1_21' declared at 'c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/hdl/ip/chirp_sitofp_32ns_32_6_no_dsp_1_ip/hdl/floating_point_v7_1_vh_rfs.vhd:93266' bound to instance 'U0' of component 'floating_point_v7_1_21' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/hdl/ip/chirp_fpext_32ns_64_2_no_dsp_1_ip/synth/chirp_fpext_32ns_64_2_no_dsp_1_ip.vhd:203]
 INFO: [Synth 8-256] done synthesizing module 'chirp_fpext_32ns_64_2_no_dsp_1_ip' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/hdl/ip/chirp_fpext_32ns_64_2_no_dsp_1_ip/synth/chirp_fpext_32ns_64_2_no_dsp_1_ip.vhd:68]
-INFO: [Synth 8-6155] done synthesizing module 'chirp_fpext_32ns_64_2_no_dsp_1' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_fpext_32ns_64_2_no_dsp_1.v:9]
-INFO: [Synth 8-6157] synthesizing module 'chirp_fcmp_32ns_32ns_1_2_no_dsp_1' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_fcmp_32ns_32ns_1_2_no_dsp_1.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'chirp_fpext_32ns_64_2_no_dsp_1' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_fpext_32ns_64_2_no_dsp_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'chirp_fcmp_32ns_32ns_1_2_no_dsp_1' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_fcmp_32ns_32ns_1_2_no_dsp_1.v:9]
 INFO: [Synth 8-638] synthesizing module 'chirp_fcmp_32ns_32ns_1_2_no_dsp_1_ip' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/hdl/ip/chirp_fcmp_32ns_32ns_1_2_no_dsp_1_ip/synth/chirp_fcmp_32ns_32ns_1_2_no_dsp_1_ip.vhd:72]
 	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
 	Parameter C_PART bound to: xc7z020clg484-1 - type: string 
@@ -545,8 +545,8 @@ INFO: [Synth 8-638] synthesizing module 'chirp_fcmp_32ns_32ns_1_2_no_dsp_1_ip' [
 	Parameter C_FIXED_DATA_UNSIGNED bound to: 0 - type: integer 
 INFO: [Synth 8-3491] module 'floating_point_v7_1_21' declared at 'c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/hdl/ip/chirp_sitofp_32ns_32_6_no_dsp_1_ip/hdl/floating_point_v7_1_vh_rfs.vhd:93266' bound to instance 'U0' of component 'floating_point_v7_1_21' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/hdl/ip/chirp_fcmp_32ns_32ns_1_2_no_dsp_1_ip/synth/chirp_fcmp_32ns_32ns_1_2_no_dsp_1_ip.vhd:215]
 INFO: [Synth 8-256] done synthesizing module 'chirp_fcmp_32ns_32ns_1_2_no_dsp_1_ip' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/hdl/ip/chirp_fcmp_32ns_32ns_1_2_no_dsp_1_ip/synth/chirp_fcmp_32ns_32ns_1_2_no_dsp_1_ip.vhd:72]
-INFO: [Synth 8-6155] done synthesizing module 'chirp_fcmp_32ns_32ns_1_2_no_dsp_1' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_fcmp_32ns_32ns_1_2_no_dsp_1.v:9]
-INFO: [Synth 8-6157] synthesizing module 'chirp_dmul_64ns_64ns_64_7_max_dsp_1' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_dmul_64ns_64ns_64_7_max_dsp_1.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'chirp_fcmp_32ns_32ns_1_2_no_dsp_1' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_fcmp_32ns_32ns_1_2_no_dsp_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'chirp_dmul_64ns_64ns_64_7_max_dsp_1' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_dmul_64ns_64ns_64_7_max_dsp_1.v:9]
 INFO: [Synth 8-638] synthesizing module 'chirp_dmul_64ns_64ns_64_7_max_dsp_1_ip' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/hdl/ip/chirp_dmul_64ns_64ns_64_7_max_dsp_1_ip/synth/chirp_dmul_64ns_64ns_64_7_max_dsp_1_ip.vhd:72]
 	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
 	Parameter C_PART bound to: xc7z020clg484-1 - type: string 
@@ -627,31 +627,31 @@ INFO: [Synth 8-638] synthesizing module 'chirp_dmul_64ns_64ns_64_7_max_dsp_1_ip'
 	Parameter C_FIXED_DATA_UNSIGNED bound to: 0 - type: integer 
 INFO: [Synth 8-3491] module 'floating_point_v7_1_21' declared at 'c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/hdl/ip/chirp_sitofp_32ns_32_6_no_dsp_1_ip/hdl/floating_point_v7_1_vh_rfs.vhd:93266' bound to instance 'U0' of component 'floating_point_v7_1_21' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/hdl/ip/chirp_dmul_64ns_64ns_64_7_max_dsp_1_ip/synth/chirp_dmul_64ns_64ns_64_7_max_dsp_1_ip.vhd:217]
 INFO: [Synth 8-256] done synthesizing module 'chirp_dmul_64ns_64ns_64_7_max_dsp_1_ip' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/hdl/ip/chirp_dmul_64ns_64ns_64_7_max_dsp_1_ip/synth/chirp_dmul_64ns_64ns_64_7_max_dsp_1_ip.vhd:72]
-INFO: [Synth 8-6155] done synthesizing module 'chirp_dmul_64ns_64ns_64_7_max_dsp_1' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_dmul_64ns_64ns_64_7_max_dsp_1.v:9]
-INFO: [Synth 8-6157] synthesizing module 'chirp_mul_23s_22ns_45_1_1' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_mul_23s_22ns_45_1_1.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'chirp_mul_23s_22ns_45_1_1' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_mul_23s_22ns_45_1_1.v:5]
-INFO: [Synth 8-6157] synthesizing module 'chirp_mul_30s_29ns_58_2_1' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_mul_30s_29ns_58_2_1.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'chirp_mul_30s_29ns_58_2_1' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_mul_30s_29ns_58_2_1.v:5]
-INFO: [Synth 8-6157] synthesizing module 'chirp_mul_80s_24ns_80_5_1' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_mul_80s_24ns_80_5_1.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'chirp_mul_80s_24ns_80_5_1' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_mul_80s_24ns_80_5_1.v:5]
-INFO: [Synth 8-6157] synthesizing module 'chirp_sparsemux_17_3_1_1_1' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_sparsemux_17_3_1_1_1.v:8]
-INFO: [Synth 8-226] default block is never used [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_sparsemux_17_3_1_1_1.v:78]
-INFO: [Synth 8-6155] done synthesizing module 'chirp_sparsemux_17_3_1_1_1' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_sparsemux_17_3_1_1_1.v:8]
-INFO: [Synth 8-6157] synthesizing module 'chirp_sparsemux_33_4_1_1_1' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_sparsemux_33_4_1_1_1.v:8]
-INFO: [Synth 8-226] default block is never used [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_sparsemux_33_4_1_1_1.v:126]
-INFO: [Synth 8-6155] done synthesizing module 'chirp_sparsemux_33_4_1_1_1' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_sparsemux_33_4_1_1_1.v:8]
-INFO: [Synth 8-6157] synthesizing module 'chirp_ctlz_30_30_1_1' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_ctlz_30_30_1_1.v:8]
-INFO: [Synth 8-6155] done synthesizing module 'chirp_ctlz_30_30_1_1' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_ctlz_30_30_1_1.v:8]
-INFO: [Synth 8-6157] synthesizing module 'chirp_mul_15ns_15ns_30_1_1' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_mul_15ns_15ns_30_1_1.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'chirp_mul_15ns_15ns_30_1_1' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_mul_15ns_15ns_30_1_1.v:5]
-INFO: [Synth 8-6157] synthesizing module 'chirp_mul_15ns_15s_30_1_1' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_mul_15ns_15s_30_1_1.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'chirp_mul_15ns_15s_30_1_1' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_mul_15ns_15s_30_1_1.v:5]
-INFO: [Synth 8-6157] synthesizing module 'chirp_ctlz_32_32_1_1' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_ctlz_32_32_1_1.v:8]
-INFO: [Synth 8-6155] done synthesizing module 'chirp_ctlz_32_32_1_1' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_ctlz_32_32_1_1.v:8]
-INFO: [Synth 8-6157] synthesizing module 'chirp_flow_control_loop_pipe_sequential_init' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_flow_control_loop_pipe_sequential_init.v:11]
-INFO: [Synth 8-6155] done synthesizing module 'chirp_flow_control_loop_pipe_sequential_init' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_flow_control_loop_pipe_sequential_init.v:11]
-INFO: [Synth 8-6155] done synthesizing module 'chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2.v:9]
-INFO: [Synth 8-6157] synthesizing module 'chirp_fdiv_32ns_32ns_32_16_no_dsp_1' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_fdiv_32ns_32ns_32_16_no_dsp_1.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'chirp_dmul_64ns_64ns_64_7_max_dsp_1' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_dmul_64ns_64ns_64_7_max_dsp_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'chirp_mul_23s_22ns_45_1_1' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_mul_23s_22ns_45_1_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'chirp_mul_23s_22ns_45_1_1' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_mul_23s_22ns_45_1_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'chirp_mul_30s_29ns_58_2_1' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_mul_30s_29ns_58_2_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'chirp_mul_30s_29ns_58_2_1' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_mul_30s_29ns_58_2_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'chirp_mul_80s_24ns_80_5_1' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_mul_80s_24ns_80_5_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'chirp_mul_80s_24ns_80_5_1' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_mul_80s_24ns_80_5_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'chirp_sparsemux_17_3_1_1_1' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_sparsemux_17_3_1_1_1.v:8]
+INFO: [Synth 8-226] default block is never used [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_sparsemux_17_3_1_1_1.v:78]
+INFO: [Synth 8-6155] done synthesizing module 'chirp_sparsemux_17_3_1_1_1' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_sparsemux_17_3_1_1_1.v:8]
+INFO: [Synth 8-6157] synthesizing module 'chirp_sparsemux_33_4_1_1_1' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_sparsemux_33_4_1_1_1.v:8]
+INFO: [Synth 8-226] default block is never used [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_sparsemux_33_4_1_1_1.v:126]
+INFO: [Synth 8-6155] done synthesizing module 'chirp_sparsemux_33_4_1_1_1' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_sparsemux_33_4_1_1_1.v:8]
+INFO: [Synth 8-6157] synthesizing module 'chirp_ctlz_30_30_1_1' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_ctlz_30_30_1_1.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'chirp_ctlz_30_30_1_1' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_ctlz_30_30_1_1.v:8]
+INFO: [Synth 8-6157] synthesizing module 'chirp_mul_15ns_15ns_30_1_1' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_mul_15ns_15ns_30_1_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'chirp_mul_15ns_15ns_30_1_1' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_mul_15ns_15ns_30_1_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'chirp_mul_15ns_15s_30_1_1' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_mul_15ns_15s_30_1_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'chirp_mul_15ns_15s_30_1_1' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_mul_15ns_15s_30_1_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'chirp_ctlz_32_32_1_1' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_ctlz_32_32_1_1.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'chirp_ctlz_32_32_1_1' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_ctlz_32_32_1_1.v:8]
+INFO: [Synth 8-6157] synthesizing module 'chirp_flow_control_loop_pipe_sequential_init' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_flow_control_loop_pipe_sequential_init.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'chirp_flow_control_loop_pipe_sequential_init' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_flow_control_loop_pipe_sequential_init.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2.v:9]
+INFO: [Synth 8-6157] synthesizing module 'chirp_fdiv_32ns_32ns_32_16_no_dsp_1' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_fdiv_32ns_32ns_32_16_no_dsp_1.v:9]
 INFO: [Synth 8-638] synthesizing module 'chirp_fdiv_32ns_32ns_32_16_no_dsp_1_ip' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/hdl/ip/chirp_fdiv_32ns_32ns_32_16_no_dsp_1_ip/synth/chirp_fdiv_32ns_32ns_32_16_no_dsp_1_ip.vhd:72]
 	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
 	Parameter C_PART bound to: xc7z020clg484-1 - type: string 
@@ -732,10 +732,10 @@ INFO: [Synth 8-638] synthesizing module 'chirp_fdiv_32ns_32ns_32_16_no_dsp_1_ip'
 	Parameter C_FIXED_DATA_UNSIGNED bound to: 0 - type: integer 
 INFO: [Synth 8-3491] module 'floating_point_v7_1_21' declared at 'c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/hdl/ip/chirp_sitofp_32ns_32_6_no_dsp_1_ip/hdl/floating_point_v7_1_vh_rfs.vhd:93266' bound to instance 'U0' of component 'floating_point_v7_1_21' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/hdl/ip/chirp_fdiv_32ns_32ns_32_16_no_dsp_1_ip/synth/chirp_fdiv_32ns_32ns_32_16_no_dsp_1_ip.vhd:217]
 INFO: [Synth 8-256] done synthesizing module 'chirp_fdiv_32ns_32ns_32_16_no_dsp_1_ip' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/hdl/ip/chirp_fdiv_32ns_32ns_32_16_no_dsp_1_ip/synth/chirp_fdiv_32ns_32ns_32_16_no_dsp_1_ip.vhd:72]
-INFO: [Synth 8-6155] done synthesizing module 'chirp_fdiv_32ns_32ns_32_16_no_dsp_1' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_fdiv_32ns_32ns_32_16_no_dsp_1.v:9]
-INFO: [Synth 8-6157] synthesizing module 'chirp_mul_31ns_31ns_62_2_1' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_mul_31ns_31ns_62_2_1.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'chirp_mul_31ns_31ns_62_2_1' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_mul_31ns_31ns_62_2_1.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'chirp' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'chirp_fdiv_32ns_32ns_32_16_no_dsp_1' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_fdiv_32ns_32ns_32_16_no_dsp_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'chirp_mul_31ns_31ns_62_2_1' [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_mul_31ns_31ns_62_2_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'chirp_mul_31ns_31ns_62_2_1' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_mul_31ns_31ns_62_2_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'chirp' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp.v:9]
 INFO: [Synth 8-6155] done synthesizing module 'bd_0_hls_inst_0' (0#1) [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/synth/bd_0_hls_inst_0.v:53]
 INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
 INFO: [Synth 8-7129] Port reset in module chirp_mul_31ns_31ns_62_2_1 is either unconnected or has no load
@@ -840,18 +840,18 @@ INFO: [Synth 8-7129] Port SINIT in module xbip_pipe_v3_0_11_viv__parameterized11
 INFO: [Synth 8-7129] Port SCLR in module xbip_pipe_v3_0_11_viv__parameterized122 is either unconnected or has no load
 INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1670.438 ; gain = 882.633
+Finished RTL Elaboration : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1667.578 ; gain = 881.230
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1670.438 ; gain = 882.633
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1667.578 ; gain = 881.230
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1670.438 ; gain = 882.633
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1667.578 ; gain = 881.230
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.390 . Memory (MB): peak = 1670.438 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.362 . Memory (MB): peak = 1667.578 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 1902 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -864,62 +864,62 @@ Parsing XDC File [C:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGene
 Finished Parsing XDC File [C:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.runs/bd_0_hls_inst_0_synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 1689.551 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 1687.562 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 19 instances were transformed.
   FDE => FDRE: 19 instances
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.351 . Memory (MB): peak = 1689.551 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.273 . Memory (MB): peak = 1687.562 ; gain = 0.000
 INFO: [Designutils 20-5008] Incremental synthesis strategy off
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 1689.551 ; gain = 901.746
+Finished Constraint Validation : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 1687.562 ; gain = 901.215
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg484-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 1689.551 ; gain = 901.746
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 1687.562 ; gain = 901.215
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 1689.551 ; gain = 901.746
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 1687.562 ; gain = 901.215
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
 INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:39 ; elapsed = 00:00:42 . Memory (MB): peak = 1689.551 ; gain = 901.746
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 1687.562 ; gain = 901.215
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fadd_32ns_32ns_32_5_full_dsp_1_U1/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip_u/U0/i_synth/ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.ALIGN_ADD/SUB_DELAY' (delay__parameterized0) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fadd_32ns_32ns_32_5_full_dsp_1_U1/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip_u/U0/i_synth/ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.ALIGN_ADD/SUB_ADD_IP_DELAY'
-INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fadd_32ns_32ns_32_5_full_dsp_1_U1/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fadd_32ns_32ns_32_5_full_dsp_1_U1/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip_u/U0/i_synth/DELAY_ACCUM_OVERFLOW'
-INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fadd_32ns_32ns_32_5_full_dsp_1_U1/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fadd_32ns_32ns_32_5_full_dsp_1_U1/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip_u/U0/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/fadd_32ns_32ns_32_5_full_dsp_1_U1/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip_u/U0/i_synth/ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.ALIGN_ADD/SUB_DELAY' (delay__parameterized0) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/fadd_32ns_32ns_32_5_full_dsp_1_U1/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip_u/U0/i_synth/ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.ALIGN_ADD/SUB_ADD_IP_DELAY'
+INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/fadd_32ns_32ns_32_5_full_dsp_1_U1/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/fadd_32ns_32ns_32_5_full_dsp_1_U1/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip_u/U0/i_synth/DELAY_ACCUM_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/fadd_32ns_32ns_32_5_full_dsp_1_U1/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/fadd_32ns_32ns_32_5_full_dsp_1_U1/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip_u/U0/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
 INFO: [Synth 8-223] decloning instance 'chirp_fmul_32ns_32ns_32_4_max_dsp_1_ip:/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'chirp_fmul_32ns_32ns_32_4_max_dsp_1_ip:/U0/i_synth/DELAY_ACCUM_OVERFLOW'
 INFO: [Synth 8-223] decloning instance 'chirp_fmul_32ns_32ns_32_4_max_dsp_1_ip:/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'chirp_fmul_32ns_32ns_32_4_max_dsp_1_ip:/U0/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
-INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/sitofp_32ns_32_6_no_dsp_1_U6/chirp_sitofp_32ns_32_6_no_dsp_1_ip_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXTRA_LSB_BIT_DEL' (delay__parameterized0) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/sitofp_32ns_32_6_no_dsp_1_U6/chirp_sitofp_32ns_32_6_no_dsp_1_ip_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXTRA_LSB_RND1_DEL'
-INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/sitofp_32ns_32_6_no_dsp_1_U6/chirp_sitofp_32ns_32_6_no_dsp_1_ip_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_INC_DELAY' (delay__parameterized0) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/sitofp_32ns_32_6_no_dsp_1_U6/chirp_sitofp_32ns_32_6_no_dsp_1_ip_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_INC_RND1_DELAY'
-INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/sitofp_32ns_32_6_no_dsp_1_U6/chirp_sitofp_32ns_32_6_no_dsp_1_ip_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_IN_DELAY.EXP_IN_DEL' (delay__parameterized27) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/sitofp_32ns_32_6_no_dsp_1_U6/chirp_sitofp_32ns_32_6_no_dsp_1_ip_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_RND2_DELAY.EXP_RND_DEL'
-INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/sitofp_32ns_32_6_no_dsp_1_U6/chirp_sitofp_32ns_32_6_no_dsp_1_ip_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_IN_DELAY.EXP_OFF_OP_DEL' (delay__parameterized27) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/sitofp_32ns_32_6_no_dsp_1_U6/chirp_sitofp_32ns_32_6_no_dsp_1_ip_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_RND2_DELAY.EXP_OFF_RND_DEL'
-INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/sitofp_32ns_32_6_no_dsp_1_U6/chirp_sitofp_32ns_32_6_no_dsp_1_ip_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized0) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/sitofp_32ns_32_6_no_dsp_1_U6/chirp_sitofp_32ns_32_6_no_dsp_1_ip_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO'
-INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/sitofp_32ns_32_6_no_dsp_1_U6/chirp_sitofp_32ns_32_6_no_dsp_1_ip_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized0) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/sitofp_32ns_32_6_no_dsp_1_U6/chirp_sitofp_32ns_32_6_no_dsp_1_ip_u/U0/i_synth/DELAY_OVERFLOW'
-INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/sitofp_32ns_32_6_no_dsp_1_U6/chirp_sitofp_32ns_32_6_no_dsp_1_ip_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized0) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/sitofp_32ns_32_6_no_dsp_1_U6/chirp_sitofp_32ns_32_6_no_dsp_1_ip_u/U0/i_synth/DELAY_UNDERFLOW'
-INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/sitofp_32ns_32_6_no_dsp_1_U6/chirp_sitofp_32ns_32_6_no_dsp_1_ip_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized0) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/sitofp_32ns_32_6_no_dsp_1_U6/chirp_sitofp_32ns_32_6_no_dsp_1_ip_u/U0/i_synth/DELAY_ACCUM_OVERFLOW'
-INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/sitofp_32ns_32_6_no_dsp_1_U6/chirp_sitofp_32ns_32_6_no_dsp_1_ip_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized0) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/sitofp_32ns_32_6_no_dsp_1_U6/chirp_sitofp_32ns_32_6_no_dsp_1_ip_u/U0/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
-INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fptrunc_64ns_32_2_no_dsp_1_U7/chirp_fptrunc_64ns_32_2_no_dsp_1_ip_u/U0/i_synth/FLT_TO_FLT_OP.SPD.OP/RND_REQ.ROUND/EXTRA_LSB_BIT_DEL' (delay__parameterized0) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fptrunc_64ns_32_2_no_dsp_1_U7/chirp_fptrunc_64ns_32_2_no_dsp_1_ip_u/U0/i_synth/FLT_TO_FLT_OP.SPD.OP/RND_REQ.ROUND/EXTRA_LSB_RND1_DEL'
-INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fptrunc_64ns_32_2_no_dsp_1_U7/chirp_fptrunc_64ns_32_2_no_dsp_1_ip_u/U0/i_synth/FLT_TO_FLT_OP.SPD.OP/RND_REQ.ROUND/EXP_INC_DELAY' (delay__parameterized0) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fptrunc_64ns_32_2_no_dsp_1_U7/chirp_fptrunc_64ns_32_2_no_dsp_1_ip_u/U0/i_synth/FLT_TO_FLT_OP.SPD.OP/RND_REQ.ROUND/EXP_INC_RND1_DELAY'
-INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fptrunc_64ns_32_2_no_dsp_1_U7/chirp_fptrunc_64ns_32_2_no_dsp_1_ip_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized0) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fptrunc_64ns_32_2_no_dsp_1_U7/chirp_fptrunc_64ns_32_2_no_dsp_1_ip_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO'
-INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fptrunc_64ns_32_2_no_dsp_1_U7/chirp_fptrunc_64ns_32_2_no_dsp_1_ip_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized0) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fptrunc_64ns_32_2_no_dsp_1_U7/chirp_fptrunc_64ns_32_2_no_dsp_1_ip_u/U0/i_synth/DELAY_ACCUM_OVERFLOW'
-INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fptrunc_64ns_32_2_no_dsp_1_U7/chirp_fptrunc_64ns_32_2_no_dsp_1_ip_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized0) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fptrunc_64ns_32_2_no_dsp_1_U7/chirp_fptrunc_64ns_32_2_no_dsp_1_ip_u/U0/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
-INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fpext_32ns_64_2_no_dsp_1_U8/chirp_fpext_32ns_64_2_no_dsp_1_ip_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized0) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fpext_32ns_64_2_no_dsp_1_U8/chirp_fpext_32ns_64_2_no_dsp_1_ip_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO'
-INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fpext_32ns_64_2_no_dsp_1_U8/chirp_fpext_32ns_64_2_no_dsp_1_ip_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized0) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fpext_32ns_64_2_no_dsp_1_U8/chirp_fpext_32ns_64_2_no_dsp_1_ip_u/U0/i_synth/DELAY_ACCUM_OVERFLOW'
-INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fpext_32ns_64_2_no_dsp_1_U8/chirp_fpext_32ns_64_2_no_dsp_1_ip_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized0) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fpext_32ns_64_2_no_dsp_1_U8/chirp_fpext_32ns_64_2_no_dsp_1_ip_u/U0/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
-INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fcmp_32ns_32ns_1_2_no_dsp_1_U9/chirp_fcmp_32ns_32ns_1_2_no_dsp_1_ip_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fcmp_32ns_32ns_1_2_no_dsp_1_U9/chirp_fcmp_32ns_32ns_1_2_no_dsp_1_ip_u/U0/i_synth/DELAY_OVERFLOW'
-INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fcmp_32ns_32ns_1_2_no_dsp_1_U9/chirp_fcmp_32ns_32ns_1_2_no_dsp_1_ip_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fcmp_32ns_32ns_1_2_no_dsp_1_U9/chirp_fcmp_32ns_32ns_1_2_no_dsp_1_ip_u/U0/i_synth/DELAY_UNDERFLOW'
-INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fcmp_32ns_32ns_1_2_no_dsp_1_U9/chirp_fcmp_32ns_32ns_1_2_no_dsp_1_ip_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fcmp_32ns_32ns_1_2_no_dsp_1_U9/chirp_fcmp_32ns_32ns_1_2_no_dsp_1_ip_u/U0/i_synth/DELAY_ACCUM_OVERFLOW'
-INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fcmp_32ns_32ns_1_2_no_dsp_1_U9/chirp_fcmp_32ns_32ns_1_2_no_dsp_1_ip_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fcmp_32ns_32ns_1_2_no_dsp_1_U9/chirp_fcmp_32ns_32ns_1_2_no_dsp_1_ip_u/U0/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
-INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/dmul_64ns_64ns_64_7_max_dsp_1_U10/chirp_dmul_64ns_64ns_64_7_max_dsp_1_ip_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/dmul_64ns_64ns_64_7_max_dsp_1_U10/chirp_dmul_64ns_64ns_64_7_max_dsp_1_ip_u/U0/i_synth/DELAY_ACCUM_OVERFLOW'
-INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/dmul_64ns_64ns_64_7_max_dsp_1_U10/chirp_dmul_64ns_64ns_64_7_max_dsp_1_ip_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/dmul_64ns_64ns_64_7_max_dsp_1_U10/chirp_dmul_64ns_64ns_64_7_max_dsp_1_ip_u/U0/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/sitofp_32ns_32_6_no_dsp_1_U6/chirp_sitofp_32ns_32_6_no_dsp_1_ip_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXTRA_LSB_BIT_DEL' (delay__parameterized0) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/sitofp_32ns_32_6_no_dsp_1_U6/chirp_sitofp_32ns_32_6_no_dsp_1_ip_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXTRA_LSB_RND1_DEL'
+INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/sitofp_32ns_32_6_no_dsp_1_U6/chirp_sitofp_32ns_32_6_no_dsp_1_ip_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_INC_DELAY' (delay__parameterized0) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/sitofp_32ns_32_6_no_dsp_1_U6/chirp_sitofp_32ns_32_6_no_dsp_1_ip_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_INC_RND1_DELAY'
+INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/sitofp_32ns_32_6_no_dsp_1_U6/chirp_sitofp_32ns_32_6_no_dsp_1_ip_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_IN_DELAY.EXP_IN_DEL' (delay__parameterized27) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/sitofp_32ns_32_6_no_dsp_1_U6/chirp_sitofp_32ns_32_6_no_dsp_1_ip_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_RND2_DELAY.EXP_RND_DEL'
+INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/sitofp_32ns_32_6_no_dsp_1_U6/chirp_sitofp_32ns_32_6_no_dsp_1_ip_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_IN_DELAY.EXP_OFF_OP_DEL' (delay__parameterized27) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/sitofp_32ns_32_6_no_dsp_1_U6/chirp_sitofp_32ns_32_6_no_dsp_1_ip_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_RND2_DELAY.EXP_OFF_RND_DEL'
+INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/sitofp_32ns_32_6_no_dsp_1_U6/chirp_sitofp_32ns_32_6_no_dsp_1_ip_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized0) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/sitofp_32ns_32_6_no_dsp_1_U6/chirp_sitofp_32ns_32_6_no_dsp_1_ip_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO'
+INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/sitofp_32ns_32_6_no_dsp_1_U6/chirp_sitofp_32ns_32_6_no_dsp_1_ip_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized0) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/sitofp_32ns_32_6_no_dsp_1_U6/chirp_sitofp_32ns_32_6_no_dsp_1_ip_u/U0/i_synth/DELAY_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/sitofp_32ns_32_6_no_dsp_1_U6/chirp_sitofp_32ns_32_6_no_dsp_1_ip_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized0) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/sitofp_32ns_32_6_no_dsp_1_U6/chirp_sitofp_32ns_32_6_no_dsp_1_ip_u/U0/i_synth/DELAY_UNDERFLOW'
+INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/sitofp_32ns_32_6_no_dsp_1_U6/chirp_sitofp_32ns_32_6_no_dsp_1_ip_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized0) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/sitofp_32ns_32_6_no_dsp_1_U6/chirp_sitofp_32ns_32_6_no_dsp_1_ip_u/U0/i_synth/DELAY_ACCUM_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/sitofp_32ns_32_6_no_dsp_1_U6/chirp_sitofp_32ns_32_6_no_dsp_1_ip_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized0) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/sitofp_32ns_32_6_no_dsp_1_U6/chirp_sitofp_32ns_32_6_no_dsp_1_ip_u/U0/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/fptrunc_64ns_32_2_no_dsp_1_U7/chirp_fptrunc_64ns_32_2_no_dsp_1_ip_u/U0/i_synth/FLT_TO_FLT_OP.SPD.OP/RND_REQ.ROUND/EXTRA_LSB_BIT_DEL' (delay__parameterized0) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/fptrunc_64ns_32_2_no_dsp_1_U7/chirp_fptrunc_64ns_32_2_no_dsp_1_ip_u/U0/i_synth/FLT_TO_FLT_OP.SPD.OP/RND_REQ.ROUND/EXTRA_LSB_RND1_DEL'
+INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/fptrunc_64ns_32_2_no_dsp_1_U7/chirp_fptrunc_64ns_32_2_no_dsp_1_ip_u/U0/i_synth/FLT_TO_FLT_OP.SPD.OP/RND_REQ.ROUND/EXP_INC_DELAY' (delay__parameterized0) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/fptrunc_64ns_32_2_no_dsp_1_U7/chirp_fptrunc_64ns_32_2_no_dsp_1_ip_u/U0/i_synth/FLT_TO_FLT_OP.SPD.OP/RND_REQ.ROUND/EXP_INC_RND1_DELAY'
+INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/fptrunc_64ns_32_2_no_dsp_1_U7/chirp_fptrunc_64ns_32_2_no_dsp_1_ip_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized0) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/fptrunc_64ns_32_2_no_dsp_1_U7/chirp_fptrunc_64ns_32_2_no_dsp_1_ip_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO'
+INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/fptrunc_64ns_32_2_no_dsp_1_U7/chirp_fptrunc_64ns_32_2_no_dsp_1_ip_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized0) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/fptrunc_64ns_32_2_no_dsp_1_U7/chirp_fptrunc_64ns_32_2_no_dsp_1_ip_u/U0/i_synth/DELAY_ACCUM_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/fptrunc_64ns_32_2_no_dsp_1_U7/chirp_fptrunc_64ns_32_2_no_dsp_1_ip_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized0) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/fptrunc_64ns_32_2_no_dsp_1_U7/chirp_fptrunc_64ns_32_2_no_dsp_1_ip_u/U0/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/fpext_32ns_64_2_no_dsp_1_U8/chirp_fpext_32ns_64_2_no_dsp_1_ip_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized0) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/fpext_32ns_64_2_no_dsp_1_U8/chirp_fpext_32ns_64_2_no_dsp_1_ip_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO'
+INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/fpext_32ns_64_2_no_dsp_1_U8/chirp_fpext_32ns_64_2_no_dsp_1_ip_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized0) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/fpext_32ns_64_2_no_dsp_1_U8/chirp_fpext_32ns_64_2_no_dsp_1_ip_u/U0/i_synth/DELAY_ACCUM_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/fpext_32ns_64_2_no_dsp_1_U8/chirp_fpext_32ns_64_2_no_dsp_1_ip_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized0) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/fpext_32ns_64_2_no_dsp_1_U8/chirp_fpext_32ns_64_2_no_dsp_1_ip_u/U0/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/fcmp_32ns_32ns_1_2_no_dsp_1_U9/chirp_fcmp_32ns_32ns_1_2_no_dsp_1_ip_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/fcmp_32ns_32ns_1_2_no_dsp_1_U9/chirp_fcmp_32ns_32ns_1_2_no_dsp_1_ip_u/U0/i_synth/DELAY_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/fcmp_32ns_32ns_1_2_no_dsp_1_U9/chirp_fcmp_32ns_32ns_1_2_no_dsp_1_ip_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/fcmp_32ns_32ns_1_2_no_dsp_1_U9/chirp_fcmp_32ns_32ns_1_2_no_dsp_1_ip_u/U0/i_synth/DELAY_UNDERFLOW'
+INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/fcmp_32ns_32ns_1_2_no_dsp_1_U9/chirp_fcmp_32ns_32ns_1_2_no_dsp_1_ip_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/fcmp_32ns_32ns_1_2_no_dsp_1_U9/chirp_fcmp_32ns_32ns_1_2_no_dsp_1_ip_u/U0/i_synth/DELAY_ACCUM_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/fcmp_32ns_32ns_1_2_no_dsp_1_U9/chirp_fcmp_32ns_32ns_1_2_no_dsp_1_ip_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/fcmp_32ns_32ns_1_2_no_dsp_1_U9/chirp_fcmp_32ns_32ns_1_2_no_dsp_1_ip_u/U0/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/dmul_64ns_64ns_64_7_max_dsp_1_U10/chirp_dmul_64ns_64ns_64_7_max_dsp_1_ip_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/dmul_64ns_64ns_64_7_max_dsp_1_U10/chirp_dmul_64ns_64ns_64_7_max_dsp_1_ip_u/U0/i_synth/DELAY_ACCUM_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/dmul_64ns_64ns_64_7_max_dsp_1_U10/chirp_dmul_64ns_64ns_64_7_max_dsp_1_ip_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/dmul_64ns_64ns_64_7_max_dsp_1_U10/chirp_dmul_64ns_64ns_64_7_max_dsp_1_ip_u/U0/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
 INFO: [Synth 8-223] decloning instance 'inst/fdiv_32ns_32ns_32_16_no_dsp_1_U53/chirp_fdiv_32ns_32ns_32_16_no_dsp_1_ip_u/U0/i_synth/DIV_OP.SPD.OP/ROUND/EXTRA_LSB_BIT_DEL' (delay__parameterized0) to 'inst/fdiv_32ns_32ns_32_16_no_dsp_1_U53/chirp_fdiv_32ns_32ns_32_16_no_dsp_1_ip_u/U0/i_synth/DIV_OP.SPD.OP/ROUND/EXTRA_LSB_RND1_DEL'
 INFO: [Synth 8-223] decloning instance 'inst/fdiv_32ns_32ns_32_16_no_dsp_1_U53/chirp_fdiv_32ns_32ns_32_16_no_dsp_1_ip_u/U0/i_synth/DIV_OP.SPD.OP/ROUND/EXP_INC_DELAY' (delay__parameterized0) to 'inst/fdiv_32ns_32ns_32_16_no_dsp_1_U53/chirp_fdiv_32ns_32ns_32_16_no_dsp_1_ip_u/U0/i_synth/DIV_OP.SPD.OP/ROUND/EXP_INC_RND1_DELAY'
 INFO: [Synth 8-223] decloning instance 'inst/fdiv_32ns_32ns_32_16_no_dsp_1_U53/chirp_fdiv_32ns_32ns_32_16_no_dsp_1_ip_u/U0/i_synth/DIV_OP.SPD.OP/ROUND/EXP_IN_DELAY.EXP_IN_DEL' (delay__parameterized27) to 'inst/fdiv_32ns_32ns_32_16_no_dsp_1_U53/chirp_fdiv_32ns_32ns_32_16_no_dsp_1_ip_u/U0/i_synth/DIV_OP.SPD.OP/ROUND/EXP_RND2_DELAY.EXP_RND_DEL'
@@ -943,8 +943,8 @@ Finished Part Resource Summary
 ---------------------------------------------------------------------------------
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6014] Unused sequential element mul_80s_24ns_80_5_1_U13/buff0_reg was removed.  [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_mul_80s_24ns_80_5_1.v:67]
-INFO: [Synth 8-6014] Unused sequential element mul_80s_24ns_80_5_1_U13/buff0_reg was removed.  [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/77c2/hdl/verilog/chirp_mul_80s_24ns_80_5_1.v:67]
+INFO: [Synth 8-6014] Unused sequential element mul_80s_24ns_80_5_1_U13/buff0_reg was removed.  [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_mul_80s_24ns_80_5_1.v:67]
+INFO: [Synth 8-6014] Unused sequential element mul_80s_24ns_80_5_1_U13/buff0_reg was removed.  [c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/3382/hdl/verilog/chirp_mul_80s_24ns_80_5_1.v:67]
 INFO: [Synth 8-3332] Sequential element (mul_80s_24ns_80_5_1_U13/buff1_reg[47]) is unused and will be removed from module chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2.
 INFO: [Synth 8-3332] Sequential element (mul_80s_24ns_80_5_1_U13/buff1_reg[46]) is unused and will be removed from module chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2.
 INFO: [Synth 8-3332] Sequential element (mul_80s_24ns_80_5_1_U13/buff1_reg[45]) is unused and will be removed from module chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2.
@@ -1047,7 +1047,7 @@ INFO: [Synth 8-3332] Sequential element (mul_80s_24ns_80_5_1_U13/buff1_reg[45]__
 INFO: [Synth 8-3332] Sequential element (mul_80s_24ns_80_5_1_U13/buff1_reg[44]__0) is unused and will be removed from module chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2.
 INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:11 ; elapsed = 00:01:15 . Memory (MB): peak = 1689.551 ; gain = 901.746
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:04 ; elapsed = 00:01:07 . Memory (MB): peak = 1687.562 ; gain = 901.215
 ---------------------------------------------------------------------------------
  Sort Area is  mul_80s_24ns_80_5_1_U13/buff0_reg_0 : 0 0 : 3515 16441 : Used 1 time 0
  Sort Area is  mul_80s_24ns_80_5_1_U13/buff0_reg_0 : 0 1 : 3526 16441 : Used 1 time 0
@@ -1070,19 +1070,19 @@ Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:11 ; elaps
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:17 ; elapsed = 00:01:22 . Memory (MB): peak = 1898.719 ; gain = 1110.914
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:10 ; elapsed = 00:01:13 . Memory (MB): peak = 1890.492 ; gain = 1104.145
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:01:19 ; elapsed = 00:01:24 . Memory (MB): peak = 1950.887 ; gain = 1163.082
+Finished Timing Optimization : Time (s): cpu = 00:01:12 ; elapsed = 00:01:15 . Memory (MB): peak = 1941.781 ; gain = 1155.434
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:01:23 ; elapsed = 00:01:28 . Memory (MB): peak = 1960.160 ; gain = 1172.355
+Finished Technology Mapping : Time (s): cpu = 00:01:14 ; elapsed = 00:01:18 . Memory (MB): peak = 1950.691 ; gain = 1164.344
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -1100,37 +1100,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:01:27 ; elapsed = 00:01:33 . Memory (MB): peak = 2172.926 ; gain = 1385.121
+Finished IO Insertion : Time (s): cpu = 00:01:18 ; elapsed = 00:01:22 . Memory (MB): peak = 2163.926 ; gain = 1377.578
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:01:27 ; elapsed = 00:01:33 . Memory (MB): peak = 2172.926 ; gain = 1385.121
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:18 ; elapsed = 00:01:22 . Memory (MB): peak = 2163.926 ; gain = 1377.578
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:28 ; elapsed = 00:01:33 . Memory (MB): peak = 2172.926 ; gain = 1385.121
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:19 ; elapsed = 00:01:23 . Memory (MB): peak = 2163.926 ; gain = 1377.578
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:01:28 ; elapsed = 00:01:33 . Memory (MB): peak = 2172.926 ; gain = 1385.121
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:19 ; elapsed = 00:01:23 . Memory (MB): peak = 2163.926 ; gain = 1377.578
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:01:28 ; elapsed = 00:01:34 . Memory (MB): peak = 2172.926 ; gain = 1385.121
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:19 ; elapsed = 00:01:23 . Memory (MB): peak = 2163.926 ; gain = 1377.578
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:01:28 ; elapsed = 00:01:34 . Memory (MB): peak = 2172.926 ; gain = 1385.121
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:19 ; elapsed = 00:01:23 . Memory (MB): peak = 2163.926 ; gain = 1377.578
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -1211,33 +1211,33 @@ Report Cell Usage:
 |44    |FDSE    |    47|
 +------+--------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:01:28 ; elapsed = 00:01:34 . Memory (MB): peak = 2172.926 ; gain = 1385.121
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:19 ; elapsed = 00:01:23 . Memory (MB): peak = 2163.926 ; gain = 1377.578
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:01:01 ; elapsed = 00:01:27 . Memory (MB): peak = 2172.926 ; gain = 1366.008
-Synthesis Optimization Complete : Time (s): cpu = 00:01:29 ; elapsed = 00:01:34 . Memory (MB): peak = 2172.926 ; gain = 1385.121
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:54 ; elapsed = 00:01:17 . Memory (MB): peak = 2163.926 ; gain = 1357.594
+Synthesis Optimization Complete : Time (s): cpu = 00:01:20 ; elapsed = 00:01:23 . Memory (MB): peak = 2163.926 ; gain = 1377.578
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.212 . Memory (MB): peak = 2172.926 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.196 . Memory (MB): peak = 2163.926 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 2182 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 2190.848 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2182.000 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 300 instances were transformed.
   (MUXCY,XORCY) => CARRY4: 281 instances
   FDE => FDRE: 19 instances
 
-Synth Design complete | Checksum: 96b8f24c
+Synth Design complete | Checksum: 4b96daf
 INFO: [Common 17-83] Releasing license: Synthesis
 342 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:36 ; elapsed = 00:01:42 . Memory (MB): peak = 2190.848 ; gain = 1630.301
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 2190.848 ; gain = 0.000
+synth_design: Time (s): cpu = 00:01:27 ; elapsed = 00:01:31 . Memory (MB): peak = 2182.000 ; gain = 1621.363
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 2182.000 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'C:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.runs/bd_0_hls_inst_0_synth_1/bd_0_hls_inst_0.dcp' has been generated.
-INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP bd_0_hls_inst_0, cache-ID = fe63f8ddcad6a3c3
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP bd_0_hls_inst_0, cache-ID = 3f64d908a7772e06
 INFO: [Coretcl 2-1174] Renamed 473 cell refs.
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 2190.848 ; gain = 0.000
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 2182.000 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'C:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.runs/bd_0_hls_inst_0_synth_1/bd_0_hls_inst_0.dcp' has been generated.
 INFO: [Vivado 12-24828] Executing command : report_utilization -file bd_0_hls_inst_0_utilization_synth.rpt -pb bd_0_hls_inst_0_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Tue Aug 18 15:01:42 2026...
+INFO: [Common 17-206] Exiting Vivado at Tue Aug 18 16:01:15 2026...

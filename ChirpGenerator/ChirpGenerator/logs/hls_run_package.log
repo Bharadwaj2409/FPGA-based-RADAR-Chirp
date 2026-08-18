@@ -25,7 +25,7 @@ INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
   **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
   **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
   **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
-  **** Start of session at: Tue Aug 18 14:58:15 2026
+  **** Start of session at: Tue Aug 18 15:57:52 2026
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
     ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 
@@ -113,7 +113,7 @@ INFO: Calling post_process_sysgen to specialize IP
 Generating sysgen info xml from json file
 INFO: Created IP C:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/ip/component.xml
 INFO: Created IP archive C:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/ip/xilinx_com_hls_chirp_1_0.zip
-INFO: [Common 17-206] Exiting Vivado at Tue Aug 18 14:58:38 2026...
+INFO: [Common 17-206] Exiting Vivado at Tue Aug 18 15:58:15 2026...
 INFO: [HLS 200-802] Generated output file ChirpGenerator/chirp.zip
-INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 2 seconds. Total elapsed time: 27.405 seconds; peak allocated memory: 215.910 MB.
+INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 1 seconds. Total elapsed time: 27.463 seconds; peak allocated memory: 217.250 MB.
 INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 31s

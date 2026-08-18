@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
-| Date         : Tue Aug 18 15:04:27 2026
+| Date         : Tue Aug 18 16:03:48 2026
 | Host         : BHARADWAJ running 64-bit major release  (build 9200)
 | Command      : report_utilization -hierarchical -hierarchical_depth 6 -file ./report/chirp_utilization_hierarchical_routed.rpt
 | Design       : bd_0_wrapper
@@ -35,8 +35,8 @@ Table of Contents
 |           (fmul_32ns_32ns_32_4_max_dsp_1_U52)                        |                                         bd_0_hls_inst_0_chirp_fmul_32ns_32ns_32_4_max_dsp_1__xdcDup__1 |         33 |         33 |       0 |    0 |   64 |      0 |      0 |          0 |
 |           chirp_fmul_32ns_32ns_32_4_max_dsp_1_ip_u                   |                                                 bd_0_hls_inst_0_chirp_fmul_32ns_32ns_32_4_max_dsp_1_ip |         72 |         72 |       0 |    0 |   47 |      0 |      0 |          3 |
 |             U0                                                       |                                                 bd_0_hls_inst_0_floating_point_v7_1_21__parameterized1 |         72 |         72 |       0 |    0 |   47 |      0 |      0 |          3 |
-|         grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92     |                                   bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2 |       2014 |       1896 |       0 |  118 | 2099 |      0 |      0 |         32 |
-|           (grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92) |                                   bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2 |        875 |        778 |       0 |   97 | 1050 |      0 |      0 |          0 |
+|         grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96     |                                   bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2 |       2014 |       1896 |       0 |  118 | 2099 |      0 |      0 |         32 |
+|           (grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96) |                                   bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2 |        875 |        778 |       0 |   97 | 1050 |      0 |      0 |          0 |
 |           (fcmp_32ns_32ns_1_2_no_dsp_1_U9)                           |                                                      bd_0_hls_inst_0_chirp_fcmp_32ns_32ns_1_2_no_dsp_1 |          9 |          9 |       0 |    0 |   64 |      0 |      0 |          0 |
 |           (fptrunc_64ns_32_2_no_dsp_1_U7)                            |                                                       bd_0_hls_inst_0_chirp_fptrunc_64ns_32_2_no_dsp_1 |          0 |          0 |       0 |    0 |   63 |      0 |      0 |          0 |
 |           dmul_64ns_64ns_64_7_max_dsp_1_U10                          |                                                    bd_0_hls_inst_0_chirp_dmul_64ns_64ns_64_7_max_dsp_1 |         80 |         67 |       0 |   13 |  181 |      0 |      0 |         11 |

@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2'
 ================================================================
-* Date:           Tue Aug 18 14:57:54 2026
+* Date:           Tue Aug 18 15:46:50 2026
 
 * Version:        2025.2 (Build 6295257 on Nov 14 2025)
 * Project:        ChirpGenerator
@@ -157,7 +157,7 @@
     |Mx_1_fu_1147_p3             |    select|   0|  0|   29|           1|          29|
     |Mx_bits_3_fu_789_p3         |    select|   0|  0|   58|           1|          58|
     |addr_fu_693_p3              |    select|   0|  0|    8|           1|           6|
-    |empty_30_fu_1464_p3         |    select|   0|  0|   23|           1|          23|
+    |empty_31_fu_1464_p3         |    select|   0|  0|   23|           1|          23|
     |k_fu_774_p3                 |    select|   0|  0|    3|           1|           1|
     |results_exp_1_fu_1506_p3    |    select|   0|  0|    8|           1|           7|
     |results_exp_fu_1483_p3      |    select|   0|  0|    8|           1|           8|
@@ -506,14 +506,14 @@
 |ap_done             |  out|    1|  ap_ctrl_hs|  chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2|  return value|
 |ap_idle             |  out|    1|  ap_ctrl_hs|  chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2|  return value|
 |ap_ready            |  out|    1|  ap_ctrl_hs|  chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2|  return value|
-|grp_fu_116_p_din0   |  out|   32|  ap_ctrl_hs|  chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2|  return value|
-|grp_fu_116_p_din1   |  out|   32|  ap_ctrl_hs|  chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2|  return value|
-|grp_fu_116_p_dout0  |   in|   32|  ap_ctrl_hs|  chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2|  return value|
-|grp_fu_116_p_ce     |  out|    1|  ap_ctrl_hs|  chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2|  return value|
-|grp_fu_121_p_din0   |  out|   32|  ap_ctrl_hs|  chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2|  return value|
-|grp_fu_121_p_din1   |  out|   32|  ap_ctrl_hs|  chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2|  return value|
-|grp_fu_121_p_dout0  |   in|   32|  ap_ctrl_hs|  chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2|  return value|
-|grp_fu_121_p_ce     |  out|    1|  ap_ctrl_hs|  chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2|  return value|
+|grp_fu_120_p_din0   |  out|   32|  ap_ctrl_hs|  chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2|  return value|
+|grp_fu_120_p_din1   |  out|   32|  ap_ctrl_hs|  chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2|  return value|
+|grp_fu_120_p_dout0  |   in|   32|  ap_ctrl_hs|  chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2|  return value|
+|grp_fu_120_p_ce     |  out|    1|  ap_ctrl_hs|  chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2|  return value|
+|grp_fu_125_p_din0   |  out|   32|  ap_ctrl_hs|  chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2|  return value|
+|grp_fu_125_p_din1   |  out|   32|  ap_ctrl_hs|  chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2|  return value|
+|grp_fu_125_p_dout0  |   in|   32|  ap_ctrl_hs|  chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2|  return value|
+|grp_fu_125_p_ce     |  out|    1|  ap_ctrl_hs|  chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2|  return value|
 |mul_ln11            |   in|   62|     ap_none|                                        mul_ln11|        scalar|
 |f0                  |   in|   32|     ap_none|                                              f0|        scalar|
 |mul8                |   in|   32|     ap_none|                                            mul8|        scalar|

@@ -65294,15 +65294,7 @@ __attribute__((sdx_kernel("chirp", 0))) void chirp(
 #pragma HLS INTERFACE ap_none port=fs
 #pragma HLS INTERFACE ap_none port=f0
 #pragma HLS INTERFACE ap_none port=B
-
-#pragma HLS INTERFACE ap_none port=Tc
-#pragma HLS INTERFACE ap_none port=Ti
-#pragma HLS INTERFACE ap_none port=Tg
-
-#pragma HLS INTERFACE ap_none port=Nframe
-#pragma HLS INTERFACE ap_none port=N_SAMPLES_USED
-
-
+# 46 "chirp.cpp"
 #pragma HLS INTERFACE ap_ctrl_hs port=return
 
 

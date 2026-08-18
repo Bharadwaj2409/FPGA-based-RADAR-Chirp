@@ -22,7 +22,6 @@ INFO: [HLS 200-2176] Writing Vitis IDE component file C:/Users/vempa/Documents/P
 INFO: [SIM 211-2] *************** CSIM start ***************
 INFO: [HLS 200-2191] C-Simulation will use clang-16 as the compiler
 INFO: [HLS 200-2036] Building debug C Simulation binaries
-   Compiling ../../../../chirp_tb.cpp in debug mode
    Compiling ../../../../chirp.cpp in debug mode
    Generating csim.exe
 In file included from ../../../../chirp.cpp:2:
@@ -45,5 +44,5 @@ Tchirp = 5.5e-05 seconds
 Frame time = 0.00704 seconds
 INFO: [SIM 211-1] CSim done with 0 errors.
 INFO: [SIM 211-3] *************** CSIM finish ***************
-INFO: [HLS 200-112] Total CPU user time: 1 seconds. Total CPU system time: 0 seconds. Total elapsed time: 8.297 seconds; peak allocated memory: 149.871 MB.
+INFO: [HLS 200-112] Total CPU user time: 1 seconds. Total CPU system time: 1 seconds. Total elapsed time: 8.152 seconds; peak allocated memory: 150.148 MB.
 INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 12s

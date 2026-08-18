@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
-| Date         : Tue Aug 18 15:04:17 2026
+| Date         : Tue Aug 18 16:03:42 2026
 | Host         : BHARADWAJ running 64-bit major release  (build 9200)
 | Command      : report_timing_summary -max_paths 10 -routable_nets -report_unconstrained -file bd_0_wrapper_timing_summary_routed.rpt -pb bd_0_wrapper_timing_summary_routed.pb -rpx bd_0_wrapper_timing_summary_routed.rpx -warn_on_violation
 | Design       : bd_0_wrapper
@@ -712,9 +712,9 @@ Slack (MET) :             1.470ns  (required time - arrival time)
 Min Delay Paths
 --------------------------------------------------------------------------------------
 Slack (MET) :             0.053ns  (arrival time - required time)
-  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/select_ln60_reg_1593_reg[4]/C
+  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/select_ln60_reg_1593_reg[4]/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
-  Destination:            bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/out_r_addr_reg_1626_pp0_iter34_reg_reg[4]_srl32/D
+  Destination:            bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/out_r_addr_reg_1626_pp0_iter34_reg_reg[4]_srl32/D
                             (rising edge-triggered cell SRLC32E clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
   Path Group:             ap_clk
   Path Type:              Hold (Min at Fast Process Corner)
@@ -730,21 +730,21 @@ Slack (MET) :             0.053ns  (arrival time - required time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.410     0.410    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/ap_clk
-    SLICE_X64Y64         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/select_ln60_reg_1593_reg[4]/C
+                         net (fo=3516, unset)         0.410     0.410    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/ap_clk
+    SLICE_X64Y64         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/select_ln60_reg_1593_reg[4]/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X64Y64         FDRE (Prop_fdre_C_Q)         0.141     0.551 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/select_ln60_reg_1593_reg[4]/Q
-                         net (fo=2, routed)           0.117     0.668    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/select_ln60_reg_1593[4]
-    SLICE_X66Y64         SRLC32E                                      r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/out_r_addr_reg_1626_pp0_iter34_reg_reg[4]_srl32/D
+    SLICE_X64Y64         FDRE (Prop_fdre_C_Q)         0.141     0.551 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/select_ln60_reg_1593_reg[4]/Q
+                         net (fo=2, routed)           0.117     0.668    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/select_ln60_reg_1593[4]
+    SLICE_X66Y64         SRLC32E                                      r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/out_r_addr_reg_1626_pp0_iter34_reg_reg[4]_srl32/D
   -------------------------------------------------------------------    -------------------
 
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.432     0.432    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/ap_clk
-    SLICE_X66Y64         SRLC32E                                      r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/out_r_addr_reg_1626_pp0_iter34_reg_reg[4]_srl32/CLK
+                         net (fo=3516, unset)         0.432     0.432    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/ap_clk
+    SLICE_X66Y64         SRLC32E                                      r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/out_r_addr_reg_1626_pp0_iter34_reg_reg[4]_srl32/CLK
                          clock pessimism              0.000     0.432    
     SLICE_X66Y64         SRLC32E (Hold_srlc32e_CLK_D)
-                                                      0.183     0.615    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/out_r_addr_reg_1626_pp0_iter34_reg_reg[4]_srl32
+                                                      0.183     0.615    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/out_r_addr_reg_1626_pp0_iter34_reg_reg[4]_srl32
   -------------------------------------------------------------------
                          required time                         -0.615    
                          arrival time                           0.668    
@@ -752,9 +752,9 @@ Slack (MET) :             0.053ns  (arrival time - required time)
                          slack                                  0.053    
 
 Slack (MET) :             0.100ns  (arrival time - required time)
-  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/Mx_1_reg_1789_pp0_iter60_reg_reg[16]/C
+  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/Mx_1_reg_1789_pp0_iter60_reg_reg[16]/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
-  Destination:            bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/Mx_1_reg_1789_pp0_iter61_reg_reg[16]/D
+  Destination:            bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/Mx_1_reg_1789_pp0_iter61_reg_reg[16]/D
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
   Path Group:             ap_clk
   Path Type:              Hold (Min at Fast Process Corner)
@@ -770,20 +770,20 @@ Slack (MET) :             0.100ns  (arrival time - required time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.410     0.410    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/ap_clk
-    SLICE_X43Y95         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/Mx_1_reg_1789_pp0_iter60_reg_reg[16]/C
+                         net (fo=3516, unset)         0.410     0.410    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/ap_clk
+    SLICE_X43Y95         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/Mx_1_reg_1789_pp0_iter60_reg_reg[16]/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X43Y95         FDRE (Prop_fdre_C_Q)         0.141     0.551 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/Mx_1_reg_1789_pp0_iter60_reg_reg[16]/Q
-                         net (fo=1, routed)           0.056     0.607    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/Mx_1_reg_1789_pp0_iter60_reg[16]
-    SLICE_X43Y95         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/Mx_1_reg_1789_pp0_iter61_reg_reg[16]/D
+    SLICE_X43Y95         FDRE (Prop_fdre_C_Q)         0.141     0.551 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/Mx_1_reg_1789_pp0_iter60_reg_reg[16]/Q
+                         net (fo=1, routed)           0.056     0.607    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/Mx_1_reg_1789_pp0_iter60_reg[16]
+    SLICE_X43Y95         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/Mx_1_reg_1789_pp0_iter61_reg_reg[16]/D
   -------------------------------------------------------------------    -------------------
 
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.432     0.432    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/ap_clk
-    SLICE_X43Y95         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/Mx_1_reg_1789_pp0_iter61_reg_reg[16]/C
+                         net (fo=3516, unset)         0.432     0.432    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/ap_clk
+    SLICE_X43Y95         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/Mx_1_reg_1789_pp0_iter61_reg_reg[16]/C
                          clock pessimism              0.000     0.432    
-    SLICE_X43Y95         FDRE (Hold_fdre_C_D)         0.075     0.507    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/Mx_1_reg_1789_pp0_iter61_reg_reg[16]
+    SLICE_X43Y95         FDRE (Hold_fdre_C_D)         0.075     0.507    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/Mx_1_reg_1789_pp0_iter61_reg_reg[16]
   -------------------------------------------------------------------
                          required time                         -0.507    
                          arrival time                           0.607    
@@ -791,9 +791,9 @@ Slack (MET) :             0.100ns  (arrival time - required time)
                          slack                                  0.100    
 
 Slack (MET) :             0.100ns  (arrival time - required time)
-  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/conv1_reg_1651_reg[46]/C
+  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/conv1_reg_1651_reg[46]/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
-  Destination:            bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/dmul_64ns_64ns_64_7_max_dsp_1_U10/din0_buf1_reg[46]/D
+  Destination:            bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/dmul_64ns_64ns_64_7_max_dsp_1_U10/din0_buf1_reg[46]/D
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
   Path Group:             ap_clk
   Path Type:              Hold (Min at Fast Process Corner)
@@ -809,20 +809,20 @@ Slack (MET) :             0.100ns  (arrival time - required time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.410     0.410    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/ap_clk
-    SLICE_X43Y77         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/conv1_reg_1651_reg[46]/C
+                         net (fo=3516, unset)         0.410     0.410    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/ap_clk
+    SLICE_X43Y77         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/conv1_reg_1651_reg[46]/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X43Y77         FDRE (Prop_fdre_C_Q)         0.141     0.551 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/conv1_reg_1651_reg[46]/Q
-                         net (fo=1, routed)           0.056     0.607    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/dmul_64ns_64ns_64_7_max_dsp_1_U10/Q[46]
-    SLICE_X43Y77         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/dmul_64ns_64ns_64_7_max_dsp_1_U10/din0_buf1_reg[46]/D
+    SLICE_X43Y77         FDRE (Prop_fdre_C_Q)         0.141     0.551 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/conv1_reg_1651_reg[46]/Q
+                         net (fo=1, routed)           0.056     0.607    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/dmul_64ns_64ns_64_7_max_dsp_1_U10/Q[46]
+    SLICE_X43Y77         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/dmul_64ns_64ns_64_7_max_dsp_1_U10/din0_buf1_reg[46]/D
   -------------------------------------------------------------------    -------------------
 
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.432     0.432    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/dmul_64ns_64ns_64_7_max_dsp_1_U10/ap_clk
-    SLICE_X43Y77         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/dmul_64ns_64ns_64_7_max_dsp_1_U10/din0_buf1_reg[46]/C
+                         net (fo=3516, unset)         0.432     0.432    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/dmul_64ns_64ns_64_7_max_dsp_1_U10/ap_clk
+    SLICE_X43Y77         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/dmul_64ns_64ns_64_7_max_dsp_1_U10/din0_buf1_reg[46]/C
                          clock pessimism              0.000     0.432    
-    SLICE_X43Y77         FDRE (Hold_fdre_C_D)         0.075     0.507    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/dmul_64ns_64ns_64_7_max_dsp_1_U10/din0_buf1_reg[46]
+    SLICE_X43Y77         FDRE (Hold_fdre_C_D)         0.075     0.507    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/dmul_64ns_64ns_64_7_max_dsp_1_U10/din0_buf1_reg[46]
   -------------------------------------------------------------------
                          required time                         -0.507    
                          arrival time                           0.607    
@@ -830,9 +830,9 @@ Slack (MET) :             0.100ns  (arrival time - required time)
                          slack                                  0.100    
 
 Slack (MET) :             0.100ns  (arrival time - required time)
-  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/conv1_reg_1651_reg[56]/C
+  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/conv1_reg_1651_reg[56]/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
-  Destination:            bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/dmul_64ns_64ns_64_7_max_dsp_1_U10/din0_buf1_reg[56]/D
+  Destination:            bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/dmul_64ns_64ns_64_7_max_dsp_1_U10/din0_buf1_reg[56]/D
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
   Path Group:             ap_clk
   Path Type:              Hold (Min at Fast Process Corner)
@@ -848,20 +848,20 @@ Slack (MET) :             0.100ns  (arrival time - required time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.410     0.410    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/ap_clk
-    SLICE_X45Y76         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/conv1_reg_1651_reg[56]/C
+                         net (fo=3516, unset)         0.410     0.410    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/ap_clk
+    SLICE_X45Y76         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/conv1_reg_1651_reg[56]/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X45Y76         FDRE (Prop_fdre_C_Q)         0.141     0.551 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/conv1_reg_1651_reg[56]/Q
-                         net (fo=1, routed)           0.056     0.607    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/dmul_64ns_64ns_64_7_max_dsp_1_U10/Q[56]
-    SLICE_X45Y76         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/dmul_64ns_64ns_64_7_max_dsp_1_U10/din0_buf1_reg[56]/D
+    SLICE_X45Y76         FDRE (Prop_fdre_C_Q)         0.141     0.551 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/conv1_reg_1651_reg[56]/Q
+                         net (fo=1, routed)           0.056     0.607    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/dmul_64ns_64ns_64_7_max_dsp_1_U10/Q[56]
+    SLICE_X45Y76         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/dmul_64ns_64ns_64_7_max_dsp_1_U10/din0_buf1_reg[56]/D
   -------------------------------------------------------------------    -------------------
 
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.432     0.432    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/dmul_64ns_64ns_64_7_max_dsp_1_U10/ap_clk
-    SLICE_X45Y76         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/dmul_64ns_64ns_64_7_max_dsp_1_U10/din0_buf1_reg[56]/C
+                         net (fo=3516, unset)         0.432     0.432    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/dmul_64ns_64ns_64_7_max_dsp_1_U10/ap_clk
+    SLICE_X45Y76         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/dmul_64ns_64ns_64_7_max_dsp_1_U10/din0_buf1_reg[56]/C
                          clock pessimism              0.000     0.432    
-    SLICE_X45Y76         FDRE (Hold_fdre_C_D)         0.075     0.507    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/dmul_64ns_64ns_64_7_max_dsp_1_U10/din0_buf1_reg[56]
+    SLICE_X45Y76         FDRE (Hold_fdre_C_D)         0.075     0.507    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/dmul_64ns_64ns_64_7_max_dsp_1_U10/din0_buf1_reg[56]
   -------------------------------------------------------------------
                          required time                         -0.507    
                          arrival time                           0.607    
@@ -869,9 +869,9 @@ Slack (MET) :             0.100ns  (arrival time - required time)
                          slack                                  0.100    
 
 Slack (MET) :             0.100ns  (arrival time - required time)
-  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/add_reg_1646_reg[22]/C
+  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/add_reg_1646_reg[22]/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
-  Destination:            bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fpext_32ns_64_2_no_dsp_1_U8/din0_buf1_reg[22]/D
+  Destination:            bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/fpext_32ns_64_2_no_dsp_1_U8/din0_buf1_reg[22]/D
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
   Path Group:             ap_clk
   Path Type:              Hold (Min at Fast Process Corner)
@@ -887,20 +887,20 @@ Slack (MET) :             0.100ns  (arrival time - required time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.410     0.410    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/ap_clk
-    SLICE_X43Y76         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/add_reg_1646_reg[22]/C
+                         net (fo=3516, unset)         0.410     0.410    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/ap_clk
+    SLICE_X43Y76         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/add_reg_1646_reg[22]/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X43Y76         FDRE (Prop_fdre_C_Q)         0.141     0.551 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/add_reg_1646_reg[22]/Q
-                         net (fo=1, routed)           0.056     0.607    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fpext_32ns_64_2_no_dsp_1_U8/Q[22]
-    SLICE_X43Y76         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fpext_32ns_64_2_no_dsp_1_U8/din0_buf1_reg[22]/D
+    SLICE_X43Y76         FDRE (Prop_fdre_C_Q)         0.141     0.551 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/add_reg_1646_reg[22]/Q
+                         net (fo=1, routed)           0.056     0.607    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/fpext_32ns_64_2_no_dsp_1_U8/Q[22]
+    SLICE_X43Y76         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/fpext_32ns_64_2_no_dsp_1_U8/din0_buf1_reg[22]/D
   -------------------------------------------------------------------    -------------------
 
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.432     0.432    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fpext_32ns_64_2_no_dsp_1_U8/ap_clk
-    SLICE_X43Y76         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fpext_32ns_64_2_no_dsp_1_U8/din0_buf1_reg[22]/C
+                         net (fo=3516, unset)         0.432     0.432    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/fpext_32ns_64_2_no_dsp_1_U8/ap_clk
+    SLICE_X43Y76         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/fpext_32ns_64_2_no_dsp_1_U8/din0_buf1_reg[22]/C
                          clock pessimism              0.000     0.432    
-    SLICE_X43Y76         FDRE (Hold_fdre_C_D)         0.075     0.507    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/fpext_32ns_64_2_no_dsp_1_U8/din0_buf1_reg[22]
+    SLICE_X43Y76         FDRE (Hold_fdre_C_D)         0.075     0.507    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/fpext_32ns_64_2_no_dsp_1_U8/din0_buf1_reg[22]
   -------------------------------------------------------------------
                          required time                         -0.507    
                          arrival time                           0.607    
@@ -908,7 +908,7 @@ Slack (MET) :             0.100ns  (arrival time - required time)
                          slack                                  0.100    
 
 Slack (MET) :             0.101ns  (arrival time - required time)
-  Source:                 bd_0_i/hls_inst/inst/k_reg_200_reg[14]/C
+  Source:                 bd_0_i/hls_inst/inst/k_reg_204_reg[14]/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
   Destination:            bd_0_i/hls_inst/inst/fmul_32ns_32ns_32_4_max_dsp_1_U52/din0_buf1_reg[14]/D
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
@@ -927,12 +927,12 @@ Slack (MET) :             0.101ns  (arrival time - required time)
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
                          net (fo=3516, unset)         0.410     0.410    bd_0_i/hls_inst/inst/ap_clk
-    SLICE_X43Y66         FDRE                                         r  bd_0_i/hls_inst/inst/k_reg_200_reg[14]/C
+    SLICE_X43Y66         FDRE                                         r  bd_0_i/hls_inst/inst/k_reg_204_reg[14]/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X43Y66         FDRE (Prop_fdre_C_Q)         0.141     0.551 r  bd_0_i/hls_inst/inst/k_reg_200_reg[14]/Q
+    SLICE_X43Y66         FDRE (Prop_fdre_C_Q)         0.141     0.551 r  bd_0_i/hls_inst/inst/k_reg_204_reg[14]/Q
                          net (fo=1, routed)           0.056     0.607    bd_0_i/hls_inst/inst/fmul_32ns_32ns_32_4_max_dsp_1_U52/din0_buf1_reg[31]_0[14]
     SLICE_X42Y66         LUT4 (Prop_lut4_I3_O)        0.045     0.652 r  bd_0_i/hls_inst/inst/fmul_32ns_32ns_32_4_max_dsp_1_U52/din0_buf1[14]_i_1__0/O
-                         net (fo=1, routed)           0.000     0.652    bd_0_i/hls_inst/inst/fmul_32ns_32ns_32_4_max_dsp_1_U52/grp_fu_116_p0[14]
+                         net (fo=1, routed)           0.000     0.652    bd_0_i/hls_inst/inst/fmul_32ns_32ns_32_4_max_dsp_1_U52/grp_fu_120_p0[14]
     SLICE_X42Y66         FDRE                                         r  bd_0_i/hls_inst/inst/fmul_32ns_32ns_32_4_max_dsp_1_U52/din0_buf1_reg[14]/D
   -------------------------------------------------------------------    -------------------
 
@@ -949,9 +949,9 @@ Slack (MET) :             0.101ns  (arrival time - required time)
                          slack                                  0.101    
 
 Slack (MET) :             0.101ns  (arrival time - required time)
-  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/select_ln60_reg_1593_reg[9]/C
+  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/select_ln60_reg_1593_reg[9]/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
-  Destination:            bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/out_r_addr_reg_1626_pp0_iter34_reg_reg[9]_srl32/D
+  Destination:            bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/out_r_addr_reg_1626_pp0_iter34_reg_reg[9]_srl32/D
                             (rising edge-triggered cell SRLC32E clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
   Path Group:             ap_clk
   Path Type:              Hold (Min at Fast Process Corner)
@@ -967,21 +967,21 @@ Slack (MET) :             0.101ns  (arrival time - required time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.410     0.410    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/ap_clk
-    SLICE_X64Y64         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/select_ln60_reg_1593_reg[9]/C
+                         net (fo=3516, unset)         0.410     0.410    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/ap_clk
+    SLICE_X64Y64         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/select_ln60_reg_1593_reg[9]/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X64Y64         FDRE (Prop_fdre_C_Q)         0.128     0.538 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/select_ln60_reg_1593_reg[9]/Q
-                         net (fo=2, routed)           0.124     0.663    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/select_ln60_reg_1593[9]
-    SLICE_X66Y63         SRLC32E                                      r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/out_r_addr_reg_1626_pp0_iter34_reg_reg[9]_srl32/D
+    SLICE_X64Y64         FDRE (Prop_fdre_C_Q)         0.128     0.538 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/select_ln60_reg_1593_reg[9]/Q
+                         net (fo=2, routed)           0.124     0.663    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/select_ln60_reg_1593[9]
+    SLICE_X66Y63         SRLC32E                                      r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/out_r_addr_reg_1626_pp0_iter34_reg_reg[9]_srl32/D
   -------------------------------------------------------------------    -------------------
 
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.432     0.432    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/ap_clk
-    SLICE_X66Y63         SRLC32E                                      r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/out_r_addr_reg_1626_pp0_iter34_reg_reg[9]_srl32/CLK
+                         net (fo=3516, unset)         0.432     0.432    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/ap_clk
+    SLICE_X66Y63         SRLC32E                                      r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/out_r_addr_reg_1626_pp0_iter34_reg_reg[9]_srl32/CLK
                          clock pessimism              0.000     0.432    
     SLICE_X66Y63         SRLC32E (Hold_srlc32e_CLK_D)
-                                                      0.130     0.562    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/out_r_addr_reg_1626_pp0_iter34_reg_reg[9]_srl32
+                                                      0.130     0.562    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/out_r_addr_reg_1626_pp0_iter34_reg_reg[9]_srl32
   -------------------------------------------------------------------
                          required time                         -0.562    
                          arrival time                           0.663    
@@ -989,9 +989,9 @@ Slack (MET) :             0.101ns  (arrival time - required time)
                          slack                                  0.101    
 
 Slack (MET) :             0.103ns  (arrival time - required time)
-  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/select_ln60_reg_1593_reg[7]/C
+  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/select_ln60_reg_1593_reg[7]/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
-  Destination:            bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/out_r_addr_reg_1626_pp0_iter34_reg_reg[7]_srl32/D
+  Destination:            bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/out_r_addr_reg_1626_pp0_iter34_reg_reg[7]_srl32/D
                             (rising edge-triggered cell SRLC32E clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
   Path Group:             ap_clk
   Path Type:              Hold (Min at Fast Process Corner)
@@ -1007,21 +1007,21 @@ Slack (MET) :             0.103ns  (arrival time - required time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.410     0.410    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/ap_clk
-    SLICE_X65Y63         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/select_ln60_reg_1593_reg[7]/C
+                         net (fo=3516, unset)         0.410     0.410    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/ap_clk
+    SLICE_X65Y63         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/select_ln60_reg_1593_reg[7]/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X65Y63         FDRE (Prop_fdre_C_Q)         0.141     0.551 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/select_ln60_reg_1593_reg[7]/Q
-                         net (fo=2, routed)           0.166     0.717    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/select_ln60_reg_1593[7]
-    SLICE_X66Y61         SRLC32E                                      r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/out_r_addr_reg_1626_pp0_iter34_reg_reg[7]_srl32/D
+    SLICE_X65Y63         FDRE (Prop_fdre_C_Q)         0.141     0.551 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/select_ln60_reg_1593_reg[7]/Q
+                         net (fo=2, routed)           0.166     0.717    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/select_ln60_reg_1593[7]
+    SLICE_X66Y61         SRLC32E                                      r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/out_r_addr_reg_1626_pp0_iter34_reg_reg[7]_srl32/D
   -------------------------------------------------------------------    -------------------
 
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.432     0.432    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/ap_clk
-    SLICE_X66Y61         SRLC32E                                      r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/out_r_addr_reg_1626_pp0_iter34_reg_reg[7]_srl32/CLK
+                         net (fo=3516, unset)         0.432     0.432    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/ap_clk
+    SLICE_X66Y61         SRLC32E                                      r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/out_r_addr_reg_1626_pp0_iter34_reg_reg[7]_srl32/CLK
                          clock pessimism              0.000     0.432    
     SLICE_X66Y61         SRLC32E (Hold_srlc32e_CLK_D)
-                                                      0.183     0.615    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/out_r_addr_reg_1626_pp0_iter34_reg_reg[7]_srl32
+                                                      0.183     0.615    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/out_r_addr_reg_1626_pp0_iter34_reg_reg[7]_srl32
   -------------------------------------------------------------------
                          required time                         -0.615    
                          arrival time                           0.717    
@@ -1029,9 +1029,9 @@ Slack (MET) :             0.103ns  (arrival time - required time)
                          slack                                  0.103    
 
 Slack (MET) :             0.104ns  (arrival time - required time)
-  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/conv1_reg_1651_reg[57]/C
+  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/conv1_reg_1651_reg[57]/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
-  Destination:            bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/dmul_64ns_64ns_64_7_max_dsp_1_U10/din0_buf1_reg[57]/D
+  Destination:            bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/dmul_64ns_64ns_64_7_max_dsp_1_U10/din0_buf1_reg[57]/D
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
   Path Group:             ap_clk
   Path Type:              Hold (Min at Fast Process Corner)
@@ -1047,20 +1047,20 @@ Slack (MET) :             0.104ns  (arrival time - required time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.410     0.410    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/ap_clk
-    SLICE_X43Y77         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/conv1_reg_1651_reg[57]/C
+                         net (fo=3516, unset)         0.410     0.410    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/ap_clk
+    SLICE_X43Y77         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/conv1_reg_1651_reg[57]/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X43Y77         FDRE (Prop_fdre_C_Q)         0.141     0.551 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/conv1_reg_1651_reg[57]/Q
-                         net (fo=1, routed)           0.056     0.607    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/dmul_64ns_64ns_64_7_max_dsp_1_U10/Q[57]
-    SLICE_X43Y77         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/dmul_64ns_64ns_64_7_max_dsp_1_U10/din0_buf1_reg[57]/D
+    SLICE_X43Y77         FDRE (Prop_fdre_C_Q)         0.141     0.551 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/conv1_reg_1651_reg[57]/Q
+                         net (fo=1, routed)           0.056     0.607    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/dmul_64ns_64ns_64_7_max_dsp_1_U10/Q[57]
+    SLICE_X43Y77         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/dmul_64ns_64ns_64_7_max_dsp_1_U10/din0_buf1_reg[57]/D
   -------------------------------------------------------------------    -------------------
 
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.432     0.432    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/dmul_64ns_64ns_64_7_max_dsp_1_U10/ap_clk
-    SLICE_X43Y77         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/dmul_64ns_64ns_64_7_max_dsp_1_U10/din0_buf1_reg[57]/C
+                         net (fo=3516, unset)         0.432     0.432    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/dmul_64ns_64ns_64_7_max_dsp_1_U10/ap_clk
+    SLICE_X43Y77         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/dmul_64ns_64ns_64_7_max_dsp_1_U10/din0_buf1_reg[57]/C
                          clock pessimism              0.000     0.432    
-    SLICE_X43Y77         FDRE (Hold_fdre_C_D)         0.071     0.503    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/dmul_64ns_64ns_64_7_max_dsp_1_U10/din0_buf1_reg[57]
+    SLICE_X43Y77         FDRE (Hold_fdre_C_D)         0.071     0.503    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/dmul_64ns_64ns_64_7_max_dsp_1_U10/din0_buf1_reg[57]
   -------------------------------------------------------------------
                          required time                         -0.503    
                          arrival time                           0.607    
@@ -1068,9 +1068,9 @@ Slack (MET) :             0.104ns  (arrival time - required time)
                          slack                                  0.104    
 
 Slack (MET) :             0.104ns  (arrival time - required time)
-  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/conv1_reg_1651_reg[58]/C
+  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/conv1_reg_1651_reg[58]/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
-  Destination:            bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/dmul_64ns_64ns_64_7_max_dsp_1_U10/din0_buf1_reg[58]/D
+  Destination:            bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/dmul_64ns_64ns_64_7_max_dsp_1_U10/din0_buf1_reg[58]/D
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
   Path Group:             ap_clk
   Path Type:              Hold (Min at Fast Process Corner)
@@ -1086,20 +1086,20 @@ Slack (MET) :             0.104ns  (arrival time - required time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.410     0.410    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/ap_clk
-    SLICE_X45Y76         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/conv1_reg_1651_reg[58]/C
+                         net (fo=3516, unset)         0.410     0.410    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/ap_clk
+    SLICE_X45Y76         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/conv1_reg_1651_reg[58]/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X45Y76         FDRE (Prop_fdre_C_Q)         0.141     0.551 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/conv1_reg_1651_reg[58]/Q
-                         net (fo=1, routed)           0.056     0.607    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/dmul_64ns_64ns_64_7_max_dsp_1_U10/Q[58]
-    SLICE_X45Y76         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/dmul_64ns_64ns_64_7_max_dsp_1_U10/din0_buf1_reg[58]/D
+    SLICE_X45Y76         FDRE (Prop_fdre_C_Q)         0.141     0.551 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/conv1_reg_1651_reg[58]/Q
+                         net (fo=1, routed)           0.056     0.607    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/dmul_64ns_64ns_64_7_max_dsp_1_U10/Q[58]
+    SLICE_X45Y76         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/dmul_64ns_64ns_64_7_max_dsp_1_U10/din0_buf1_reg[58]/D
   -------------------------------------------------------------------    -------------------
 
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.432     0.432    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/dmul_64ns_64ns_64_7_max_dsp_1_U10/ap_clk
-    SLICE_X45Y76         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/dmul_64ns_64ns_64_7_max_dsp_1_U10/din0_buf1_reg[58]/C
+                         net (fo=3516, unset)         0.432     0.432    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/dmul_64ns_64ns_64_7_max_dsp_1_U10/ap_clk
+    SLICE_X45Y76         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/dmul_64ns_64ns_64_7_max_dsp_1_U10/din0_buf1_reg[58]/C
                          clock pessimism              0.000     0.432    
-    SLICE_X45Y76         FDRE (Hold_fdre_C_D)         0.071     0.503    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/dmul_64ns_64ns_64_7_max_dsp_1_U10/din0_buf1_reg[58]
+    SLICE_X45Y76         FDRE (Hold_fdre_C_D)         0.071     0.503    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/dmul_64ns_64ns_64_7_max_dsp_1_U10/din0_buf1_reg[58]
   -------------------------------------------------------------------
                          required time                         -0.503    
                          arrival time                           0.607    
@@ -1120,12 +1120,12 @@ Sources:            { ap_clk }
 Check Type        Corner  Lib Pin      Reference Pin  Required(ns)  Actual(ns)  Slack(ns)  Location      Pin
 Min Period        n/a     DSP48E1/CLK  n/a            3.884         10.000      6.116      DSP48_X2Y14   bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_dmul_64ns_64ns_64_7_max_dsp_1/bd_0_hls_inst_0_chirp_dmul_64ns_64ns_64_7_max_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
 Min Period        n/a     DSP48E1/CLK  n/a            3.884         10.000      6.116      DSP48_X2Y17   bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_dmul_64ns_64ns_64_7_max_dsp_1/bd_0_hls_inst_0_chirp_dmul_64ns_64ns_64_7_max_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-Min Period        n/a     DSP48E1/CLK  n/a            3.884         10.000      6.116      DSP48_X3Y37   bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/mul_15ns_15s_30_1_1_U19/tmp_product/CLK
-Min Period        n/a     DSP48E1/CLK  n/a            3.884         10.000      6.116      DSP48_X3Y36   bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/mul_23s_22ns_45_1_1_U11/tmp_product__0/CLK
-Min Period        n/a     DSP48E1/CLK  n/a            3.884         10.000      6.116      DSP48_X2Y42   bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/mul_30s_29ns_58_2_1_U12/buff0_reg/CLK
-Min Period        n/a     DSP48E1/CLK  n/a            3.884         10.000      6.116      DSP48_X2Y32   bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/mul_80s_24ns_80_5_1_U13/buff0_reg/CLK
+Min Period        n/a     DSP48E1/CLK  n/a            3.884         10.000      6.116      DSP48_X3Y37   bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/mul_15ns_15s_30_1_1_U19/tmp_product/CLK
+Min Period        n/a     DSP48E1/CLK  n/a            3.884         10.000      6.116      DSP48_X3Y36   bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/mul_23s_22ns_45_1_1_U11/tmp_product__0/CLK
+Min Period        n/a     DSP48E1/CLK  n/a            3.884         10.000      6.116      DSP48_X2Y42   bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/mul_30s_29ns_58_2_1_U12/buff0_reg/CLK
+Min Period        n/a     DSP48E1/CLK  n/a            3.884         10.000      6.116      DSP48_X2Y32   bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/mul_80s_24ns_80_5_1_U13/buff0_reg/CLK
 Min Period        n/a     DSP48E1/CLK  n/a            3.884         10.000      6.116      DSP48_X3Y25   bd_0_i/hls_inst/inst/mul_31ns_31ns_62_2_1_U54/buff0_reg/CLK
-Min Period        n/a     DSP48E1/CLK  n/a            3.687         10.000      6.313      DSP48_X2Y38   bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/mul_30s_29ns_58_2_1_U12/buff0_reg__0/CLK
+Min Period        n/a     DSP48E1/CLK  n/a            3.687         10.000      6.313      DSP48_X2Y38   bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/mul_30s_29ns_58_2_1_U12/buff0_reg__0/CLK
 Min Period        n/a     DSP48E1/CLK  n/a            3.687         10.000      6.313      DSP48_X4Y25   bd_0_i/hls_inst/inst/mul_31ns_31ns_62_2_1_U54/buff0_reg__0/CLK
 Min Period        n/a     DSP48E1/CLK  n/a            2.545         10.000      7.455      DSP48_X2Y23   bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_fmul_32ns_32ns_32_4_max_dsp_1__xdcDup__1/bd_0_hls_inst_0_chirp_fmul_32ns_32ns_32_4_max_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
 Low Pulse Width   Slow    SRL16E/CLK   n/a            0.980         5.000       4.020      SLICE_X50Y70  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_fdiv_32ns_32ns_32_16_no_dsp_1/bd_0_hls_inst_0_chirp_fdiv_32ns_32ns_32_16_no_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
@@ -1224,7 +1224,7 @@ Min Delay            59 Endpoints
 Max Delay Paths
 --------------------------------------------------------------------------------------
 Slack:                    inf
-  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/C
+  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
   Destination:            out_r_d0[17]
                             (output port)
@@ -1242,18 +1242,18 @@ Slack:                    inf
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.973     0.973    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/ap_clk
-    SLICE_X38Y76         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/C
+                         net (fo=3516, unset)         0.973     0.973    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/ap_clk
+    SLICE_X38Y76         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X38Y76         FDRE (Prop_fdre_C_Q)         0.478     1.451 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/Q
-                         net (fo=32, routed)          2.238     3.689    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/and_ln75_1_reg_1622_pp0_iter67_reg[0]
-    SLICE_X58Y92         LUT3 (Prop_lut3_I1_O)        0.319     4.008 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/out_r_d0[17]_INST_0/O
+    SLICE_X38Y76         FDRE (Prop_fdre_C_Q)         0.478     1.451 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/Q
+                         net (fo=32, routed)          2.238     3.689    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/and_ln75_1_reg_1622_pp0_iter67_reg[0]
+    SLICE_X58Y92         LUT3 (Prop_lut3_I1_O)        0.319     4.008 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/out_r_d0[17]_INST_0/O
                          net (fo=0)                   0.973     4.981    out_r_d0[17]
                                                                       r  out_r_d0[17] (OUT)
   -------------------------------------------------------------------    -------------------
 
 Slack:                    inf
-  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/C
+  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
   Destination:            out_r_d0[9]
                             (output port)
@@ -1271,18 +1271,18 @@ Slack:                    inf
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.973     0.973    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/ap_clk
-    SLICE_X38Y76         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/C
+                         net (fo=3516, unset)         0.973     0.973    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/ap_clk
+    SLICE_X38Y76         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X38Y76         FDRE (Prop_fdre_C_Q)         0.478     1.451 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/Q
-                         net (fo=32, routed)          2.218     3.669    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/and_ln75_1_reg_1622_pp0_iter67_reg[0]
-    SLICE_X62Y93         LUT3 (Prop_lut3_I1_O)        0.319     3.988 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/out_r_d0[9]_INST_0/O
+    SLICE_X38Y76         FDRE (Prop_fdre_C_Q)         0.478     1.451 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/Q
+                         net (fo=32, routed)          2.218     3.669    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/and_ln75_1_reg_1622_pp0_iter67_reg[0]
+    SLICE_X62Y93         LUT3 (Prop_lut3_I1_O)        0.319     3.988 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/out_r_d0[9]_INST_0/O
                          net (fo=0)                   0.973     4.961    out_r_d0[9]
                                                                       r  out_r_d0[9] (OUT)
   -------------------------------------------------------------------    -------------------
 
 Slack:                    inf
-  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/C
+  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
   Destination:            out_r_d0[16]
                             (output port)
@@ -1300,18 +1300,18 @@ Slack:                    inf
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.973     0.973    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/ap_clk
-    SLICE_X38Y76         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/C
+                         net (fo=3516, unset)         0.973     0.973    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/ap_clk
+    SLICE_X38Y76         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X38Y76         FDRE (Prop_fdre_C_Q)         0.478     1.451 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/Q
-                         net (fo=32, routed)          2.238     3.689    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/and_ln75_1_reg_1622_pp0_iter67_reg[0]
-    SLICE_X58Y92         LUT3 (Prop_lut3_I1_O)        0.295     3.984 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/out_r_d0[16]_INST_0/O
+    SLICE_X38Y76         FDRE (Prop_fdre_C_Q)         0.478     1.451 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/Q
+                         net (fo=32, routed)          2.238     3.689    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/and_ln75_1_reg_1622_pp0_iter67_reg[0]
+    SLICE_X58Y92         LUT3 (Prop_lut3_I1_O)        0.295     3.984 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/out_r_d0[16]_INST_0/O
                          net (fo=0)                   0.973     4.957    out_r_d0[16]
                                                                       r  out_r_d0[16] (OUT)
   -------------------------------------------------------------------    -------------------
 
 Slack:                    inf
-  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/C
+  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
   Destination:            out_r_d0[21]
                             (output port)
@@ -1329,18 +1329,18 @@ Slack:                    inf
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.973     0.973    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/ap_clk
-    SLICE_X38Y76         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/C
+                         net (fo=3516, unset)         0.973     0.973    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/ap_clk
+    SLICE_X38Y76         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X38Y76         FDRE (Prop_fdre_C_Q)         0.478     1.451 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/Q
-                         net (fo=32, routed)          2.190     3.641    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/and_ln75_1_reg_1622_pp0_iter67_reg[0]
-    SLICE_X59Y92         LUT3 (Prop_lut3_I1_O)        0.323     3.964 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/out_r_d0[21]_INST_0/O
+    SLICE_X38Y76         FDRE (Prop_fdre_C_Q)         0.478     1.451 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/Q
+                         net (fo=32, routed)          2.190     3.641    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/and_ln75_1_reg_1622_pp0_iter67_reg[0]
+    SLICE_X59Y92         LUT3 (Prop_lut3_I1_O)        0.323     3.964 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/out_r_d0[21]_INST_0/O
                          net (fo=0)                   0.973     4.937    out_r_d0[21]
                                                                       r  out_r_d0[21] (OUT)
   -------------------------------------------------------------------    -------------------
 
 Slack:                    inf
-  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/C
+  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
   Destination:            out_r_d0[8]
                             (output port)
@@ -1358,18 +1358,18 @@ Slack:                    inf
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.973     0.973    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/ap_clk
-    SLICE_X38Y76         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/C
+                         net (fo=3516, unset)         0.973     0.973    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/ap_clk
+    SLICE_X38Y76         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X38Y76         FDRE (Prop_fdre_C_Q)         0.478     1.451 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/Q
-                         net (fo=32, routed)          2.218     3.669    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/and_ln75_1_reg_1622_pp0_iter67_reg[0]
-    SLICE_X62Y93         LUT3 (Prop_lut3_I1_O)        0.295     3.964 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/out_r_d0[8]_INST_0/O
+    SLICE_X38Y76         FDRE (Prop_fdre_C_Q)         0.478     1.451 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/Q
+                         net (fo=32, routed)          2.218     3.669    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/and_ln75_1_reg_1622_pp0_iter67_reg[0]
+    SLICE_X62Y93         LUT3 (Prop_lut3_I1_O)        0.295     3.964 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/out_r_d0[8]_INST_0/O
                          net (fo=0)                   0.973     4.937    out_r_d0[8]
                                                                       r  out_r_d0[8] (OUT)
   -------------------------------------------------------------------    -------------------
 
 Slack:                    inf
-  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/C
+  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
   Destination:            out_r_d0[13]
                             (output port)
@@ -1387,18 +1387,18 @@ Slack:                    inf
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.973     0.973    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/ap_clk
-    SLICE_X38Y76         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/C
+                         net (fo=3516, unset)         0.973     0.973    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/ap_clk
+    SLICE_X38Y76         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X38Y76         FDRE (Prop_fdre_C_Q)         0.478     1.451 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/Q
-                         net (fo=32, routed)          2.185     3.636    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/and_ln75_1_reg_1622_pp0_iter67_reg[0]
-    SLICE_X60Y92         LUT3 (Prop_lut3_I1_O)        0.321     3.957 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/out_r_d0[13]_INST_0/O
+    SLICE_X38Y76         FDRE (Prop_fdre_C_Q)         0.478     1.451 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/Q
+                         net (fo=32, routed)          2.185     3.636    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/and_ln75_1_reg_1622_pp0_iter67_reg[0]
+    SLICE_X60Y92         LUT3 (Prop_lut3_I1_O)        0.321     3.957 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/out_r_d0[13]_INST_0/O
                          net (fo=0)                   0.973     4.930    out_r_d0[13]
                                                                       r  out_r_d0[13] (OUT)
   -------------------------------------------------------------------    -------------------
 
 Slack:                    inf
-  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/C
+  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
   Destination:            out_r_d0[20]
                             (output port)
@@ -1416,18 +1416,18 @@ Slack:                    inf
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.973     0.973    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/ap_clk
-    SLICE_X38Y76         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/C
+                         net (fo=3516, unset)         0.973     0.973    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/ap_clk
+    SLICE_X38Y76         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X38Y76         FDRE (Prop_fdre_C_Q)         0.478     1.451 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/Q
-                         net (fo=32, routed)          2.190     3.641    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/and_ln75_1_reg_1622_pp0_iter67_reg[0]
-    SLICE_X59Y92         LUT3 (Prop_lut3_I1_O)        0.295     3.936 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/out_r_d0[20]_INST_0/O
+    SLICE_X38Y76         FDRE (Prop_fdre_C_Q)         0.478     1.451 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/Q
+                         net (fo=32, routed)          2.190     3.641    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/and_ln75_1_reg_1622_pp0_iter67_reg[0]
+    SLICE_X59Y92         LUT3 (Prop_lut3_I1_O)        0.295     3.936 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/out_r_d0[20]_INST_0/O
                          net (fo=0)                   0.973     4.909    out_r_d0[20]
                                                                       r  out_r_d0[20] (OUT)
   -------------------------------------------------------------------    -------------------
 
 Slack:                    inf
-  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/C
+  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
   Destination:            out_r_d0[12]
                             (output port)
@@ -1445,18 +1445,18 @@ Slack:                    inf
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.973     0.973    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/ap_clk
-    SLICE_X38Y76         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/C
+                         net (fo=3516, unset)         0.973     0.973    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/ap_clk
+    SLICE_X38Y76         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X38Y76         FDRE (Prop_fdre_C_Q)         0.478     1.451 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/Q
-                         net (fo=32, routed)          2.185     3.636    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/and_ln75_1_reg_1622_pp0_iter67_reg[0]
-    SLICE_X60Y92         LUT3 (Prop_lut3_I1_O)        0.295     3.931 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/out_r_d0[12]_INST_0/O
+    SLICE_X38Y76         FDRE (Prop_fdre_C_Q)         0.478     1.451 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/Q
+                         net (fo=32, routed)          2.185     3.636    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/and_ln75_1_reg_1622_pp0_iter67_reg[0]
+    SLICE_X60Y92         LUT3 (Prop_lut3_I1_O)        0.295     3.931 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/out_r_d0[12]_INST_0/O
                          net (fo=0)                   0.973     4.904    out_r_d0[12]
                                                                       r  out_r_d0[12] (OUT)
   -------------------------------------------------------------------    -------------------
 
 Slack:                    inf
-  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/C
+  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
   Destination:            out_r_d0[1]
                             (output port)
@@ -1474,18 +1474,18 @@ Slack:                    inf
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.973     0.973    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/ap_clk
-    SLICE_X38Y76         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/C
+                         net (fo=3516, unset)         0.973     0.973    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/ap_clk
+    SLICE_X38Y76         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X38Y76         FDRE (Prop_fdre_C_Q)         0.478     1.451 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/Q
-                         net (fo=32, routed)          2.068     3.519    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/and_ln75_1_reg_1622_pp0_iter67_reg[0]
-    SLICE_X62Y92         LUT3 (Prop_lut3_I1_O)        0.319     3.838 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/out_r_d0[1]_INST_0/O
+    SLICE_X38Y76         FDRE (Prop_fdre_C_Q)         0.478     1.451 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/Q
+                         net (fo=32, routed)          2.068     3.519    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/and_ln75_1_reg_1622_pp0_iter67_reg[0]
+    SLICE_X62Y92         LUT3 (Prop_lut3_I1_O)        0.319     3.838 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/out_r_d0[1]_INST_0/O
                          net (fo=0)                   0.973     4.811    out_r_d0[1]
                                                                       r  out_r_d0[1] (OUT)
   -------------------------------------------------------------------    -------------------
 
 Slack:                    inf
-  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/C
+  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
   Destination:            out_r_d0[0]
                             (output port)
@@ -1503,12 +1503,12 @@ Slack:                    inf
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.973     0.973    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/ap_clk
-    SLICE_X38Y76         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/C
+                         net (fo=3516, unset)         0.973     0.973    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/ap_clk
+    SLICE_X38Y76         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X38Y76         FDRE (Prop_fdre_C_Q)         0.478     1.451 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/Q
-                         net (fo=32, routed)          2.068     3.519    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/and_ln75_1_reg_1622_pp0_iter67_reg[0]
-    SLICE_X62Y92         LUT3 (Prop_lut3_I1_O)        0.295     3.814 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/out_r_d0[0]_INST_0/O
+    SLICE_X38Y76         FDRE (Prop_fdre_C_Q)         0.478     1.451 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/and_ln75_1_reg_1622_pp0_iter67_reg_reg[0]/Q
+                         net (fo=32, routed)          2.068     3.519    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/and_ln75_1_reg_1622_pp0_iter67_reg[0]
+    SLICE_X62Y92         LUT3 (Prop_lut3_I1_O)        0.295     3.814 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/out_r_d0[0]_INST_0/O
                          net (fo=0)                   0.973     4.787    out_r_d0[0]
                                                                       r  out_r_d0[0] (OUT)
   -------------------------------------------------------------------    -------------------
@@ -1520,7 +1520,7 @@ Slack:                    inf
 Min Delay Paths
 --------------------------------------------------------------------------------------
 Slack:                    inf
-  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/ap_enable_reg_pp0_iter68_reg/C
+  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/ap_enable_reg_pp0_iter68_reg/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
   Destination:            out_r_ce0
                             (output port)
@@ -1538,16 +1538,16 @@ Slack:                    inf
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.410     0.410    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/ap_clk
-    SLICE_X45Y93         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/ap_enable_reg_pp0_iter68_reg/C
+                         net (fo=3516, unset)         0.410     0.410    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/ap_clk
+    SLICE_X45Y93         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/ap_enable_reg_pp0_iter68_reg/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X45Y93         FDRE (Prop_fdre_C_Q)         0.141     0.551 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/ap_enable_reg_pp0_iter68_reg/Q
+    SLICE_X45Y93         FDRE (Prop_fdre_C_Q)         0.141     0.551 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/ap_enable_reg_pp0_iter68_reg/Q
                          net (fo=0)                   0.410     0.961    out_r_ce0
                                                                       r  out_r_ce0 (OUT)
   -------------------------------------------------------------------    -------------------
 
 Slack:                    inf
-  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/ap_enable_reg_pp0_iter68_reg/C
+  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/ap_enable_reg_pp0_iter68_reg/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
   Destination:            out_r_we0
                             (output port)
@@ -1565,16 +1565,16 @@ Slack:                    inf
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.410     0.410    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/ap_clk
-    SLICE_X45Y93         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/ap_enable_reg_pp0_iter68_reg/C
+                         net (fo=3516, unset)         0.410     0.410    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/ap_clk
+    SLICE_X45Y93         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/ap_enable_reg_pp0_iter68_reg/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X45Y93         FDRE (Prop_fdre_C_Q)         0.141     0.551 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/ap_enable_reg_pp0_iter68_reg/Q
+    SLICE_X45Y93         FDRE (Prop_fdre_C_Q)         0.141     0.551 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/ap_enable_reg_pp0_iter68_reg/Q
                          net (fo=0)                   0.410     0.961    out_r_we0
                                                                       r  out_r_we0 (OUT)
   -------------------------------------------------------------------    -------------------
 
 Slack:                    inf
-  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/out_r_addr_reg_1626_pp0_iter67_reg_reg[0]/C
+  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/out_r_addr_reg_1626_pp0_iter67_reg_reg[0]/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
   Destination:            out_r_address0[0]
                             (output port)
@@ -1592,16 +1592,16 @@ Slack:                    inf
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.410     0.410    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/ap_clk
-    SLICE_X66Y62         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/out_r_addr_reg_1626_pp0_iter67_reg_reg[0]/C
+                         net (fo=3516, unset)         0.410     0.410    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/ap_clk
+    SLICE_X66Y62         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/out_r_addr_reg_1626_pp0_iter67_reg_reg[0]/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X66Y62         FDRE (Prop_fdre_C_Q)         0.164     0.574 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/out_r_addr_reg_1626_pp0_iter67_reg_reg[0]/Q
+    SLICE_X66Y62         FDRE (Prop_fdre_C_Q)         0.164     0.574 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/out_r_addr_reg_1626_pp0_iter67_reg_reg[0]/Q
                          net (fo=0)                   0.410     0.984    out_r_address0[0]
                                                                       r  out_r_address0[0] (OUT)
   -------------------------------------------------------------------    -------------------
 
 Slack:                    inf
-  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/out_r_addr_reg_1626_pp0_iter67_reg_reg[10]/C
+  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/out_r_addr_reg_1626_pp0_iter67_reg_reg[10]/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
   Destination:            out_r_address0[10]
                             (output port)
@@ -1619,16 +1619,16 @@ Slack:                    inf
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.410     0.410    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/ap_clk
-    SLICE_X66Y64         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/out_r_addr_reg_1626_pp0_iter67_reg_reg[10]/C
+                         net (fo=3516, unset)         0.410     0.410    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/ap_clk
+    SLICE_X66Y64         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/out_r_addr_reg_1626_pp0_iter67_reg_reg[10]/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X66Y64         FDRE (Prop_fdre_C_Q)         0.164     0.574 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/out_r_addr_reg_1626_pp0_iter67_reg_reg[10]/Q
+    SLICE_X66Y64         FDRE (Prop_fdre_C_Q)         0.164     0.574 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/out_r_addr_reg_1626_pp0_iter67_reg_reg[10]/Q
                          net (fo=0)                   0.410     0.984    out_r_address0[10]
                                                                       r  out_r_address0[10] (OUT)
   -------------------------------------------------------------------    -------------------
 
 Slack:                    inf
-  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/out_r_addr_reg_1626_pp0_iter67_reg_reg[11]/C
+  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/out_r_addr_reg_1626_pp0_iter67_reg_reg[11]/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
   Destination:            out_r_address0[11]
                             (output port)
@@ -1646,16 +1646,16 @@ Slack:                    inf
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.410     0.410    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/ap_clk
-    SLICE_X62Y64         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/out_r_addr_reg_1626_pp0_iter67_reg_reg[11]/C
+                         net (fo=3516, unset)         0.410     0.410    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/ap_clk
+    SLICE_X62Y64         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/out_r_addr_reg_1626_pp0_iter67_reg_reg[11]/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X62Y64         FDRE (Prop_fdre_C_Q)         0.164     0.574 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/out_r_addr_reg_1626_pp0_iter67_reg_reg[11]/Q
+    SLICE_X62Y64         FDRE (Prop_fdre_C_Q)         0.164     0.574 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/out_r_addr_reg_1626_pp0_iter67_reg_reg[11]/Q
                          net (fo=0)                   0.410     0.984    out_r_address0[11]
                                                                       r  out_r_address0[11] (OUT)
   -------------------------------------------------------------------    -------------------
 
 Slack:                    inf
-  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/out_r_addr_reg_1626_pp0_iter67_reg_reg[12]/C
+  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/out_r_addr_reg_1626_pp0_iter67_reg_reg[12]/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
   Destination:            out_r_address0[12]
                             (output port)
@@ -1673,16 +1673,16 @@ Slack:                    inf
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.410     0.410    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/ap_clk
-    SLICE_X62Y65         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/out_r_addr_reg_1626_pp0_iter67_reg_reg[12]/C
+                         net (fo=3516, unset)         0.410     0.410    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/ap_clk
+    SLICE_X62Y65         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/out_r_addr_reg_1626_pp0_iter67_reg_reg[12]/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X62Y65         FDRE (Prop_fdre_C_Q)         0.164     0.574 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/out_r_addr_reg_1626_pp0_iter67_reg_reg[12]/Q
+    SLICE_X62Y65         FDRE (Prop_fdre_C_Q)         0.164     0.574 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/out_r_addr_reg_1626_pp0_iter67_reg_reg[12]/Q
                          net (fo=0)                   0.410     0.984    out_r_address0[12]
                                                                       r  out_r_address0[12] (OUT)
   -------------------------------------------------------------------    -------------------
 
 Slack:                    inf
-  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/out_r_addr_reg_1626_pp0_iter67_reg_reg[13]/C
+  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/out_r_addr_reg_1626_pp0_iter67_reg_reg[13]/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
   Destination:            out_r_address0[13]
                             (output port)
@@ -1700,16 +1700,16 @@ Slack:                    inf
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.410     0.410    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/ap_clk
-    SLICE_X66Y66         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/out_r_addr_reg_1626_pp0_iter67_reg_reg[13]/C
+                         net (fo=3516, unset)         0.410     0.410    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/ap_clk
+    SLICE_X66Y66         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/out_r_addr_reg_1626_pp0_iter67_reg_reg[13]/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X66Y66         FDRE (Prop_fdre_C_Q)         0.164     0.574 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/out_r_addr_reg_1626_pp0_iter67_reg_reg[13]/Q
+    SLICE_X66Y66         FDRE (Prop_fdre_C_Q)         0.164     0.574 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/out_r_addr_reg_1626_pp0_iter67_reg_reg[13]/Q
                          net (fo=0)                   0.410     0.984    out_r_address0[13]
                                                                       r  out_r_address0[13] (OUT)
   -------------------------------------------------------------------    -------------------
 
 Slack:                    inf
-  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/out_r_addr_reg_1626_pp0_iter67_reg_reg[14]/C
+  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/out_r_addr_reg_1626_pp0_iter67_reg_reg[14]/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
   Destination:            out_r_address0[14]
                             (output port)
@@ -1727,16 +1727,16 @@ Slack:                    inf
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.410     0.410    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/ap_clk
-    SLICE_X58Y64         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/out_r_addr_reg_1626_pp0_iter67_reg_reg[14]/C
+                         net (fo=3516, unset)         0.410     0.410    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/ap_clk
+    SLICE_X58Y64         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/out_r_addr_reg_1626_pp0_iter67_reg_reg[14]/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X58Y64         FDRE (Prop_fdre_C_Q)         0.164     0.574 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/out_r_addr_reg_1626_pp0_iter67_reg_reg[14]/Q
+    SLICE_X58Y64         FDRE (Prop_fdre_C_Q)         0.164     0.574 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/out_r_addr_reg_1626_pp0_iter67_reg_reg[14]/Q
                          net (fo=0)                   0.410     0.984    out_r_address0[14]
                                                                       r  out_r_address0[14] (OUT)
   -------------------------------------------------------------------    -------------------
 
 Slack:                    inf
-  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/out_r_addr_reg_1626_pp0_iter67_reg_reg[15]/C
+  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/out_r_addr_reg_1626_pp0_iter67_reg_reg[15]/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
   Destination:            out_r_address0[15]
                             (output port)
@@ -1754,16 +1754,16 @@ Slack:                    inf
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.410     0.410    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/ap_clk
-    SLICE_X62Y64         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/out_r_addr_reg_1626_pp0_iter67_reg_reg[15]/C
+                         net (fo=3516, unset)         0.410     0.410    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/ap_clk
+    SLICE_X62Y64         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/out_r_addr_reg_1626_pp0_iter67_reg_reg[15]/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X62Y64         FDRE (Prop_fdre_C_Q)         0.164     0.574 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/out_r_addr_reg_1626_pp0_iter67_reg_reg[15]/Q
+    SLICE_X62Y64         FDRE (Prop_fdre_C_Q)         0.164     0.574 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/out_r_addr_reg_1626_pp0_iter67_reg_reg[15]/Q
                          net (fo=0)                   0.410     0.984    out_r_address0[15]
                                                                       r  out_r_address0[15] (OUT)
   -------------------------------------------------------------------    -------------------
 
 Slack:                    inf
-  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/out_r_addr_reg_1626_pp0_iter67_reg_reg[16]/C
+  Source:                 bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/out_r_addr_reg_1626_pp0_iter67_reg_reg[16]/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
   Destination:            out_r_address0[16]
                             (output port)
@@ -1781,10 +1781,10 @@ Slack:                    inf
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.410     0.410    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/ap_clk
-    SLICE_X58Y67         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/out_r_addr_reg_1626_pp0_iter67_reg_reg[16]/C
+                         net (fo=3516, unset)         0.410     0.410    bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/ap_clk
+    SLICE_X58Y67         FDRE                                         r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/out_r_addr_reg_1626_pp0_iter67_reg_reg[16]/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X58Y67         FDRE (Prop_fdre_C_Q)         0.164     0.574 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92/out_r_addr_reg_1626_pp0_iter67_reg_reg[16]/Q
+    SLICE_X58Y67         FDRE (Prop_fdre_C_Q)         0.164     0.574 r  bd_0_i/hls_inst/inst/grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96/out_r_addr_reg_1626_pp0_iter67_reg_reg[16]/Q
                          net (fo=0)                   0.410     0.984    out_r_address0[16]
                                                                       r  out_r_address0[16] (OUT)
   -------------------------------------------------------------------    -------------------

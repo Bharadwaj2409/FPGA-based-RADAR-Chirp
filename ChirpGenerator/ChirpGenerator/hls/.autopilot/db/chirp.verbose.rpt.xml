@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'chirp'" level="0">
-<item name = "Date">Tue Aug 18 14:57:56 2026
+<item name = "Date">Tue Aug 18 15:46:52 2026
 </item>
 <item name = "Version">2025.2 (Build 6295257 on Nov 14 2025)</item>
 <item name = "Project">ChirpGenerator</item>
@@ -31,7 +31,7 @@
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
-<column name="grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92">chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2, ?, ?, ?, ?, 0, 0, loop pipeline stp</column>
+<column name="grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96">chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2, ?, ?, ?, ?, 0, 0, loop pipeline stp</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
@@ -62,7 +62,7 @@
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
-<column name="grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92">chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2, 0, 32, 6209, 5023, 0</column>
+<column name="grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96">chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2, 0, 32, 6209, 5023, 0</column>
 <column name="fdiv_32ns_32ns_32_16_no_dsp_1_U53">fdiv_32ns_32ns_32_16_no_dsp_1, 0, 0, 0, 0, 0</column>
 <column name="fmul_32ns_32ns_32_4_max_dsp_1_U52">fmul_32ns_32ns_32_4_max_dsp_1, 0, 3, 143, 321, 0</column>
 <column name="mul_31ns_31ns_62_2_1_U54">mul_31ns_31ns_62_2_1, 0, 4, 141, 48, 0</column>
@@ -82,38 +82,38 @@
 </item>
 <item name = "Expression"><table name="" hasTotal="1">
 <keys size="7">Variable Name, Operation, DSP, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
-<column name="empty_31_fu_153_p2">icmp, 0, 0, 39, 32, 1</column>
-<column name="empty_fu_139_p2">icmp, 0, 0, 39, 32, 1</column>
-<column name="smax1_fu_159_p3">select, 0, 0, 31, 1, 31</column>
-<column name="smax_fu_145_p3">select, 0, 0, 31, 1, 31</column>
+<column name="empty_32_fu_157_p2">icmp, 0, 0, 39, 32, 1</column>
+<column name="empty_fu_143_p2">icmp, 0, 0, 39, 32, 1</column>
+<column name="smax1_fu_163_p3">select, 0, 0, 31, 1, 31</column>
+<column name="smax_fu_149_p3">select, 0, 0, 31, 1, 31</column>
 </table>
 </item>
 <item name = "Multiplexer"><table name="" hasTotal="1">
 <keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
 <column name="ap_NS_fsm">113, 23, 1, 23</column>
-<column name="grp_fu_116_ce">9, 2, 1, 2</column>
-<column name="grp_fu_116_p0">14, 3, 32, 96</column>
-<column name="grp_fu_116_p1">14, 3, 32, 96</column>
-<column name="grp_fu_121_ce">9, 2, 1, 2</column>
-<column name="grp_fu_121_p0">14, 3, 32, 96</column>
-<column name="grp_fu_121_p1">14, 3, 32, 96</column>
+<column name="grp_fu_120_ce">9, 2, 1, 2</column>
+<column name="grp_fu_120_p0">14, 3, 32, 96</column>
+<column name="grp_fu_120_p1">14, 3, 32, 96</column>
+<column name="grp_fu_125_ce">9, 2, 1, 2</column>
+<column name="grp_fu_125_p0">14, 3, 32, 96</column>
+<column name="grp_fu_125_p1">14, 3, 32, 96</column>
 </table>
 </item>
 <item name = "Register"><table name="" hasTotal="1">
 <keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
-<column name="N_SAMPLES_USED_read_reg_205">32, 0, 32, 0</column>
-<column name="Tc_read_reg_188">32, 0, 32, 0</column>
+<column name="N_SAMPLES_USED_read_reg_209">32, 0, 32, 0</column>
+<column name="Tc_read_reg_192">32, 0, 32, 0</column>
 <column name="ap_CS_fsm">22, 0, 22, 0</column>
-<column name="f0_read_reg_240">32, 0, 32, 0</column>
-<column name="fs_read_reg_245">32, 0, 32, 0</column>
-<column name="grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92_ap_start_reg">1, 0, 1, 0</column>
-<column name="k_reg_200">32, 0, 32, 0</column>
-<column name="mul8_reg_230">32, 0, 32, 0</column>
-<column name="mul_ln11_reg_235">62, 0, 62, 0</column>
-<column name="smax1_reg_215">31, 0, 31, 0</column>
-<column name="smax_reg_210">31, 0, 31, 0</column>
-<column name="trunc_ln75_1_reg_255">23, 0, 23, 0</column>
-<column name="trunc_ln75_reg_250">31, 0, 31, 0</column>
+<column name="f0_read_reg_244">32, 0, 32, 0</column>
+<column name="fs_read_reg_249">32, 0, 32, 0</column>
+<column name="grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96_ap_start_reg">1, 0, 1, 0</column>
+<column name="k_reg_204">32, 0, 32, 0</column>
+<column name="mul8_reg_234">32, 0, 32, 0</column>
+<column name="mul_ln11_reg_239">62, 0, 62, 0</column>
+<column name="smax1_reg_219">31, 0, 31, 0</column>
+<column name="smax_reg_214">31, 0, 31, 0</column>
+<column name="trunc_ln75_1_reg_259">23, 0, 23, 0</column>
+<column name="trunc_ln75_reg_254">31, 0, 31, 0</column>
 </table>
 </item>
 </section>

@@ -1,5 +1,4 @@
 INFO: [SIM 2] *************** CSIM start ***************
-   Compiling ../../../../chirp_tb.cpp in debug mode
    Compiling ../../../../chirp.cpp in debug mode
    Generating csim.exe
 FMCW Frame Generated

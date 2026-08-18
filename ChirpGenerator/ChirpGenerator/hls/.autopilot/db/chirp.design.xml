@@ -5,10 +5,10 @@
 <ModuleName>chirp</ModuleName>
 <InstancesList>
 <Instance>
-<InstName>grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_92</InstName>
+<InstName>grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96</InstName>
 <ModuleName>chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2</ModuleName>
 <IsCompInst>true</IsCompInst>
-<ID>92</ID>
+<ID>96</ID>
 </Instance>
 </InstancesList>
 </TopModule>
@@ -154,7 +154,7 @@
 <Attribute>control</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_116_p_din0</name>
+<name>grp_fu_120_p_din0</name>
 <Object>chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -165,7 +165,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_116_p_din1</name>
+<name>grp_fu_120_p_din1</name>
 <Object>chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -176,7 +176,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_116_p_dout0</name>
+<name>grp_fu_120_p_dout0</name>
 <Object>chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -187,7 +187,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_116_p_ce</name>
+<name>grp_fu_120_p_ce</name>
 <Object>chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -198,7 +198,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_121_p_din0</name>
+<name>grp_fu_125_p_din0</name>
 <Object>chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -209,7 +209,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_121_p_din1</name>
+<name>grp_fu_125_p_din1</name>
 <Object>chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -220,7 +220,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_121_p_dout0</name>
+<name>grp_fu_125_p_dout0</name>
 <Object>chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -231,7 +231,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_121_p_ce</name>
+<name>grp_fu_125_p_ce</name>
 <Object>chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2</Object>
 <Type>return value</Type>
 <Scope></Scope>

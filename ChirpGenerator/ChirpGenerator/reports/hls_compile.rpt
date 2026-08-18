@@ -4,7 +4,7 @@
 == Synthesis Summary Report of 'chirp'
 ================================================================
 + General Information: 
-    * Date:           Tue Aug 18 14:57:56 2026
+    * Date:           Tue Aug 18 15:46:52 2026
     * Version:        2025.2 (Build 6295257 on Nov 14 2025)
     * Project:        ChirpGenerator
     * Solution:       hls (Vivado IP Flow Target)
@@ -105,10 +105,10 @@
 | + chirp                                           | 39  |        |                 |           |                          |         |
 |   fdiv_32ns_32ns_32_16_no_dsp_1_U53               |     |        | k               | fdiv      | fabric                   | 15      |
 |   fmul_32ns_32ns_32_4_max_dsp_1_U52               | 3   |        | mul8            | fmul      | maxdsp                   | 3       |
-|   empty_fu_139_p2                                 |     |        | empty           | setgt     | auto                     | 0       |
-|   smax_fu_145_p3                                  |     |        | smax            | select    | auto_sel                 | 0       |
-|   empty_31_fu_153_p2                              |     |        | empty_31        | setgt     | auto                     | 0       |
-|   smax1_fu_159_p3                                 |     |        | smax1           | select    | auto_sel                 | 0       |
+|   empty_fu_143_p2                                 |     |        | empty           | setgt     | auto                     | 0       |
+|   smax_fu_149_p3                                  |     |        | smax            | select    | auto_sel                 | 0       |
+|   empty_32_fu_157_p2                              |     |        | empty_32        | setgt     | auto                     | 0       |
+|   smax1_fu_163_p3                                 |     |        | smax1           | select    | auto_sel                 | 0       |
 |   mul_31ns_31ns_62_2_1_U54                        | 4   |        | mul_ln11        | mul       | auto                     | 1       |
 |  + chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2 | 32  |        |                 |           |                          |         |
 |    icmp_ln60_fu_486_p2                            |     |        | icmp_ln60       | seteq     | auto                     | 0       |
@@ -167,7 +167,7 @@
 |    shift_2_fu_1406_p3                             |     |        | shift_2         | select    | auto_sel                 | 0       |
 |    icmp_ln306_fu_1383_p2                          |     |        | icmp_ln306      | seteq     | auto                     | 0       |
 |    or_ln306_fu_1436_p2                            |     |        | or_ln306        | or        | auto                     | 0       |
-|    empty_30_fu_1464_p3                            |     |        | empty_30        | select    | auto_sel                 | 0       |
+|    empty_31_fu_1464_p3                            |     |        | empty_31        | select    | auto_sel                 | 0       |
 |    sparsemux_33_4_1_1_1_U15                       |     |        | tmp_4_i         | sparsemux | compactencoding_dontcare | 0       |
 |    sparsemux_33_4_1_1_1_U16                       |     |        | tmp_8_i         | sparsemux | compactencoding_dontcare | 0       |
 |    results_sign_fu_995_p3                         |     |        | results_sign    | select    | auto_sel                 | 0       |
@@ -217,20 +217,15 @@
 +--------------+---------+----------------------------------------------------------------+-----------------------+
 
 * Valid Pragma Syntax
-+-----------+-----------------------------+-------------------------+
-| Type      | Options                     | Location                |
-+-----------+-----------------------------+-------------------------+
-| INTERFACE | ap_memory port=out          | in chirp (chirp.cpp:31) |
-| INTERFACE | ap_none port=fs             | in chirp (chirp.cpp:34) |
-| INTERFACE | ap_none port=f0             | in chirp (chirp.cpp:35) |
-| INTERFACE | ap_none port=B              | in chirp (chirp.cpp:36) |
-| INTERFACE | ap_none port=Tc             | in chirp (chirp.cpp:38) |
-| INTERFACE | ap_none port=Ti             | in chirp (chirp.cpp:39) |
-| INTERFACE | ap_none port=Tg             | in chirp (chirp.cpp:40) |
-| INTERFACE | ap_none port=Nframe         | in chirp (chirp.cpp:42) |
-| INTERFACE | ap_none port=N_SAMPLES_USED | in chirp (chirp.cpp:43) |
-| INTERFACE | ap_ctrl_hs port=return      | in chirp (chirp.cpp:46) |
-| PIPELINE  | ii=1                        | in chirp (chirp.cpp:66) |
-+-----------+-----------------------------+-------------------------+
++-----------+------------------------+-------------------------+
+| Type      | Options                | Location                |
++-----------+------------------------+-------------------------+
+| INTERFACE | ap_memory port=out     | in chirp (chirp.cpp:31) |
+| INTERFACE | ap_none port=fs        | in chirp (chirp.cpp:34) |
+| INTERFACE | ap_none port=f0        | in chirp (chirp.cpp:35) |
+| INTERFACE | ap_none port=B         | in chirp (chirp.cpp:36) |
+| INTERFACE | ap_ctrl_hs port=return | in chirp (chirp.cpp:46) |
+| PIPELINE  | ii=1                   | in chirp (chirp.cpp:66) |
++-----------+------------------------+-------------------------+
 
 

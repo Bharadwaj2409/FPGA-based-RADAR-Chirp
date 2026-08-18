@@ -4386,10 +4386,10 @@ if.then:110 %or_ln306 = or i1 %tmp_9, i1 %icmp_ln306
 
 <Node id="180" bw="8" op_0_bw="9">
 <![CDATA[
-if.then:111 %empty_29 = trunc i9 %newexp
+if.then:111 %empty_30 = trunc i9 %newexp
 
 ]]></Node>
-<StgValue><ssdm name="empty_29"/></StgValue>
+<StgValue><ssdm name="empty_30"/></StgValue>
 </operation>
 
 <operation id="298" st_id="68" stage="1" lat="1">
@@ -4442,10 +4442,10 @@ if.then:113 %tmp_6 = partselect i23 @_ssdm_op_PartSelect.i23.i28.i32.i32, i28 %i
 
 <Node id="183" bw="23" op_0_bw="1" op_1_bw="23" op_2_bw="23">
 <![CDATA[
-if.then:114 %empty_30 = select i1 %icmp_ln292, i23 %tmp_5, i23 %tmp_6
+if.then:114 %empty_31 = select i1 %icmp_ln292, i23 %tmp_5, i23 %tmp_6
 
 ]]></Node>
-<StgValue><ssdm name="empty_30"/></StgValue>
+<StgValue><ssdm name="empty_31"/></StgValue>
 </operation>
 
 <operation id="301" st_id="68" stage="1" lat="1">
@@ -4495,7 +4495,7 @@ if.then:126 %or_ln282 = or i1 %icmp_ln282, i1 %or_ln306
 
 <Node id="196" bw="8" op_0_bw="1" op_1_bw="8" op_2_bw="8">
 <![CDATA[
-if.then:127 %results_exp = select i1 %or_ln282, i8 %select_ln282, i8 %empty_29
+if.then:127 %results_exp = select i1 %or_ln282, i8 %select_ln282, i8 %empty_30
 
 ]]></Node>
 <StgValue><ssdm name="results_exp"/></StgValue>
@@ -4531,7 +4531,7 @@ if.then:128 %select_ln282_2 = select i1 %icmp_ln282, i23 8388607, i23 0
 
 <Node id="198" bw="23" op_0_bw="1" op_1_bw="23" op_2_bw="23">
 <![CDATA[
-if.then:129 %results_sig = select i1 %or_ln282, i23 %select_ln282_2, i23 %empty_30
+if.then:129 %results_sig = select i1 %or_ln282, i23 %select_ln282_2, i23 %empty_31
 
 ]]></Node>
 <StgValue><ssdm name="results_sig"/></StgValue>

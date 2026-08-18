@@ -6,13 +6,13 @@
     "def_use_depth": 7,
     "file": "chirp.cpp",
     "fileloc": 11,
-    "instructions": 49,
+    "instructions": 44,
     "memory_accesses": 3,
     "name": "chirp",
     "stores": {
       "T": 2
     },
-    "total_instructions": 394
+    "total_instructions": 389
   },
   "1": {
     "basicblocks": 22,

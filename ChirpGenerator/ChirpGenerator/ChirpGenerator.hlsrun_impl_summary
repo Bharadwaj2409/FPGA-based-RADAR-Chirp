@@ -9,10 +9,10 @@
 <ENTRY>
 {
  "type": "ET_CmdStep",
- "dateTimestamp": "08/18/26 14:58:47",
- "timestampMillis": "1787045327977",
+ "dateTimestamp": "08/18/26 15:58:33",
+ "timestampMillis": "1787048913341",
  "buildStep": {
-  "cmdId": "be3c539a-5809-43c5-9765-9761b733fe8c",
+  "cmdId": "f54dcf61-075d-4d42-bd54-749cf2b07030",
   "name": "vitis-run",
   "logFile": "C:/Users\\vempa\\Documents\\Projects\\RADAR_Chirp_Engine\\ChirpGenerator\\ChirpGenerator\\logs\\ChirpGenerator.steps.log",
   "commandLine": "C:/AMDDesignTools/2025.2/Vitis/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --impl --config C:\\Users\\vempa\\Documents\\Projects\\RADAR_Chirp_Engine\\ChirpGenerator\\hls_config.cfg --work_dir ChirpGenerator ",
@@ -33,10 +33,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "08/18/26 14:58:47",
- "timestampMillis": "1787045327977",
+ "dateTimestamp": "08/18/26 15:58:33",
+ "timestampMillis": "1787048913342",
  "status": {
-  "cmdId": "be3c539a-5809-43c5-9765-9761b733fe8c",
+  "cmdId": "f54dcf61-075d-4d42-bd54-749cf2b07030",
   "state": "CS_RUNNING"
  }
 }
@@ -44,8 +44,8 @@
 <ENTRY>
 {
  "type": "ET_FlowMetaData",
- "dateTimestamp": "08/18/26 14:58:51",
- "timestampMillis": "1787045331604",
+ "dateTimestamp": "08/18/26 15:58:36",
+ "timestampMillis": "1787048916937",
  "buildSummary": {
   "hardwarePlatform": "",
   "hardwareDsa": "",
@@ -81,10 +81,10 @@
 <ENTRY>
 {
  "type": "ET_SubCmdStep",
- "dateTimestamp": "08/18/26 14:58:51",
- "timestampMillis": "1787045331605",
+ "dateTimestamp": "08/18/26 15:58:36",
+ "timestampMillis": "1787048916938",
  "buildStep": {
-  "cmdId": "6686c066-c1c6-40b0-bf1e-2c9729086872",
+  "cmdId": "57d53346-2138-487f-ab8f-8e015293e409",
   "name": "",
   "logFile": "C:/Users\\vempa\\Documents\\Projects\\RADAR_Chirp_Engine\\ChirpGenerator\\ChirpGenerator\\hls\\hls.log",
   "commandLine": "",
@@ -97,10 +97,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "08/18/26 14:58:51",
- "timestampMillis": "1787045331605",
+ "dateTimestamp": "08/18/26 15:58:36",
+ "timestampMillis": "1787048916938",
  "status": {
-  "cmdId": "6686c066-c1c6-40b0-bf1e-2c9729086872",
+  "cmdId": "57d53346-2138-487f-ab8f-8e015293e409",
   "state": "CS_RUNNING"
  }
 }
@@ -108,8 +108,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "08/18/26 14:58:51",
- "timestampMillis": "1787045331607",
+ "dateTimestamp": "08/18/26 15:58:36",
+ "timestampMillis": "1787048916940",
  "report": {
   "path": "C:/Users\\vempa\\Documents\\Projects\\RADAR_Chirp_Engine\\ChirpGenerator\\ChirpGenerator\\hls\\impl\\verilog",
   "name": "",
@@ -122,8 +122,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "08/18/26 14:58:51",
- "timestampMillis": "1787045331607",
+ "dateTimestamp": "08/18/26 15:58:36",
+ "timestampMillis": "1787048916941",
  "report": {
   "path": "C:/Users\\vempa\\Documents\\Projects\\RADAR_Chirp_Engine\\ChirpGenerator\\ChirpGenerator\\hls\\impl\\report\\verilog\\export_syn.rpt",
   "name": "",
@@ -136,8 +136,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "08/18/26 14:58:51",
- "timestampMillis": "1787045331608",
+ "dateTimestamp": "08/18/26 15:58:36",
+ "timestampMillis": "1787048916941",
  "report": {
   "path": "C:/Users\\vempa\\Documents\\Projects\\RADAR_Chirp_Engine\\ChirpGenerator\\ChirpGenerator\\hls\\impl\\report\\verilog\\export_syn.xml",
   "name": "",
@@ -150,8 +150,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "08/18/26 14:58:51",
- "timestampMillis": "1787045331608",
+ "dateTimestamp": "08/18/26 15:58:36",
+ "timestampMillis": "1787048916942",
  "report": {
   "path": "C:/Users\\vempa\\Documents\\Projects\\RADAR_Chirp_Engine\\ChirpGenerator\\ChirpGenerator\\hls\\impl\\verilog",
   "name": "",
@@ -164,8 +164,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "08/18/26 14:58:51",
- "timestampMillis": "1787045331609",
+ "dateTimestamp": "08/18/26 15:58:36",
+ "timestampMillis": "1787048916942",
  "report": {
   "path": "C:/Users\\vempa\\Documents\\Projects\\RADAR_Chirp_Engine\\ChirpGenerator\\ChirpGenerator\\hls\\impl\\report\\verilog\\export_impl.rpt",
   "name": "",
@@ -178,8 +178,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "08/18/26 14:58:51",
- "timestampMillis": "1787045331609",
+ "dateTimestamp": "08/18/26 15:58:36",
+ "timestampMillis": "1787048916942",
  "report": {
   "path": "C:/Users\\vempa\\Documents\\Projects\\RADAR_Chirp_Engine\\ChirpGenerator\\ChirpGenerator\\hls\\impl\\report\\verilog\\export_impl.xml",
   "name": "",
@@ -192,8 +192,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "08/18/26 15:04:38",
- "timestampMillis": "1787045678703",
+ "dateTimestamp": "08/18/26 16:04:00",
+ "timestampMillis": "1787049240049",
  "report": {
   "path": "C:/Users\\vempa\\Documents\\Projects\\RADAR_Chirp_Engine\\ChirpGenerator\\ChirpGenerator\\hls",
   "name": "",
@@ -206,8 +206,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "08/18/26 15:04:38",
- "timestampMillis": "1787045678703",
+ "dateTimestamp": "08/18/26 16:04:00",
+ "timestampMillis": "1787049240050",
  "report": {
   "path": "C:/Users\\vempa\\Documents\\Projects\\RADAR_Chirp_Engine\\ChirpGenerator\\ChirpGenerator\\hls",
   "name": "",
@@ -220,10 +220,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "08/18/26 15:04:38",
- "timestampMillis": "1787045678704",
+ "dateTimestamp": "08/18/26 16:04:00",
+ "timestampMillis": "1787049240050",
  "status": {
-  "cmdId": "6686c066-c1c6-40b0-bf1e-2c9729086872",
+  "cmdId": "57d53346-2138-487f-ab8f-8e015293e409",
   "state": "CS_PASSED"
  }
 }
@@ -231,10 +231,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "08/18/26 15:04:38",
- "timestampMillis": "1787045678801",
+ "dateTimestamp": "08/18/26 16:04:00",
+ "timestampMillis": "1787049240139",
  "status": {
-  "cmdId": "be3c539a-5809-43c5-9765-9761b733fe8c",
+  "cmdId": "f54dcf61-075d-4d42-bd54-749cf2b07030",
   "state": "CS_PASSED"
  }
 }
@@ -242,8 +242,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "08/18/26 15:04:38",
- "timestampMillis": "1787045678802",
+ "dateTimestamp": "08/18/26 16:04:00",
+ "timestampMillis": "1787049240140",
  "report": {
   "path": "",
   "name": "",
@@ -256,8 +256,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "08/18/26 15:04:38",
- "timestampMillis": "1787045678802",
+ "dateTimestamp": "08/18/26 16:04:00",
+ "timestampMillis": "1787049240140",
  "report": {
   "path": "",
   "name": "",
