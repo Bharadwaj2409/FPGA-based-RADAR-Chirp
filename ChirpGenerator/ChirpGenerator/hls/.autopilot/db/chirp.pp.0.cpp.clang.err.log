@@ -641,22 +641,7 @@ C:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot/etc/hls_hypot_apfixed
 directive:1:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=top_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=chirp_XLX_SEP_ PragmaOptions=name=chirp_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLSDIRECTIVE TOP name=chirp
 ^
-chirp.cpp:31:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=chirp_XLX_SEP_ PragmaOptions=ap_memory port=out_XLX_SEP_ [-Wdump-hls-pragmas]
-#pragma HLS INTERFACE ap_memory port=out
-^
-chirp.cpp:34:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=chirp_XLX_SEP_ PragmaOptions=ap_none port=fs_XLX_SEP_ [-Wdump-hls-pragmas]
-#pragma HLS INTERFACE ap_none port=fs
-^
-chirp.cpp:35:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=chirp_XLX_SEP_ PragmaOptions=ap_none port=f0_XLX_SEP_ [-Wdump-hls-pragmas]
-#pragma HLS INTERFACE ap_none port=f0
-^
-chirp.cpp:36:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=chirp_XLX_SEP_ PragmaOptions=ap_none port=B_XLX_SEP_ [-Wdump-hls-pragmas]
-#pragma HLS INTERFACE ap_none port=B
-^
-chirp.cpp:46:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=chirp_XLX_SEP_ PragmaOptions=ap_ctrl_hs port=return_XLX_SEP_ [-Wdump-hls-pragmas]
-#pragma HLS INTERFACE ap_ctrl_hs port=return
-^
-chirp.cpp:66:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=chirp_XLX_SEP_ PragmaOptions=II=1_XLX_SEP_ [-Wdump-hls-pragmas]
+chirp.cpp:19:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=chirp_XLX_SEP_ PragmaOptions=II=1_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS PIPELINE II=1
 ^
-208 warnings generated.
+203 warnings generated.

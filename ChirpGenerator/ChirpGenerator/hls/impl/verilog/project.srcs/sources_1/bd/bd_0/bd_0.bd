@@ -1,7 +1,7 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0xAD4BE2C09402D1C3",
+      "boundary_crc": "0x1EE721CFBA2EEC69",
       "device": "xc7z020clg484-1",
       "gen_directory": "../../../../project.gen/sources_1/bd/bd_0",
       "name": "bd_0",
@@ -45,78 +45,6 @@
       }
     },
     "ports": {
-      "B": {
-        "type": "data",
-        "direction": "I",
-        "left": "31",
-        "right": "0",
-        "parameters": {
-          "LAYERED_METADATA": {
-            "value": "undef",
-            "value_src": "default"
-          }
-        }
-      },
-      "N_SAMPLES_USED": {
-        "type": "data",
-        "direction": "I",
-        "left": "31",
-        "right": "0",
-        "parameters": {
-          "LAYERED_METADATA": {
-            "value": "undef",
-            "value_src": "default"
-          }
-        }
-      },
-      "Nframe": {
-        "type": "data",
-        "direction": "I",
-        "left": "31",
-        "right": "0",
-        "parameters": {
-          "LAYERED_METADATA": {
-            "value": "undef",
-            "value_src": "default"
-          }
-        }
-      },
-      "Tc": {
-        "type": "data",
-        "direction": "I",
-        "left": "31",
-        "right": "0",
-        "parameters": {
-          "LAYERED_METADATA": {
-            "value": "undef",
-            "value_src": "default"
-          }
-        }
-      },
-      "Tg": {
-        "type": "data",
-        "direction": "I",
-        "left": "31",
-        "right": "0",
-        "parameters": {
-          "LAYERED_METADATA": {
-            "value": "undef",
-            "value_src": "default"
-          }
-        }
-      },
-      "Ti": {
-        "type": "data",
-        "direction": "I",
-        "left": "31",
-        "right": "0",
-        "parameters": {
-          "LAYERED_METADATA": {
-            "value": "undef",
-            "value_src": "default"
-          }
-        }
-      },
       "ap_clk": {
         "type": "clk",
         "direction": "I",
@@ -171,6 +99,18 @@
           }
         }
       },
+      "f1": {
+        "type": "data",
+        "direction": "I",
+        "left": "31",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
       "fs": {
         "type": "data",
         "direction": "I",
@@ -186,7 +126,7 @@
       "out_r_address0": {
         "type": "data",
         "direction": "O",
-        "left": "21",
+        "left": "9",
         "right": "0",
         "parameters": {
           "LAYERED_METADATA": {
@@ -217,7 +157,7 @@
     "components": {
       "hls_inst": {
         "vlnv": "xilinx.com:hls:chirp:1.0",
-        "ip_revision": "2114746918",
+        "ip_revision": "2114748067",
         "xci_name": "bd_0_hls_inst_0",
         "xci_path": "ip\\bd_0_hls_inst_0\\bd_0_hls_inst_0.xci",
         "inst_hier_path": "hls_inst",
@@ -233,42 +173,6 @@
       }
     },
     "nets": {
-      "B_0_1": {
-        "ports": [
-          "B",
-          "hls_inst/B"
-        ]
-      },
-      "N_SAMPLES_USED_0_1": {
-        "ports": [
-          "N_SAMPLES_USED",
-          "hls_inst/N_SAMPLES_USED"
-        ]
-      },
-      "Nframe_0_1": {
-        "ports": [
-          "Nframe",
-          "hls_inst/Nframe"
-        ]
-      },
-      "Tc_0_1": {
-        "ports": [
-          "Tc",
-          "hls_inst/Tc"
-        ]
-      },
-      "Tg_0_1": {
-        "ports": [
-          "Tg",
-          "hls_inst/Tg"
-        ]
-      },
-      "Ti_0_1": {
-        "ports": [
-          "Ti",
-          "hls_inst/Ti"
-        ]
-      },
       "ap_clk_0_1": {
         "ports": [
           "ap_clk",
@@ -285,6 +189,12 @@
         "ports": [
           "f0",
           "hls_inst/f0"
+        ]
+      },
+      "f1_0_1": {
+        "ports": [
+          "f1",
+          "hls_inst/f1"
         ]
       },
       "fs_0_1": {

@@ -1,8 +1,8 @@
 <root versionMajor = "1" versionMinor = "5">
   <kernel src_name="chirp" language="c" hwCtrl="ap_ctrl_hs" mem_layout="fpga64-xilinx-none">
     <args>
-      <arg id="0" access_type="w" src_name="out" src_type="float*" src_isptr="1" src_bitwidth="32" src_size_or_depth="4194304">
-        <hw hw_usage="data" hw_interface="BRAM" hw_name="out_r" hw_bitwidth="32" hw_size_or_depth="4194304" hw_kernel_support="false">
+      <arg id="0" access_type="w" src_name="out" src_type="float*" src_isptr="1" src_bitwidth="32" src_size_or_depth="1024">
+        <hw hw_usage="data" hw_interface="BRAM" hw_name="out_r" hw_bitwidth="32" hw_size_or_depth="1024" hw_kernel_support="false">
           <constraint constraint_type="pragma interface" mode="ap_memory" register_option="0"/>
         </hw>
       </arg>
@@ -16,33 +16,8 @@
           <constraint constraint_type="pragma interface" mode="ap_none" register_option="0"/>
         </hw>
       </arg>
-      <arg id="3" access_type="r" src_name="B" src_type="float" src_isptr="0" src_bitwidth="32" src_size_or_depth="1">
-        <hw hw_usage="data" hw_interface="Register" hw_name="B" hw_bitwidth="32" hw_size_or_depth="1" hw_kernel_support="false">
-          <constraint constraint_type="pragma interface" mode="ap_none" register_option="0"/>
-        </hw>
-      </arg>
-      <arg id="4" access_type="r" src_name="Tc" src_type="float" src_isptr="0" src_bitwidth="32" src_size_or_depth="1">
-        <hw hw_usage="data" hw_interface="Register" hw_name="Tc" hw_bitwidth="32" hw_size_or_depth="1" hw_kernel_support="false">
-          <constraint constraint_type="pragma interface" mode="ap_none" register_option="0"/>
-        </hw>
-      </arg>
-      <arg id="5" access_type="r" src_name="Ti" src_type="float" src_isptr="0" src_bitwidth="32" src_size_or_depth="1">
-        <hw hw_usage="data" hw_interface="Register" hw_name="Ti" hw_bitwidth="32" hw_size_or_depth="1" hw_kernel_support="false">
-          <constraint constraint_type="pragma interface" mode="ap_none" register_option="0"/>
-        </hw>
-      </arg>
-      <arg id="6" access_type="r" src_name="Tg" src_type="float" src_isptr="0" src_bitwidth="32" src_size_or_depth="1">
-        <hw hw_usage="data" hw_interface="Register" hw_name="Tg" hw_bitwidth="32" hw_size_or_depth="1" hw_kernel_support="false">
-          <constraint constraint_type="pragma interface" mode="ap_none" register_option="0"/>
-        </hw>
-      </arg>
-      <arg id="7" access_type="r" src_name="Nframe" src_type="int" src_isptr="0" src_bitwidth="32" src_size_or_depth="1">
-        <hw hw_usage="data" hw_interface="Register" hw_name="Nframe" hw_bitwidth="32" hw_size_or_depth="1" hw_kernel_support="false">
-          <constraint constraint_type="pragma interface" mode="ap_none" register_option="0"/>
-        </hw>
-      </arg>
-      <arg id="8" access_type="r" src_name="N_SAMPLES_USED" src_type="int" src_isptr="0" src_bitwidth="32" src_size_or_depth="1">
-        <hw hw_usage="data" hw_interface="Register" hw_name="N_SAMPLES_USED" hw_bitwidth="32" hw_size_or_depth="1" hw_kernel_support="false">
+      <arg id="3" access_type="r" src_name="f1" src_type="float" src_isptr="0" src_bitwidth="32" src_size_or_depth="1">
+        <hw hw_usage="data" hw_interface="Register" hw_name="f1" hw_bitwidth="32" hw_size_or_depth="1" hw_kernel_support="false">
           <constraint constraint_type="pragma interface" mode="ap_none" register_option="0"/>
         </hw>
       </arg>

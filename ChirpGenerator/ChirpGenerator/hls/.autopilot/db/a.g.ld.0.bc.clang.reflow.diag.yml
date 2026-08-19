@@ -449,15 +449,15 @@ Args:
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: chirp.cpp, Line: 86, Column: 21 }
-Function:        _Z5chirpPA8192_fffffffii
+DebugLoc:        { File: chirp.cpp, Line: 27, Column: 18 }
+Function:        _Z5chirpPffff
 Args:            
   - Callee:          'hls::cosf(float)'
     DebugLoc:        { File: 'C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp', 
                        Line: 44, Column: 0 }
   - String:          ' not inlined into '
-  - Caller:          'chirp(float (*) [8192], float, float, float, float, float, float, int, int)'
-    DebugLoc:        { File: chirp.cpp, Line: 28, Column: 0 }
+  - Caller:          'chirp(float*, float, float, float)'
+    DebugLoc:        { File: chirp.cpp, Line: 13, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Passed
@@ -890,15 +890,15 @@ Args:
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: chirp.cpp, Line: 86, Column: 21 }
-Function:        _Z5chirpPA8192_fffffffii
+DebugLoc:        { File: chirp.cpp, Line: 27, Column: 18 }
+Function:        _Z5chirpPffff
 Args:            
   - Callee:          'hls::cosf(float)'
     DebugLoc:        { File: 'C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp', 
                        Line: 44, Column: 0 }
   - String:          ' not inlined into '
-  - Caller:          'chirp(float (*) [8192], float, float, float, float, float, float, int, int)'
-    DebugLoc:        { File: chirp.cpp, Line: 28, Column: 0 }
+  - Caller:          'chirp(float*, float, float, float)'
+    DebugLoc:        { File: chirp.cpp, Line: 13, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
@@ -906,8 +906,8 @@ Pass:            inline
 Name:            NeverInline
 Function:        apatb_chirp_ir
 Args:            
-  - Callee:          'chirp(float (*) [8192], float, float, float, float, float, float, int, int)'
-    DebugLoc:        { File: chirp.cpp, Line: 28, Column: 0 }
+  - Callee:          'chirp(float*, float, float, float)'
+    DebugLoc:        { File: chirp.cpp, Line: 13, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          apatb_chirp_ir
   - String:          ' because it should never be inlined (cost=never)'
@@ -1187,16 +1187,16 @@ Args:
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
-DebugLoc:        { File: chirp.cpp, Line: 28, Column: 0 }
-Function:        _Z5chirpPA8192_fffffffii
+DebugLoc:        { File: chirp.cpp, Line: 13, Column: 0 }
+Function:        _Z5chirpPffff
 Args:            
   - String:          'Inlining function '''
   - Callee:          'hls::cosf(float)'
     DebugLoc:        { File: 'C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp', 
                        Line: 44, Column: 0 }
   - String:          ''' into '''
-  - Caller:          'chirp(float (*) [8192], float, float, float, float, float, float, int, int)'
-    DebugLoc:        { File: chirp.cpp, Line: 28, Column: 0 }
+  - Caller:          'chirp(float*, float, float, float)'
+    DebugLoc:        { File: chirp.cpp, Line: 13, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
@@ -1311,32 +1311,18 @@ Function:        _ZN6hotbm_10sin_or_cosIfEET_S1_bb
 Args:            
   - String:          Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations.
 ...
---- !Failure
-Pass:            reflow-occurrence-analysis
-Name:            CouldNotAnalyzeBBInfo
-DebugLoc:        { File: chirp.cpp, Line: 81, Column: 24 }
-Function:        _Z5chirpPA8192_fffffffii
-Args:            
-  - String:          'Could not analyze occurrence information for '''
-  - BBName:          if.then
-  - String:          ''' living in '''
-  - LoopName:        VITIS_LOOP_63_2
-  - String:          '''('
-  - LoopLoc:         'chirp.cpp:63:26'
-  - String:          ') .'
-...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: 'C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\common\hls_hotbm_float.cpp', 
                    Line: 127, Column: 12 }
-Function:        _Z5chirpPA8192_fffffffii
+Function:        _Z5chirpPffff
 Args:            
   - Callee:          'float hotbm_::sin_or_cos<float>(float, bool, bool)'
     DebugLoc:        { File: 'C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h', 
                        Line: 210, Column: 0 }
   - String:          ' not inlined into '
-  - Caller:          'chirp(float (*) [8192], float, float, float, float, float, float, int, int)'
-    DebugLoc:        { File: chirp.cpp, Line: 28, Column: 0 }
+  - Caller:          'chirp(float*, float, float, float)'
+    DebugLoc:        { File: chirp.cpp, Line: 13, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...

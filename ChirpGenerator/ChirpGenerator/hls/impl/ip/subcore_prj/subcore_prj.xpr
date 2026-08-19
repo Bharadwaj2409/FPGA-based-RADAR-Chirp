@@ -7,7 +7,7 @@
 <Project Product="Vivado" Version="7" Minor="71" Path="C:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/ip/subcore_prj/subcore_prj.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
-    <Option Name="Id" Val="252c27f2cb0e41de849bb284ff04a4e2"/>
+    <Option Name="Id" Val="4b853e4dfabe46fc9083c4233e87cee4"/>
     <Option Name="Part" Val="xc7z020clg484-1"/>
     <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
     <Option Name="CompiledLibDirXSim" Val=""/>
@@ -96,14 +96,7 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/ip/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip.xci">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/ip/chirp_fcmp_32ns_32ns_1_2_no_dsp_1_ip/chirp_fcmp_32ns_32ns_1_2_no_dsp_1_ip.xci">
+      <File Path="$PSRCDIR/sources_1/ip/chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip.xci">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>

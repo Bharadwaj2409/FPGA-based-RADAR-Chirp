@@ -66,17 +66,12 @@
 
 // INST_TAG     ------ Begin cut for WRAPPER INSTANTIATION Template ------
 bd_0_sv your_instance_name (
-  .B(B), // input wire [31:0] B
-  .N_SAMPLES_USED(N_SAMPLES_USED), // input wire [31:0] N_SAMPLES_USED
-  .Nframe(Nframe), // input wire [31:0] Nframe
-  .Tc(Tc), // input wire [31:0] Tc
-  .Tg(Tg), // input wire [31:0] Tg
-  .Ti(Ti), // input wire [31:0] Ti
   .ap_clk(ap_clk), // input wire ap_clk
   .ap_rst(ap_rst), // input wire ap_rst
   .f0(f0), // input wire [31:0] f0
+  .f1(f1), // input wire [31:0] f1
   .fs(fs), // input wire [31:0] fs
-  .out_r_address0(out_r_address0), // output wire [21:0] out_r_address0
+  .out_r_address0(out_r_address0), // output wire [9:0] out_r_address0
   .out_r_ce0(out_r_ce0), // output wire out_r_ce0
   .out_r_d0(out_r_d0), // output wire [31:0] out_r_d0
   .out_r_we0(out_r_we0), // output wire out_r_we0

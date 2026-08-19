@@ -2,12 +2,12 @@
 <AdditionalInfo>
   <CTypeInfo>
       <RtlPort>
-        <name>B</name>
+        <name>f0</name>
         <type>Floating-point</type>
         <fractionWidth>24</fractionWidth>
       </RtlPort>
       <RtlPort>
-        <name>f0</name>
+        <name>f1</name>
         <type>Floating-point</type>
         <fractionWidth>24</fractionWidth>
       </RtlPort>
@@ -15,16 +15,6 @@
         <name>fs</name>
         <type>Floating-point</type>
         <fractionWidth>24</fractionWidth>
-      </RtlPort>
-      <RtlPort>
-        <name>N_SAMPLES_USED</name>
-        <type>Signed</type>
-        <fractionWidth>0</fractionWidth>
-      </RtlPort>
-      <RtlPort>
-        <name>Nframe</name>
-        <type>Signed</type>
-        <fractionWidth>0</fractionWidth>
       </RtlPort>
       <RtlPort>
         <name>out_r_address0</name>
@@ -46,21 +36,6 @@
         <type>bool</type>
         <fractionWidth>0</fractionWidth>
       </RtlPort>
-      <RtlPort>
-        <name>Tc</name>
-        <type>Floating-point</type>
-        <fractionWidth>24</fractionWidth>
-      </RtlPort>
-      <RtlPort>
-        <name>Tg</name>
-        <type>Floating-point</type>
-        <fractionWidth>24</fractionWidth>
-      </RtlPort>
-      <RtlPort>
-        <name>Ti</name>
-        <type>Floating-point</type>
-        <fractionWidth>24</fractionWidth>
-      </RtlPort>
   </CTypeInfo>
   <DesignConstraint>
     <clk_period>10</clk_period>
@@ -68,7 +43,7 @@
   <Machine>64</Machine>
   <modelParameters>
     <combinational>0</combinational>
-    <latency>undef</latency>
-    <II>undef</II>
+    <latency>1126</latency>
+    <II>1127</II>
   </modelParameters>
 </AdditionalInfo>

@@ -53,17 +53,12 @@
 -- COMP_TAG     ------ Begin cut for COMPONENT Declaration ------
 COMPONENT bd_0
   PORT (
-    B : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
-    N_SAMPLES_USED : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
-    Nframe : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
-    Tc : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
-    Tg : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
-    Ti : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
     ap_clk : IN STD_LOGIC;
     ap_rst : IN STD_LOGIC;
     f0 : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
+    f1 : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
     fs : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
-    out_r_address0 : OUT STD_LOGIC_VECTOR(21 DOWNTO 0);
+    out_r_address0 : OUT STD_LOGIC_VECTOR(9 DOWNTO 0);
     out_r_ce0 : OUT STD_LOGIC;
     out_r_d0 : OUT STD_LOGIC_VECTOR(31 DOWNTO 0);
     out_r_we0 : OUT STD_LOGIC;
@@ -81,15 +76,10 @@ END COMPONENT;
 -- INST_TAG     ------ Begin cut for INSTANTIATION Template ------
 your_instance_name : bd_0
   PORT MAP (
-    B => B,
-    N_SAMPLES_USED => N_SAMPLES_USED,
-    Nframe => Nframe,
-    Tc => Tc,
-    Tg => Tg,
-    Ti => Ti,
     ap_clk => ap_clk,
     ap_rst => ap_rst,
     f0 => f0,
+    f1 => f1,
     fs => fs,
     out_r_address0 => out_r_address0,
     out_r_ce0 => out_r_ce0,

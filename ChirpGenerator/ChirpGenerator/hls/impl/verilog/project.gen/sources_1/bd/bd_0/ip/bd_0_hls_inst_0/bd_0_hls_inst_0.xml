@@ -270,7 +270,7 @@
       </spirit:parameters>
     </spirit:busInterface>
     <spirit:busInterface>
-      <spirit:name>B</spirit:name>
+      <spirit:name>f1</spirit:name>
       <spirit:busType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="data" spirit:version="1.0"/>
       <spirit:abstractionType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="data_rtl" spirit:version="1.0"/>
       <spirit:slave/>
@@ -280,149 +280,14 @@
             <spirit:name>DATA</spirit:name>
           </spirit:logicalPort>
           <spirit:physicalPort>
-            <spirit:name>B</spirit:name>
+            <spirit:name>f1</spirit:name>
           </spirit:physicalPort>
         </spirit:portMap>
       </spirit:portMaps>
       <spirit:parameters>
         <spirit:parameter>
           <spirit:name>LAYERED_METADATA</spirit:name>
-          <spirit:value spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.B.LAYERED_METADATA">undef</spirit:value>
-          <spirit:vendorExtensions>
-            <xilinx:parameterInfo>
-              <xilinx:parameterUsage>none</xilinx:parameterUsage>
-            </xilinx:parameterInfo>
-          </spirit:vendorExtensions>
-        </spirit:parameter>
-      </spirit:parameters>
-    </spirit:busInterface>
-    <spirit:busInterface>
-      <spirit:name>Tc</spirit:name>
-      <spirit:busType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="data" spirit:version="1.0"/>
-      <spirit:abstractionType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="data_rtl" spirit:version="1.0"/>
-      <spirit:slave/>
-      <spirit:portMaps>
-        <spirit:portMap>
-          <spirit:logicalPort>
-            <spirit:name>DATA</spirit:name>
-          </spirit:logicalPort>
-          <spirit:physicalPort>
-            <spirit:name>Tc</spirit:name>
-          </spirit:physicalPort>
-        </spirit:portMap>
-      </spirit:portMaps>
-      <spirit:parameters>
-        <spirit:parameter>
-          <spirit:name>LAYERED_METADATA</spirit:name>
-          <spirit:value spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.TC.LAYERED_METADATA">undef</spirit:value>
-          <spirit:vendorExtensions>
-            <xilinx:parameterInfo>
-              <xilinx:parameterUsage>none</xilinx:parameterUsage>
-            </xilinx:parameterInfo>
-          </spirit:vendorExtensions>
-        </spirit:parameter>
-      </spirit:parameters>
-    </spirit:busInterface>
-    <spirit:busInterface>
-      <spirit:name>Ti</spirit:name>
-      <spirit:busType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="data" spirit:version="1.0"/>
-      <spirit:abstractionType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="data_rtl" spirit:version="1.0"/>
-      <spirit:slave/>
-      <spirit:portMaps>
-        <spirit:portMap>
-          <spirit:logicalPort>
-            <spirit:name>DATA</spirit:name>
-          </spirit:logicalPort>
-          <spirit:physicalPort>
-            <spirit:name>Ti</spirit:name>
-          </spirit:physicalPort>
-        </spirit:portMap>
-      </spirit:portMaps>
-      <spirit:parameters>
-        <spirit:parameter>
-          <spirit:name>LAYERED_METADATA</spirit:name>
-          <spirit:value spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.TI.LAYERED_METADATA">undef</spirit:value>
-          <spirit:vendorExtensions>
-            <xilinx:parameterInfo>
-              <xilinx:parameterUsage>none</xilinx:parameterUsage>
-            </xilinx:parameterInfo>
-          </spirit:vendorExtensions>
-        </spirit:parameter>
-      </spirit:parameters>
-    </spirit:busInterface>
-    <spirit:busInterface>
-      <spirit:name>Tg</spirit:name>
-      <spirit:busType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="data" spirit:version="1.0"/>
-      <spirit:abstractionType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="data_rtl" spirit:version="1.0"/>
-      <spirit:slave/>
-      <spirit:portMaps>
-        <spirit:portMap>
-          <spirit:logicalPort>
-            <spirit:name>DATA</spirit:name>
-          </spirit:logicalPort>
-          <spirit:physicalPort>
-            <spirit:name>Tg</spirit:name>
-          </spirit:physicalPort>
-        </spirit:portMap>
-      </spirit:portMaps>
-      <spirit:parameters>
-        <spirit:parameter>
-          <spirit:name>LAYERED_METADATA</spirit:name>
-          <spirit:value spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.TG.LAYERED_METADATA">undef</spirit:value>
-          <spirit:vendorExtensions>
-            <xilinx:parameterInfo>
-              <xilinx:parameterUsage>none</xilinx:parameterUsage>
-            </xilinx:parameterInfo>
-          </spirit:vendorExtensions>
-        </spirit:parameter>
-      </spirit:parameters>
-    </spirit:busInterface>
-    <spirit:busInterface>
-      <spirit:name>Nframe</spirit:name>
-      <spirit:busType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="data" spirit:version="1.0"/>
-      <spirit:abstractionType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="data_rtl" spirit:version="1.0"/>
-      <spirit:slave/>
-      <spirit:portMaps>
-        <spirit:portMap>
-          <spirit:logicalPort>
-            <spirit:name>DATA</spirit:name>
-          </spirit:logicalPort>
-          <spirit:physicalPort>
-            <spirit:name>Nframe</spirit:name>
-          </spirit:physicalPort>
-        </spirit:portMap>
-      </spirit:portMaps>
-      <spirit:parameters>
-        <spirit:parameter>
-          <spirit:name>LAYERED_METADATA</spirit:name>
-          <spirit:value spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.NFRAME.LAYERED_METADATA">undef</spirit:value>
-          <spirit:vendorExtensions>
-            <xilinx:parameterInfo>
-              <xilinx:parameterUsage>none</xilinx:parameterUsage>
-            </xilinx:parameterInfo>
-          </spirit:vendorExtensions>
-        </spirit:parameter>
-      </spirit:parameters>
-    </spirit:busInterface>
-    <spirit:busInterface>
-      <spirit:name>N_SAMPLES_USED</spirit:name>
-      <spirit:busType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="data" spirit:version="1.0"/>
-      <spirit:abstractionType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="data_rtl" spirit:version="1.0"/>
-      <spirit:slave/>
-      <spirit:portMaps>
-        <spirit:portMap>
-          <spirit:logicalPort>
-            <spirit:name>DATA</spirit:name>
-          </spirit:logicalPort>
-          <spirit:physicalPort>
-            <spirit:name>N_SAMPLES_USED</spirit:name>
-          </spirit:physicalPort>
-        </spirit:portMap>
-      </spirit:portMaps>
-      <spirit:parameters>
-        <spirit:parameter>
-          <spirit:name>LAYERED_METADATA</spirit:name>
-          <spirit:value spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.N_SAMPLES_USED.LAYERED_METADATA">undef</spirit:value>
+          <spirit:value spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.F1.LAYERED_METADATA">undef</spirit:value>
           <spirit:vendorExtensions>
             <xilinx:parameterInfo>
               <xilinx:parameterUsage>none</xilinx:parameterUsage>
@@ -441,7 +306,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:6edebc83</spirit:value>
+            <spirit:value>9:10ef309a</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -455,11 +320,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Tue Aug 18 10:31:15 UTC 2026</spirit:value>
+            <spirit:value>Wed Aug 19 05:40:04 UTC 2026</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:6edebc83</spirit:value>
+            <spirit:value>9:10ef309a</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -470,7 +335,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:6edebc83</spirit:value>
+            <spirit:value>9:10ef309a</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -504,11 +369,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Tue Aug 18 10:29:15 UTC 2026</spirit:value>
+            <spirit:value>Wed Aug 19 05:38:13 UTC 2026</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:1c524f5e</spirit:value>
+            <spirit:value>9:165788f1</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -524,11 +389,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Tue Aug 18 10:29:15 UTC 2026</spirit:value>
+            <spirit:value>Wed Aug 19 05:38:13 UTC 2026</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:1c524f5e</spirit:value>
+            <spirit:value>9:165788f1</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -562,11 +427,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Tue Aug 18 10:29:15 UTC 2026</spirit:value>
+            <spirit:value>Wed Aug 19 05:38:13 UTC 2026</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:6edebc83</spirit:value>
+            <spirit:value>9:10ef309a</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -582,11 +447,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Tue Aug 18 10:29:15 UTC 2026</spirit:value>
+            <spirit:value>Wed Aug 19 05:38:13 UTC 2026</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:6edebc83</spirit:value>
+            <spirit:value>9:10ef309a</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -701,7 +566,7 @@
         <spirit:wire>
           <spirit:direction>out</spirit:direction>
           <spirit:vector>
-            <spirit:left spirit:format="long">21</spirit:left>
+            <spirit:left spirit:format="long">9</spirit:left>
             <spirit:right spirit:format="long">0</spirit:right>
           </spirit:vector>
           <spirit:wireTypeDefs>
@@ -765,92 +630,7 @@
         </spirit:wire>
       </spirit:port>
       <spirit:port>
-        <spirit:name>B</spirit:name>
-        <spirit:wire>
-          <spirit:direction>in</spirit:direction>
-          <spirit:vector>
-            <spirit:left spirit:format="long">31</spirit:left>
-            <spirit:right spirit:format="long">0</spirit:right>
-          </spirit:vector>
-          <spirit:wireTypeDefs>
-            <spirit:wireTypeDef>
-              <spirit:typeName>std_logic_vector</spirit:typeName>
-              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
-              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
-            </spirit:wireTypeDef>
-          </spirit:wireTypeDefs>
-        </spirit:wire>
-      </spirit:port>
-      <spirit:port>
-        <spirit:name>Tc</spirit:name>
-        <spirit:wire>
-          <spirit:direction>in</spirit:direction>
-          <spirit:vector>
-            <spirit:left spirit:format="long">31</spirit:left>
-            <spirit:right spirit:format="long">0</spirit:right>
-          </spirit:vector>
-          <spirit:wireTypeDefs>
-            <spirit:wireTypeDef>
-              <spirit:typeName>std_logic_vector</spirit:typeName>
-              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
-              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
-            </spirit:wireTypeDef>
-          </spirit:wireTypeDefs>
-        </spirit:wire>
-      </spirit:port>
-      <spirit:port>
-        <spirit:name>Ti</spirit:name>
-        <spirit:wire>
-          <spirit:direction>in</spirit:direction>
-          <spirit:vector>
-            <spirit:left spirit:format="long">31</spirit:left>
-            <spirit:right spirit:format="long">0</spirit:right>
-          </spirit:vector>
-          <spirit:wireTypeDefs>
-            <spirit:wireTypeDef>
-              <spirit:typeName>std_logic_vector</spirit:typeName>
-              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
-              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
-            </spirit:wireTypeDef>
-          </spirit:wireTypeDefs>
-        </spirit:wire>
-      </spirit:port>
-      <spirit:port>
-        <spirit:name>Tg</spirit:name>
-        <spirit:wire>
-          <spirit:direction>in</spirit:direction>
-          <spirit:vector>
-            <spirit:left spirit:format="long">31</spirit:left>
-            <spirit:right spirit:format="long">0</spirit:right>
-          </spirit:vector>
-          <spirit:wireTypeDefs>
-            <spirit:wireTypeDef>
-              <spirit:typeName>std_logic_vector</spirit:typeName>
-              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
-              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
-            </spirit:wireTypeDef>
-          </spirit:wireTypeDefs>
-        </spirit:wire>
-      </spirit:port>
-      <spirit:port>
-        <spirit:name>Nframe</spirit:name>
-        <spirit:wire>
-          <spirit:direction>in</spirit:direction>
-          <spirit:vector>
-            <spirit:left spirit:format="long">31</spirit:left>
-            <spirit:right spirit:format="long">0</spirit:right>
-          </spirit:vector>
-          <spirit:wireTypeDefs>
-            <spirit:wireTypeDef>
-              <spirit:typeName>std_logic_vector</spirit:typeName>
-              <spirit:viewNameRef>xilinx_verilogsynthesis</spirit:viewNameRef>
-              <spirit:viewNameRef>xilinx_verilogbehavioralsimulation</spirit:viewNameRef>
-            </spirit:wireTypeDef>
-          </spirit:wireTypeDefs>
-        </spirit:wire>
-      </spirit:port>
-      <spirit:port>
-        <spirit:name>N_SAMPLES_USED</spirit:name>
+        <spirit:name>f1</spirit:name>
         <spirit:wire>
           <spirit:direction>in</spirit:direction>
           <spirit:vector>
@@ -1008,11 +788,7 @@
         <spirit:userFileType>xci</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/ip/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip.xci</spirit:name>
-        <spirit:userFileType>xci</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/ip/chirp_fcmp_32ns_32ns_1_2_no_dsp_1_ip/chirp_fcmp_32ns_32ns_1_2_no_dsp_1_ip.xci</spirit:name>
+        <spirit:name>hdl/ip/chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip.xci</spirit:name>
         <spirit:userFileType>xci</spirit:userFileType>
       </spirit:file>
       <spirit:file>
@@ -1036,143 +812,133 @@
         <spirit:userFileType>xci</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2.v</spirit:name>
+        <spirit:name>../../ipshared/97d1/hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_17_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_ref_4oPi_table_100_ROM_1P_LUTRbkb.dat</spirit:name>
+        <spirit:name>hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_17_1_ref_4oPi_table_100_ROM_1P_LUTRAM_1R.dat</spirit:name>
         <spirit:userFileType>mif</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_ref_4oPi_table_100_ROM_1P_LUTRbkb.v</spirit:name>
+        <spirit:name>../../ipshared/97d1/hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_17_1_ref_4oPi_table_100_ROM_1P_LUTRAM_1R.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K0_cud.dat</spirit:name>
+        <spirit:name>hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_17_1_second_order_float_sin_cos_K0_ROM_1P_LUTRAM_1R.dat</spirit:name>
         <spirit:userFileType>mif</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K0_cud.v</spirit:name>
+        <spirit:name>../../ipshared/97d1/hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_17_1_second_order_float_sin_cos_K0_ROM_1P_LUTRAM_1R.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K1_dEe.dat</spirit:name>
+        <spirit:name>hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_17_1_second_order_float_sin_cos_K1_ROM_1P_LUTRAM_1R.dat</spirit:name>
         <spirit:userFileType>mif</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K1_dEe.v</spirit:name>
+        <spirit:name>../../ipshared/97d1/hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_17_1_second_order_float_sin_cos_K1_ROM_1P_LUTRAM_1R.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K2_eOg.dat</spirit:name>
+        <spirit:name>hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_17_1_second_order_float_sin_cos_K2_ROM_1P_LUTRAM_1R.dat</spirit:name>
         <spirit:userFileType>mif</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K2_eOg.v</spirit:name>
+        <spirit:name>../../ipshared/97d1/hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_17_1_second_order_float_sin_cos_K2_ROM_1P_LUTRAM_1R.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp_ctlz_30_30_1_1.v</spirit:name>
+        <spirit:name>../../ipshared/97d1/hdl/verilog/chirp_ctlz_30_30_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp_ctlz_32_32_1_1.v</spirit:name>
+        <spirit:name>../../ipshared/97d1/hdl/verilog/chirp_ctlz_32_32_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp_dmul_64ns_64ns_64_7_max_dsp_1.v</spirit:name>
+        <spirit:name>../../ipshared/97d1/hdl/verilog/chirp_dmul_64ns_64ns_64_7_max_dsp_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp_fadd_32ns_32ns_32_5_full_dsp_1.v</spirit:name>
+        <spirit:name>../../ipshared/97d1/hdl/verilog/chirp_faddfsub_32ns_32ns_32_5_full_dsp_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp_fcmp_32ns_32ns_1_2_no_dsp_1.v</spirit:name>
+        <spirit:name>../../ipshared/97d1/hdl/verilog/chirp_fdiv_32ns_32ns_32_16_no_dsp_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp_fdiv_32ns_32ns_32_16_no_dsp_1.v</spirit:name>
+        <spirit:name>../../ipshared/97d1/hdl/verilog/chirp_flow_control_loop_pipe_sequential_init.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp_flow_control_loop_pipe_sequential_init.v</spirit:name>
+        <spirit:name>../../ipshared/97d1/hdl/verilog/chirp_fmul_32ns_32ns_32_4_max_dsp_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp_fmul_32ns_32ns_32_4_max_dsp_1.v</spirit:name>
+        <spirit:name>../../ipshared/97d1/hdl/verilog/chirp_fpext_32ns_64_2_no_dsp_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp_fpext_32ns_64_2_no_dsp_1.v</spirit:name>
+        <spirit:name>../../ipshared/97d1/hdl/verilog/chirp_fptrunc_64ns_32_2_no_dsp_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp_fptrunc_64ns_32_2_no_dsp_1.v</spirit:name>
+        <spirit:name>../../ipshared/97d1/hdl/verilog/chirp_mul_15ns_15ns_30_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp_mul_15ns_15ns_30_1_1.v</spirit:name>
+        <spirit:name>../../ipshared/97d1/hdl/verilog/chirp_mul_15ns_15s_30_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp_mul_15ns_15s_30_1_1.v</spirit:name>
+        <spirit:name>../../ipshared/97d1/hdl/verilog/chirp_mul_23s_22ns_45_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp_mul_23s_22ns_45_1_1.v</spirit:name>
+        <spirit:name>../../ipshared/97d1/hdl/verilog/chirp_mul_30s_29ns_58_2_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp_mul_30s_29ns_58_2_1.v</spirit:name>
+        <spirit:name>../../ipshared/97d1/hdl/verilog/chirp_mul_80s_24ns_80_5_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp_mul_31ns_31ns_62_2_1.v</spirit:name>
+        <spirit:name>../../ipshared/97d1/hdl/verilog/chirp_sitofp_32ns_32_6_no_dsp_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp_mul_80s_24ns_80_5_1.v</spirit:name>
+        <spirit:name>../../ipshared/97d1/hdl/verilog/chirp_sparsemux_17_3_1_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp_sitofp_32ns_32_6_no_dsp_1.v</spirit:name>
+        <spirit:name>../../ipshared/97d1/hdl/verilog/chirp_sparsemux_33_4_1_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp_sparsemux_17_3_1_1_1.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp_sparsemux_33_4_1_1_1.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp.v</spirit:name>
+        <spirit:name>../../ipshared/97d1/hdl/verilog/chirp.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -1287,11 +1053,7 @@
         <spirit:userFileType>xci</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/ip/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip.xci</spirit:name>
-        <spirit:userFileType>xci</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/ip/chirp_fcmp_32ns_32ns_1_2_no_dsp_1_ip/chirp_fcmp_32ns_32ns_1_2_no_dsp_1_ip.xci</spirit:name>
+        <spirit:name>hdl/ip/chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip.xci</spirit:name>
         <spirit:userFileType>xci</spirit:userFileType>
       </spirit:file>
       <spirit:file>
@@ -1315,119 +1077,111 @@
         <spirit:userFileType>xci</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2.v</spirit:name>
+        <spirit:name>../../ipshared/97d1/hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_17_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_ref_4oPi_table_100_ROM_1P_LUTRbkb.dat</spirit:name>
+        <spirit:name>hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_17_1_ref_4oPi_table_100_ROM_1P_LUTRAM_1R.dat</spirit:name>
         <spirit:userFileType>mif</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_ref_4oPi_table_100_ROM_1P_LUTRbkb.v</spirit:name>
+        <spirit:name>../../ipshared/97d1/hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_17_1_ref_4oPi_table_100_ROM_1P_LUTRAM_1R.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K0_cud.dat</spirit:name>
+        <spirit:name>hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_17_1_second_order_float_sin_cos_K0_ROM_1P_LUTRAM_1R.dat</spirit:name>
         <spirit:userFileType>mif</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K0_cud.v</spirit:name>
+        <spirit:name>../../ipshared/97d1/hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_17_1_second_order_float_sin_cos_K0_ROM_1P_LUTRAM_1R.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K1_dEe.dat</spirit:name>
+        <spirit:name>hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_17_1_second_order_float_sin_cos_K1_ROM_1P_LUTRAM_1R.dat</spirit:name>
         <spirit:userFileType>mif</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K1_dEe.v</spirit:name>
+        <spirit:name>../../ipshared/97d1/hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_17_1_second_order_float_sin_cos_K1_ROM_1P_LUTRAM_1R.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K2_eOg.dat</spirit:name>
+        <spirit:name>hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_17_1_second_order_float_sin_cos_K2_ROM_1P_LUTRAM_1R.dat</spirit:name>
         <spirit:userFileType>mif</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_second_order_float_sin_cos_K2_eOg.v</spirit:name>
+        <spirit:name>../../ipshared/97d1/hdl/verilog/chirp_chirp_Pipeline_VITIS_LOOP_17_1_second_order_float_sin_cos_K2_ROM_1P_LUTRAM_1R.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp_ctlz_30_30_1_1.v</spirit:name>
+        <spirit:name>../../ipshared/97d1/hdl/verilog/chirp_ctlz_30_30_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp_ctlz_32_32_1_1.v</spirit:name>
+        <spirit:name>../../ipshared/97d1/hdl/verilog/chirp_ctlz_32_32_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp_dmul_64ns_64ns_64_7_max_dsp_1.v</spirit:name>
+        <spirit:name>../../ipshared/97d1/hdl/verilog/chirp_dmul_64ns_64ns_64_7_max_dsp_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp_fadd_32ns_32ns_32_5_full_dsp_1.v</spirit:name>
+        <spirit:name>../../ipshared/97d1/hdl/verilog/chirp_faddfsub_32ns_32ns_32_5_full_dsp_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp_fcmp_32ns_32ns_1_2_no_dsp_1.v</spirit:name>
+        <spirit:name>../../ipshared/97d1/hdl/verilog/chirp_fdiv_32ns_32ns_32_16_no_dsp_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp_fdiv_32ns_32ns_32_16_no_dsp_1.v</spirit:name>
+        <spirit:name>../../ipshared/97d1/hdl/verilog/chirp_flow_control_loop_pipe_sequential_init.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp_flow_control_loop_pipe_sequential_init.v</spirit:name>
+        <spirit:name>../../ipshared/97d1/hdl/verilog/chirp_fmul_32ns_32ns_32_4_max_dsp_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp_fmul_32ns_32ns_32_4_max_dsp_1.v</spirit:name>
+        <spirit:name>../../ipshared/97d1/hdl/verilog/chirp_fpext_32ns_64_2_no_dsp_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp_fpext_32ns_64_2_no_dsp_1.v</spirit:name>
+        <spirit:name>../../ipshared/97d1/hdl/verilog/chirp_fptrunc_64ns_32_2_no_dsp_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp_fptrunc_64ns_32_2_no_dsp_1.v</spirit:name>
+        <spirit:name>../../ipshared/97d1/hdl/verilog/chirp_mul_15ns_15ns_30_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp_mul_15ns_15ns_30_1_1.v</spirit:name>
+        <spirit:name>../../ipshared/97d1/hdl/verilog/chirp_mul_15ns_15s_30_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp_mul_15ns_15s_30_1_1.v</spirit:name>
+        <spirit:name>../../ipshared/97d1/hdl/verilog/chirp_mul_23s_22ns_45_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp_mul_23s_22ns_45_1_1.v</spirit:name>
+        <spirit:name>../../ipshared/97d1/hdl/verilog/chirp_mul_30s_29ns_58_2_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp_mul_30s_29ns_58_2_1.v</spirit:name>
+        <spirit:name>../../ipshared/97d1/hdl/verilog/chirp_mul_80s_24ns_80_5_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp_mul_31ns_31ns_62_2_1.v</spirit:name>
+        <spirit:name>../../ipshared/97d1/hdl/verilog/chirp_sitofp_32ns_32_6_no_dsp_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp_mul_80s_24ns_80_5_1.v</spirit:name>
+        <spirit:name>../../ipshared/97d1/hdl/verilog/chirp_sparsemux_17_3_1_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp_sitofp_32ns_32_6_no_dsp_1.v</spirit:name>
+        <spirit:name>../../ipshared/97d1/hdl/verilog/chirp_sparsemux_33_4_1_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp_sparsemux_17_3_1_1_1.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp_sparsemux_33_4_1_1_1.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>../../ipshared/3382/hdl/verilog/chirp.v</spirit:name>
+        <spirit:name>../../ipshared/97d1/hdl/verilog/chirp.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
     </spirit:fileSet>
@@ -1481,7 +1235,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>latency</spirit:name>
-      <spirit:value spirit:id="PARAM_VALUE.latency" spirit:order="4">undef</spirit:value>
+      <spirit:value spirit:id="PARAM_VALUE.latency" spirit:order="4">1126</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -1492,7 +1246,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>II</spirit:name>
-      <spirit:value spirit:id="PARAM_VALUE.II" spirit:order="5">undef</spirit:value>
+      <spirit:value spirit:id="PARAM_VALUE.II" spirit:order="5">1127</spirit:value>
       <spirit:vendorExtensions>
         <xilinx:parameterInfo>
           <xilinx:enablement>
@@ -1506,7 +1260,7 @@
     <xilinx:coreExtensions>
       <xilinx:displayName>Chirp</xilinx:displayName>
       <xilinx:definitionSource>HLS</xilinx:definitionSource>
-      <xilinx:coreRevision>2114746918</xilinx:coreRevision>
+      <xilinx:coreRevision>2114748067</xilinx:coreRevision>
       <xilinx:sdxKernelAttributes>
         <xilinx:sdx_kernel>true</xilinx:sdx_kernel>
         <xilinx:sdx_kernel_type>hls</xilinx:sdx_kernel_type>
@@ -1522,24 +1276,19 @@
         <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.AP_CLK.FREQ_TOLERANCE_HZ" xilinx:valuePermission="bd_and_user"/>
         <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.AP_CLK.PHASE" xilinx:valuePermission="bd_and_user"/>
         <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.AP_RST.POLARITY" xilinx:valuePermission="bd_and_user"/>
-        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.B.LAYERED_METADATA" xilinx:valuePermission="bd_and_user"/>
         <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.F0.LAYERED_METADATA" xilinx:valuePermission="bd_and_user"/>
+        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.F1.LAYERED_METADATA" xilinx:valuePermission="bd_and_user"/>
         <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.FS.LAYERED_METADATA" xilinx:valuePermission="bd_and_user"/>
-        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.NFRAME.LAYERED_METADATA" xilinx:valuePermission="bd_and_user"/>
-        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.N_SAMPLES_USED.LAYERED_METADATA" xilinx:valuePermission="bd_and_user"/>
         <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.OUT_R_ADDRESS0.LAYERED_METADATA" xilinx:valuePermission="bd_and_user"/>
         <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.OUT_R_D0.LAYERED_METADATA" xilinx:valuePermission="bd_and_user"/>
-        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.TC.LAYERED_METADATA" xilinx:valuePermission="bd_and_user"/>
-        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.TG.LAYERED_METADATA" xilinx:valuePermission="bd_and_user"/>
-        <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.TI.LAYERED_METADATA" xilinx:valuePermission="bd_and_user"/>
       </xilinx:configElementInfos>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2025.2</xilinx:xilinxVersion>
-      <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="8969d8fc"/>
-      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="1e5e733d"/>
-      <xilinx:checksum xilinx:scope="ports" xilinx:value="a681b193"/>
-      <xilinx:checksum xilinx:scope="parameters" xilinx:value="8ededfb9"/>
+      <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="81c1a0ef"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="91cbd8ef"/>
+      <xilinx:checksum xilinx:scope="ports" xilinx:value="aded486b"/>
+      <xilinx:checksum xilinx:scope="parameters" xilinx:value="c76fd07c"/>
     </xilinx:packagingInfo>
   </spirit:vendorExtensions>
 </spirit:component>

@@ -7,11 +7,8 @@
 # IP: c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/hdl/ip/chirp_dmul_64ns_64ns_64_7_max_dsp_1_ip/chirp_dmul_64ns_64ns_64_7_max_dsp_1_ip.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==chirp_dmul_64ns_64ns_64_7_max_dsp_1_ip || ORIG_REF_NAME==chirp_dmul_64ns_64ns_64_7_max_dsp_1_ip} -quiet] -quiet
 
-# IP: c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/hdl/ip/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip || ORIG_REF_NAME==chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip} -quiet] -quiet
-
-# IP: c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/hdl/ip/chirp_fcmp_32ns_32ns_1_2_no_dsp_1_ip/chirp_fcmp_32ns_32ns_1_2_no_dsp_1_ip.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==chirp_fcmp_32ns_32ns_1_2_no_dsp_1_ip || ORIG_REF_NAME==chirp_fcmp_32ns_32ns_1_2_no_dsp_1_ip} -quiet] -quiet
+# IP: c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/hdl/ip/chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip || ORIG_REF_NAME==chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip} -quiet] -quiet
 
 # IP: c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/hdl/ip/chirp_fdiv_32ns_32ns_32_16_no_dsp_1_ip/chirp_fdiv_32ns_32ns_32_16_no_dsp_1_ip.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==chirp_fdiv_32ns_32ns_32_16_no_dsp_1_ip || ORIG_REF_NAME==chirp_fdiv_32ns_32ns_32_16_no_dsp_1_ip} -quiet] -quiet
@@ -38,11 +35,8 @@ set_property KEEP_HIERARCHY SOFT [get_cells inst -quiet] -quiet
 # IP: c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/hdl/ip/chirp_dmul_64ns_64ns_64_7_max_dsp_1_ip/chirp_dmul_64ns_64ns_64_7_max_dsp_1_ip.xci
 #dup# set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==chirp_dmul_64ns_64ns_64_7_max_dsp_1_ip || ORIG_REF_NAME==chirp_dmul_64ns_64ns_64_7_max_dsp_1_ip} -quiet] -quiet
 
-# IP: c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/hdl/ip/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip.xci
-#dup# set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip || ORIG_REF_NAME==chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip} -quiet] -quiet
-
-# IP: c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/hdl/ip/chirp_fcmp_32ns_32ns_1_2_no_dsp_1_ip/chirp_fcmp_32ns_32ns_1_2_no_dsp_1_ip.xci
-#dup# set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==chirp_fcmp_32ns_32ns_1_2_no_dsp_1_ip || ORIG_REF_NAME==chirp_fcmp_32ns_32ns_1_2_no_dsp_1_ip} -quiet] -quiet
+# IP: c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/hdl/ip/chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip.xci
+#dup# set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip || ORIG_REF_NAME==chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip} -quiet] -quiet
 
 # IP: c:/Users/vempa/Documents/Projects/RADAR_Chirp_Engine/ChirpGenerator/ChirpGenerator/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/hdl/ip/chirp_fdiv_32ns_32ns_32_16_no_dsp_1_ip/chirp_fdiv_32ns_32ns_32_16_no_dsp_1_ip.xci
 #dup# set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==chirp_fdiv_32ns_32ns_32_16_no_dsp_1_ip || ORIG_REF_NAME==chirp_fdiv_32ns_32ns_32_16_no_dsp_1_ip} -quiet] -quiet

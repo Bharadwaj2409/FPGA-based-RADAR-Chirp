@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'chirp'" level="0">
-<item name = "Date">Tue Aug 18 15:46:48 2026
+<item name = "Date">Wed Aug 19 11:05:41 2026
 </item>
 <item name = "Version">2025.2 (Build 6295257 on Nov 14 2025)</item>
 <item name = "Project">ChirpGenerator</item>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">?, ?, ?, ?, ?, ?, no</column>
+<column name="">1126, 1126, 11.260 us, 11.260 us, 1127, 1127, no</column>
 </table>
 </item>
 <item name = "Detail">

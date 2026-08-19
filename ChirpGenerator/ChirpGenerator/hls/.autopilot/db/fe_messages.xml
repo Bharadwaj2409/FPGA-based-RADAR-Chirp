@@ -605,22 +605,7 @@
     <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="directive:1:1" msg_body="HLS pragma dump">
         <args ARG_PragmaContext="directive" ARG_PragmaFunction="chirp" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=chirp" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="chirp.cpp:31:1" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="hls" ARG_PragmaFunction="chirp" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_memory port=out" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="chirp.cpp:34:1" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="hls" ARG_PragmaFunction="chirp" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port=fs" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="chirp.cpp:35:1" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="hls" ARG_PragmaFunction="chirp" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port=f0" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="chirp.cpp:36:1" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="hls" ARG_PragmaFunction="chirp" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port=B" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="chirp.cpp:46:1" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="hls" ARG_PragmaFunction="chirp" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_ctrl_hs port=return" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="chirp.cpp:66:1" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="chirp.cpp:19:1" msg_body="HLS pragma dump">
         <args ARG_PragmaContext="hls" ARG_PragmaFunction="chirp" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
     <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:289:5" msg_body="Loop 'anonymous' is marked as complete unroll implied by the pipeline pragma">
@@ -698,8 +683,8 @@
     <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp:44:0" msg_body="Inlining function 'hls::hotbm::cos(float)' into 'hls::cosf(float)'">
         <args Callee="hls::hotbm::cos(float)" Callee-DebugLoc="File {C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp} Line 12 Column 0" Caller="hls::cosf(float)" Caller-DebugLoc="File {C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp} Line 44 Column 0"/>
     </msg>
-    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="chirp.cpp:28:0" msg_body="Inlining function 'hls::cosf(float)' into 'chirp(float (*) [8192], float, float, float, float, float, float, int, int)'">
-        <args Callee="hls::cosf(float)" Callee-DebugLoc="File {C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp} Line 44 Column 0" Caller="chirp(float (*) [8192], float, float, float, float, float, float, int, int)" Caller-DebugLoc="File chirp.cpp Line 28 Column 0"/>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="chirp.cpp:13:0" msg_body="Inlining function 'hls::cosf(float)' into 'chirp(float*, float, float, float)'">
+        <args Callee="hls::cosf(float)" Callee-DebugLoc="File {C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp} Line 44 Column 0" Caller="chirp(float*, float, float, float)" Caller-DebugLoc="File chirp.cpp Line 13 Column 0"/>
     </msg>
     <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="C:\scratch\2025.2\hls_product\666\2025.2\src\shared\hls\clib\hlsmath\src\common\hls_hotbm_float.cpp:14:0" msg_body="Applying array_partition to '_ZZN6hotbm_10value_listIfE24sin_or_cos_approximationILi29ELi29EEE9ap_ufixedIXT_ELi1EL9ap_q_mode5EL9ap_o_mode3ELi0EEbR7ap_uintILi3EERS3_IXT_ELi0ELS4_5ELS5_3ELi0EERS3_IXT0_ELi0ELS4_5ELS5_3ELi0EER6ap_intILi8EEE10swap_table': Complete partitioning on dimension 1.">
         <args Dim="1" Mode="Complete" UOName="_ZZN6hotbm_10value_listIfE24sin_or_cos_approximationILi29ELi29EEE9ap_ufixedIXT_ELi1EL9ap_q_mode5EL9ap_o_mode3ELi0EEbR7ap_uintILi3EERS3_IXT_ELi0ELS4_5ELS5_3ELi0EERS3_IXT0_ELi0ELS4_5ELS5_3ELi0EER6ap_intILi8EEE10swap_table"/>

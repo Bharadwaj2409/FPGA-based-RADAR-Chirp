@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
-| Date         : Tue Aug 18 16:03:51 2026
+| Date         : Wed Aug 19 11:12:46 2026
 | Host         : BHARADWAJ running 64-bit major release  (build 9200)
 | Command      : report_timing -max_paths 10 -file ./report/chirp_timing_paths_routed.rpt
 | Design       : bd_0_wrapper
@@ -12,15 +12,15 @@ Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanc
 
 Timing Report
 
-Slack (MET) :             1.152ns  (required time - arrival time)
-  Source:                 bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+Slack (MET) :             1.610ns  (required time - arrival time)
+  Source:                 bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
-  Destination:            bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+  Destination:            bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
                             (rising edge-triggered cell DSP48E1 clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
   Path Group:             ap_clk
   Path Type:              Setup (Max at Slow Process Corner)
   Requirement:            10.000ns  (ap_clk rise@10.000ns - ap_clk rise@0.000ns)
-  Data Path Delay:        3.207ns  (logic 0.642ns (20.018%)  route 2.565ns (79.982%))
+  Data Path Delay:        2.749ns  (logic 0.580ns (21.101%)  route 2.169ns (78.899%))
   Logic Levels:           1  (LUT6=1)
   Clock Path Skew:        -0.049ns (DCD - SCD + CPR)
     Destination Clock Delay (DCD):    0.924ns = ( 10.924 - 10.000 ) 
@@ -36,39 +36,39 @@ Slack (MET) :             1.152ns  (required time - arrival time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.973     0.973    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-    SLICE_X54Y78         FDRE                                         r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+                         net (fo=3100, unset)         0.973     0.973    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    SLICE_X37Y64         FDRE                                         r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
   -------------------------------------------------------------------    -------------------
-    SLICE_X54Y78         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-                         net (fo=20, routed)          1.527     3.018    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-    SLICE_X49Y74         LUT6 (Prop_lut6_I1_O)        0.124     3.142 r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-                         net (fo=2, routed)           1.038     4.180    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-    DSP48_X2Y29          DSP48E1                                      r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    SLICE_X37Y64         FDRE (Prop_fdre_C_Q)         0.456     1.429 r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+                         net (fo=20, routed)          1.270     2.699    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    SLICE_X37Y67         LUT6 (Prop_lut6_I1_O)        0.124     2.823 r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+                         net (fo=2, routed)           0.899     3.722    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    DSP48_X2Y27          DSP48E1                                      r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
   -------------------------------------------------------------------    -------------------
 
                          (clock ap_clk rise edge)    10.000    10.000 r  
                                                       0.000    10.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.924    10.924    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-    DSP48_X2Y29          DSP48E1                                      r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+                         net (fo=3100, unset)         0.924    10.924    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    DSP48_X2Y27          DSP48E1                                      r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
                          clock pessimism              0.000    10.924    
                          clock uncertainty           -0.035    10.889    
-    DSP48_X2Y29          DSP48E1 (Setup_dsp48e1_CLK_INMODE[1])
-                                                     -5.557     5.332    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    DSP48_X2Y27          DSP48E1 (Setup_dsp48e1_CLK_INMODE[2])
+                                                     -5.557     5.332    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
   -------------------------------------------------------------------
                          required time                          5.332    
-                         arrival time                          -4.180    
+                         arrival time                          -3.722    
   -------------------------------------------------------------------
-                         slack                                  1.152    
+                         slack                                  1.610    
 
-Slack (MET) :             1.238ns  (required time - arrival time)
-  Source:                 bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+Slack (MET) :             1.621ns  (required time - arrival time)
+  Source:                 bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
-  Destination:            bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+  Destination:            bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
                             (rising edge-triggered cell DSP48E1 clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
   Path Group:             ap_clk
   Path Type:              Setup (Max at Slow Process Corner)
   Requirement:            10.000ns  (ap_clk rise@10.000ns - ap_clk rise@0.000ns)
-  Data Path Delay:        3.204ns  (logic 0.580ns (18.104%)  route 2.624ns (81.896%))
+  Data Path Delay:        2.821ns  (logic 0.642ns (22.758%)  route 2.179ns (77.242%))
   Logic Levels:           1  (LUT3=1)
   Clock Path Skew:        -0.049ns (DCD - SCD + CPR)
     Destination Clock Delay (DCD):    0.924ns = ( 10.924 - 10.000 ) 
@@ -84,87 +84,39 @@ Slack (MET) :             1.238ns  (required time - arrival time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.973     0.973    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-    SLICE_X52Y75         FDRE                                         r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+                         net (fo=3100, unset)         0.973     0.973    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    SLICE_X32Y62         FDRE                                         r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
   -------------------------------------------------------------------    -------------------
-    SLICE_X52Y75         FDRE (Prop_fdre_C_Q)         0.456     1.429 r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-                         net (fo=53, routed)          1.408     2.837    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-    SLICE_X53Y70         LUT3 (Prop_lut3_I1_O)        0.124     2.961 r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-                         net (fo=2, routed)           1.216     4.177    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-    DSP48_X2Y29          DSP48E1                                      r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    SLICE_X32Y62         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+                         net (fo=54, routed)          1.304     2.795    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    SLICE_X32Y66         LUT3 (Prop_lut3_I1_O)        0.124     2.919 r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+                         net (fo=2, routed)           0.875     3.794    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    DSP48_X2Y27          DSP48E1                                      r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
   -------------------------------------------------------------------    -------------------
 
                          (clock ap_clk rise edge)    10.000    10.000 r  
                                                       0.000    10.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.924    10.924    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-    DSP48_X2Y29          DSP48E1                                      r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+                         net (fo=3100, unset)         0.924    10.924    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    DSP48_X2Y27          DSP48E1                                      r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
                          clock pessimism              0.000    10.924    
                          clock uncertainty           -0.035    10.889    
-    DSP48_X2Y29          DSP48E1 (Setup_dsp48e1_CLK_A[15])
-                                                     -5.474     5.415    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    DSP48_X2Y27          DSP48E1 (Setup_dsp48e1_CLK_A[19])
+                                                     -5.474     5.415    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
   -------------------------------------------------------------------
                          required time                          5.415    
-                         arrival time                          -4.177    
+                         arrival time                          -3.794    
   -------------------------------------------------------------------
-                         slack                                  1.238    
+                         slack                                  1.621    
 
-Slack (MET) :             1.292ns  (required time - arrival time)
-  Source:                 bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+Slack (MET) :             1.658ns  (required time - arrival time)
+  Source:                 bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
-  Destination:            bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+  Destination:            bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
                             (rising edge-triggered cell DSP48E1 clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
   Path Group:             ap_clk
   Path Type:              Setup (Max at Slow Process Corner)
   Requirement:            10.000ns  (ap_clk rise@10.000ns - ap_clk rise@0.000ns)
-  Data Path Delay:        3.067ns  (logic 0.642ns (20.931%)  route 2.425ns (79.069%))
-  Logic Levels:           1  (LUT6=1)
-  Clock Path Skew:        -0.049ns (DCD - SCD + CPR)
-    Destination Clock Delay (DCD):    0.924ns = ( 10.924 - 10.000 ) 
-    Source Clock Delay      (SCD):    0.973ns
-    Clock Pessimism Removal (CPR):    0.000ns
-  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
-    Total System Jitter     (TSJ):    0.071ns
-    Total Input Jitter      (TIJ):    0.000ns
-    Discrete Jitter          (DJ):    0.000ns
-    Phase Error              (PE):    0.000ns
-
-    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
-  -------------------------------------------------------------------    -------------------
-                         (clock ap_clk rise edge)     0.000     0.000 r  
-                                                      0.000     0.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.973     0.973    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-    SLICE_X54Y78         FDRE                                         r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-  -------------------------------------------------------------------    -------------------
-    SLICE_X54Y78         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-                         net (fo=20, routed)          1.527     3.018    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-    SLICE_X49Y74         LUT6 (Prop_lut6_I1_O)        0.124     3.142 r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-                         net (fo=2, routed)           0.898     4.040    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-    DSP48_X2Y29          DSP48E1                                      r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-  -------------------------------------------------------------------    -------------------
-
-                         (clock ap_clk rise edge)    10.000    10.000 r  
-                                                      0.000    10.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.924    10.924    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-    DSP48_X2Y29          DSP48E1                                      r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-                         clock pessimism              0.000    10.924    
-                         clock uncertainty           -0.035    10.889    
-    DSP48_X2Y29          DSP48E1 (Setup_dsp48e1_CLK_INMODE[2])
-                                                     -5.557     5.332    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-  -------------------------------------------------------------------
-                         required time                          5.332    
-                         arrival time                          -4.040    
-  -------------------------------------------------------------------
-                         slack                                  1.292    
-
-Slack (MET) :             1.340ns  (required time - arrival time)
-  Source:                 bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-                            (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
-  Destination:            bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-                            (rising edge-triggered cell DSP48E1 clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
-  Path Group:             ap_clk
-  Path Type:              Setup (Max at Slow Process Corner)
-  Requirement:            10.000ns  (ap_clk rise@10.000ns - ap_clk rise@0.000ns)
-  Data Path Delay:        3.102ns  (logic 0.580ns (18.695%)  route 2.522ns (81.305%))
+  Data Path Delay:        2.784ns  (logic 0.642ns (23.062%)  route 2.142ns (76.938%))
   Logic Levels:           1  (LUT3=1)
   Clock Path Skew:        -0.049ns (DCD - SCD + CPR)
     Destination Clock Delay (DCD):    0.924ns = ( 10.924 - 10.000 ) 
@@ -180,39 +132,39 @@ Slack (MET) :             1.340ns  (required time - arrival time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.973     0.973    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-    SLICE_X52Y75         FDRE                                         r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+                         net (fo=3100, unset)         0.973     0.973    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    SLICE_X32Y62         FDRE                                         r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
   -------------------------------------------------------------------    -------------------
-    SLICE_X52Y75         FDRE (Prop_fdre_C_Q)         0.456     1.429 r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-                         net (fo=53, routed)          1.406     2.835    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-    SLICE_X53Y70         LUT3 (Prop_lut3_I1_O)        0.124     2.959 r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-                         net (fo=1, routed)           1.117     4.075    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-    DSP48_X2Y29          DSP48E1                                      r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    SLICE_X32Y62         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+                         net (fo=54, routed)          1.400     2.891    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    SLICE_X34Y64         LUT3 (Prop_lut3_I1_O)        0.124     3.015 r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+                         net (fo=1, routed)           0.742     3.757    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    DSP48_X2Y27          DSP48E1                                      r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
   -------------------------------------------------------------------    -------------------
 
                          (clock ap_clk rise edge)    10.000    10.000 r  
                                                       0.000    10.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.924    10.924    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-    DSP48_X2Y29          DSP48E1                                      r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+                         net (fo=3100, unset)         0.924    10.924    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    DSP48_X2Y27          DSP48E1                                      r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
                          clock pessimism              0.000    10.924    
                          clock uncertainty           -0.035    10.889    
-    DSP48_X2Y29          DSP48E1 (Setup_dsp48e1_CLK_A[0])
-                                                     -5.474     5.415    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    DSP48_X2Y27          DSP48E1 (Setup_dsp48e1_CLK_A[13])
+                                                     -5.474     5.415    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
   -------------------------------------------------------------------
                          required time                          5.415    
-                         arrival time                          -4.075    
+                         arrival time                          -3.757    
   -------------------------------------------------------------------
-                         slack                                  1.340    
+                         slack                                  1.658    
 
-Slack (MET) :             1.354ns  (required time - arrival time)
-  Source:                 bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+Slack (MET) :             1.769ns  (required time - arrival time)
+  Source:                 bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
-  Destination:            bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+  Destination:            bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
                             (rising edge-triggered cell DSP48E1 clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
   Path Group:             ap_clk
   Path Type:              Setup (Max at Slow Process Corner)
   Requirement:            10.000ns  (ap_clk rise@10.000ns - ap_clk rise@0.000ns)
-  Data Path Delay:        3.088ns  (logic 0.580ns (18.785%)  route 2.508ns (81.215%))
+  Data Path Delay:        2.673ns  (logic 0.642ns (24.016%)  route 2.031ns (75.984%))
   Logic Levels:           1  (LUT3=1)
   Clock Path Skew:        -0.049ns (DCD - SCD + CPR)
     Destination Clock Delay (DCD):    0.924ns = ( 10.924 - 10.000 ) 
@@ -228,39 +180,39 @@ Slack (MET) :             1.354ns  (required time - arrival time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.973     0.973    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-    SLICE_X52Y75         FDRE                                         r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+                         net (fo=3100, unset)         0.973     0.973    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    SLICE_X32Y60         FDRE                                         r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
   -------------------------------------------------------------------    -------------------
-    SLICE_X52Y75         FDRE (Prop_fdre_C_Q)         0.456     1.429 r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-                         net (fo=53, routed)          1.408     2.837    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-    SLICE_X52Y70         LUT3 (Prop_lut3_I1_O)        0.124     2.961 r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-                         net (fo=1, routed)           1.100     4.061    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-    DSP48_X2Y29          DSP48E1                                      r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    SLICE_X32Y60         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+                         net (fo=3, routed)           1.352     2.843    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    SLICE_X32Y64         LUT3 (Prop_lut3_I0_O)        0.124     2.967 r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+                         net (fo=1, routed)           0.679     3.646    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    DSP48_X2Y27          DSP48E1                                      r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
   -------------------------------------------------------------------    -------------------
 
                          (clock ap_clk rise edge)    10.000    10.000 r  
                                                       0.000    10.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.924    10.924    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-    DSP48_X2Y29          DSP48E1                                      r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+                         net (fo=3100, unset)         0.924    10.924    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    DSP48_X2Y27          DSP48E1                                      r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
                          clock pessimism              0.000    10.924    
                          clock uncertainty           -0.035    10.889    
-    DSP48_X2Y29          DSP48E1 (Setup_dsp48e1_CLK_A[7])
-                                                     -5.474     5.415    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    DSP48_X2Y27          DSP48E1 (Setup_dsp48e1_CLK_A[5])
+                                                     -5.474     5.415    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
   -------------------------------------------------------------------
                          required time                          5.415    
-                         arrival time                          -4.061    
+                         arrival time                          -3.646    
   -------------------------------------------------------------------
-                         slack                                  1.354    
+                         slack                                  1.769    
 
-Slack (MET) :             1.387ns  (required time - arrival time)
-  Source:                 bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+Slack (MET) :             1.851ns  (required time - arrival time)
+  Source:                 bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
-  Destination:            bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+  Destination:            bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
                             (rising edge-triggered cell DSP48E1 clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
   Path Group:             ap_clk
   Path Type:              Setup (Max at Slow Process Corner)
   Requirement:            10.000ns  (ap_clk rise@10.000ns - ap_clk rise@0.000ns)
-  Data Path Delay:        3.055ns  (logic 0.580ns (18.987%)  route 2.475ns (81.013%))
+  Data Path Delay:        2.591ns  (logic 0.642ns (24.778%)  route 1.949ns (75.222%))
   Logic Levels:           1  (LUT3=1)
   Clock Path Skew:        -0.049ns (DCD - SCD + CPR)
     Destination Clock Delay (DCD):    0.924ns = ( 10.924 - 10.000 ) 
@@ -276,39 +228,39 @@ Slack (MET) :             1.387ns  (required time - arrival time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.973     0.973    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-    SLICE_X52Y75         FDRE                                         r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+                         net (fo=3100, unset)         0.973     0.973    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    SLICE_X32Y62         FDRE                                         r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
   -------------------------------------------------------------------    -------------------
-    SLICE_X52Y75         FDRE (Prop_fdre_C_Q)         0.456     1.429 r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-                         net (fo=53, routed)          1.415     2.844    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-    SLICE_X52Y70         LUT3 (Prop_lut3_I1_O)        0.124     2.968 r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-                         net (fo=1, routed)           1.060     4.028    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-    DSP48_X2Y29          DSP48E1                                      r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    SLICE_X32Y62         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+                         net (fo=54, routed)          1.131     2.622    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    SLICE_X32Y64         LUT3 (Prop_lut3_I1_O)        0.124     2.746 r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+                         net (fo=1, routed)           0.818     3.564    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    DSP48_X2Y27          DSP48E1                                      r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
   -------------------------------------------------------------------    -------------------
 
                          (clock ap_clk rise edge)    10.000    10.000 r  
                                                       0.000    10.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.924    10.924    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-    DSP48_X2Y29          DSP48E1                                      r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+                         net (fo=3100, unset)         0.924    10.924    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    DSP48_X2Y27          DSP48E1                                      r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
                          clock pessimism              0.000    10.924    
                          clock uncertainty           -0.035    10.889    
-    DSP48_X2Y29          DSP48E1 (Setup_dsp48e1_CLK_A[5])
-                                                     -5.474     5.415    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    DSP48_X2Y27          DSP48E1 (Setup_dsp48e1_CLK_A[8])
+                                                     -5.474     5.415    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
   -------------------------------------------------------------------
                          required time                          5.415    
-                         arrival time                          -4.028    
+                         arrival time                          -3.564    
   -------------------------------------------------------------------
-                         slack                                  1.387    
+                         slack                                  1.851    
 
-Slack (MET) :             1.389ns  (required time - arrival time)
-  Source:                 bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+Slack (MET) :             1.860ns  (required time - arrival time)
+  Source:                 bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
-  Destination:            bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+  Destination:            bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
                             (rising edge-triggered cell DSP48E1 clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
   Path Group:             ap_clk
   Path Type:              Setup (Max at Slow Process Corner)
   Requirement:            10.000ns  (ap_clk rise@10.000ns - ap_clk rise@0.000ns)
-  Data Path Delay:        3.185ns  (logic 0.580ns (18.211%)  route 2.605ns (81.789%))
+  Data Path Delay:        2.582ns  (logic 0.642ns (24.868%)  route 1.940ns (75.132%))
   Logic Levels:           1  (LUT3=1)
   Clock Path Skew:        -0.049ns (DCD - SCD + CPR)
     Destination Clock Delay (DCD):    0.924ns = ( 10.924 - 10.000 ) 
@@ -324,173 +276,221 @@ Slack (MET) :             1.389ns  (required time - arrival time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.973     0.973    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-    SLICE_X52Y75         FDRE                                         r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+                         net (fo=3100, unset)         0.973     0.973    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    SLICE_X32Y62         FDRE                                         r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
   -------------------------------------------------------------------    -------------------
-    SLICE_X52Y75         FDRE (Prop_fdre_C_Q)         0.456     1.429 r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-                         net (fo=53, routed)          1.027     2.456    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-    SLICE_X51Y74         LUT3 (Prop_lut3_I1_O)        0.124     2.580 r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-                         net (fo=2, routed)           1.578     4.158    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-    DSP48_X2Y29          DSP48E1                                      r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-  -------------------------------------------------------------------    -------------------
-
-                         (clock ap_clk rise edge)    10.000    10.000 r  
-                                                      0.000    10.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.924    10.924    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-    DSP48_X2Y29          DSP48E1                                      r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-                         clock pessimism              0.000    10.924    
-                         clock uncertainty           -0.035    10.889    
-    DSP48_X2Y29          DSP48E1 (Setup_dsp48e1_CLK_D[8])
-                                                     -5.342     5.547    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-  -------------------------------------------------------------------
-                         required time                          5.547    
-                         arrival time                          -4.158    
-  -------------------------------------------------------------------
-                         slack                                  1.389    
-
-Slack (MET) :             1.395ns  (required time - arrival time)
-  Source:                 bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-                            (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
-  Destination:            bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-                            (rising edge-triggered cell DSP48E1 clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
-  Path Group:             ap_clk
-  Path Type:              Setup (Max at Slow Process Corner)
-  Requirement:            10.000ns  (ap_clk rise@10.000ns - ap_clk rise@0.000ns)
-  Data Path Delay:        3.179ns  (logic 0.580ns (18.244%)  route 2.599ns (81.756%))
-  Logic Levels:           1  (LUT3=1)
-  Clock Path Skew:        -0.049ns (DCD - SCD + CPR)
-    Destination Clock Delay (DCD):    0.924ns = ( 10.924 - 10.000 ) 
-    Source Clock Delay      (SCD):    0.973ns
-    Clock Pessimism Removal (CPR):    0.000ns
-  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
-    Total System Jitter     (TSJ):    0.071ns
-    Total Input Jitter      (TIJ):    0.000ns
-    Discrete Jitter          (DJ):    0.000ns
-    Phase Error              (PE):    0.000ns
-
-    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
-  -------------------------------------------------------------------    -------------------
-                         (clock ap_clk rise edge)     0.000     0.000 r  
-                                                      0.000     0.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.973     0.973    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-    SLICE_X52Y75         FDRE                                         r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-  -------------------------------------------------------------------    -------------------
-    SLICE_X52Y75         FDRE (Prop_fdre_C_Q)         0.456     1.429 r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-                         net (fo=53, routed)          1.084     2.513    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-    SLICE_X50Y72         LUT3 (Prop_lut3_I1_O)        0.124     2.637 r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-                         net (fo=2, routed)           1.515     4.152    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-    DSP48_X2Y29          DSP48E1                                      r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    SLICE_X32Y62         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+                         net (fo=54, routed)          1.401     2.892    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    SLICE_X32Y65         LUT3 (Prop_lut3_I1_O)        0.124     3.016 r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+                         net (fo=1, routed)           0.538     3.555    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    DSP48_X2Y27          DSP48E1                                      r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
   -------------------------------------------------------------------    -------------------
 
                          (clock ap_clk rise edge)    10.000    10.000 r  
                                                       0.000    10.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.924    10.924    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-    DSP48_X2Y29          DSP48E1                                      r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+                         net (fo=3100, unset)         0.924    10.924    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    DSP48_X2Y27          DSP48E1                                      r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
                          clock pessimism              0.000    10.924    
                          clock uncertainty           -0.035    10.889    
-    DSP48_X2Y29          DSP48E1 (Setup_dsp48e1_CLK_D[0])
-                                                     -5.342     5.547    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-  -------------------------------------------------------------------
-                         required time                          5.547    
-                         arrival time                          -4.152    
-  -------------------------------------------------------------------
-                         slack                                  1.395    
-
-Slack (MET) :             1.421ns  (required time - arrival time)
-  Source:                 bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-                            (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
-  Destination:            bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-                            (rising edge-triggered cell DSP48E1 clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
-  Path Group:             ap_clk
-  Path Type:              Setup (Max at Slow Process Corner)
-  Requirement:            10.000ns  (ap_clk rise@10.000ns - ap_clk rise@0.000ns)
-  Data Path Delay:        3.153ns  (logic 0.580ns (18.397%)  route 2.573ns (81.603%))
-  Logic Levels:           1  (LUT3=1)
-  Clock Path Skew:        -0.049ns (DCD - SCD + CPR)
-    Destination Clock Delay (DCD):    0.924ns = ( 10.924 - 10.000 ) 
-    Source Clock Delay      (SCD):    0.973ns
-    Clock Pessimism Removal (CPR):    0.000ns
-  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
-    Total System Jitter     (TSJ):    0.071ns
-    Total Input Jitter      (TIJ):    0.000ns
-    Discrete Jitter          (DJ):    0.000ns
-    Phase Error              (PE):    0.000ns
-
-    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
-  -------------------------------------------------------------------    -------------------
-                         (clock ap_clk rise edge)     0.000     0.000 r  
-                                                      0.000     0.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.973     0.973    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-    SLICE_X52Y75         FDRE                                         r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-  -------------------------------------------------------------------    -------------------
-    SLICE_X52Y75         FDRE (Prop_fdre_C_Q)         0.456     1.429 r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-                         net (fo=53, routed)          0.935     2.364    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-    SLICE_X50Y74         LUT3 (Prop_lut3_I1_O)        0.124     2.488 r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-                         net (fo=2, routed)           1.638     4.126    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-    DSP48_X2Y29          DSP48E1                                      r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-  -------------------------------------------------------------------    -------------------
-
-                         (clock ap_clk rise edge)    10.000    10.000 r  
-                                                      0.000    10.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.924    10.924    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-    DSP48_X2Y29          DSP48E1                                      r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-                         clock pessimism              0.000    10.924    
-                         clock uncertainty           -0.035    10.889    
-    DSP48_X2Y29          DSP48E1 (Setup_dsp48e1_CLK_D[4])
-                                                     -5.342     5.547    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-  -------------------------------------------------------------------
-                         required time                          5.547    
-                         arrival time                          -4.126    
-  -------------------------------------------------------------------
-                         slack                                  1.421    
-
-Slack (MET) :             1.470ns  (required time - arrival time)
-  Source:                 bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-                            (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
-  Destination:            bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-                            (rising edge-triggered cell DSP48E1 clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
-  Path Group:             ap_clk
-  Path Type:              Setup (Max at Slow Process Corner)
-  Requirement:            10.000ns  (ap_clk rise@10.000ns - ap_clk rise@0.000ns)
-  Data Path Delay:        2.972ns  (logic 0.580ns (19.513%)  route 2.392ns (80.487%))
-  Logic Levels:           1  (LUT3=1)
-  Clock Path Skew:        -0.049ns (DCD - SCD + CPR)
-    Destination Clock Delay (DCD):    0.924ns = ( 10.924 - 10.000 ) 
-    Source Clock Delay      (SCD):    0.973ns
-    Clock Pessimism Removal (CPR):    0.000ns
-  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
-    Total System Jitter     (TSJ):    0.071ns
-    Total Input Jitter      (TIJ):    0.000ns
-    Discrete Jitter          (DJ):    0.000ns
-    Phase Error              (PE):    0.000ns
-
-    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
-  -------------------------------------------------------------------    -------------------
-                         (clock ap_clk rise edge)     0.000     0.000 r  
-                                                      0.000     0.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.973     0.973    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-    SLICE_X52Y75         FDRE                                         r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-  -------------------------------------------------------------------    -------------------
-    SLICE_X52Y75         FDRE (Prop_fdre_C_Q)         0.456     1.429 r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-                         net (fo=53, routed)          1.280     2.709    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-    SLICE_X50Y71         LUT3 (Prop_lut3_I1_O)        0.124     2.833 r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-                         net (fo=1, routed)           1.113     3.945    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-    DSP48_X2Y29          DSP48E1                                      r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-  -------------------------------------------------------------------    -------------------
-
-                         (clock ap_clk rise edge)    10.000    10.000 r  
-                                                      0.000    10.000 r  ap_clk (IN)
-                         net (fo=3516, unset)         0.924    10.924    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-    DSP48_X2Y29          DSP48E1                                      r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
-                         clock pessimism              0.000    10.924    
-                         clock uncertainty           -0.035    10.889    
-    DSP48_X2Y29          DSP48E1 (Setup_dsp48e1_CLK_A[2])
-                                                     -5.474     5.415    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_fadd_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    DSP48_X2Y27          DSP48E1 (Setup_dsp48e1_CLK_A[0])
+                                                     -5.474     5.415    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
   -------------------------------------------------------------------
                          required time                          5.415    
-                         arrival time                          -3.945    
+                         arrival time                          -3.555    
   -------------------------------------------------------------------
-                         slack                                  1.470    
+                         slack                                  1.860    
+
+Slack (MET) :             1.867ns  (required time - arrival time)
+  Source:                 bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+                            (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+                            (rising edge-triggered cell DSP48E1 clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             ap_clk
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            10.000ns  (ap_clk rise@10.000ns - ap_clk rise@0.000ns)
+  Data Path Delay:        2.575ns  (logic 0.642ns (24.932%)  route 1.933ns (75.068%))
+  Logic Levels:           1  (LUT3=1)
+  Clock Path Skew:        -0.049ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    0.924ns = ( 10.924 - 10.000 ) 
+    Source Clock Delay      (SCD):    0.973ns
+    Clock Pessimism Removal (CPR):    0.000ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock ap_clk rise edge)     0.000     0.000 r  
+                                                      0.000     0.000 r  ap_clk (IN)
+                         net (fo=3100, unset)         0.973     0.973    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    SLICE_X32Y62         FDRE                                         r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+  -------------------------------------------------------------------    -------------------
+    SLICE_X32Y62         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+                         net (fo=54, routed)          1.155     2.646    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    SLICE_X32Y66         LUT3 (Prop_lut3_I1_O)        0.124     2.770 r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+                         net (fo=2, routed)           0.779     3.548    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    DSP48_X2Y27          DSP48E1                                      r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+  -------------------------------------------------------------------    -------------------
+
+                         (clock ap_clk rise edge)    10.000    10.000 r  
+                                                      0.000    10.000 r  ap_clk (IN)
+                         net (fo=3100, unset)         0.924    10.924    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    DSP48_X2Y27          DSP48E1                                      r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+                         clock pessimism              0.000    10.924    
+                         clock uncertainty           -0.035    10.889    
+    DSP48_X2Y27          DSP48E1 (Setup_dsp48e1_CLK_A[16])
+                                                     -5.474     5.415    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+  -------------------------------------------------------------------
+                         required time                          5.415    
+                         arrival time                          -3.548    
+  -------------------------------------------------------------------
+                         slack                                  1.867    
+
+Slack (MET) :             1.889ns  (required time - arrival time)
+  Source:                 bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+                            (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+                            (rising edge-triggered cell DSP48E1 clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             ap_clk
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            10.000ns  (ap_clk rise@10.000ns - ap_clk rise@0.000ns)
+  Data Path Delay:        2.553ns  (logic 0.642ns (25.148%)  route 1.911ns (74.852%))
+  Logic Levels:           1  (LUT3=1)
+  Clock Path Skew:        -0.049ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    0.924ns = ( 10.924 - 10.000 ) 
+    Source Clock Delay      (SCD):    0.973ns
+    Clock Pessimism Removal (CPR):    0.000ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock ap_clk rise edge)     0.000     0.000 r  
+                                                      0.000     0.000 r  ap_clk (IN)
+                         net (fo=3100, unset)         0.973     0.973    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    SLICE_X32Y62         FDRE                                         r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+  -------------------------------------------------------------------    -------------------
+    SLICE_X32Y62         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+                         net (fo=54, routed)          1.246     2.737    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    SLICE_X33Y64         LUT3 (Prop_lut3_I1_O)        0.124     2.861 r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+                         net (fo=1, routed)           0.665     3.526    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    DSP48_X2Y27          DSP48E1                                      r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+  -------------------------------------------------------------------    -------------------
+
+                         (clock ap_clk rise edge)    10.000    10.000 r  
+                                                      0.000    10.000 r  ap_clk (IN)
+                         net (fo=3100, unset)         0.924    10.924    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    DSP48_X2Y27          DSP48E1                                      r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+                         clock pessimism              0.000    10.924    
+                         clock uncertainty           -0.035    10.889    
+    DSP48_X2Y27          DSP48E1 (Setup_dsp48e1_CLK_A[2])
+                                                     -5.474     5.415    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+  -------------------------------------------------------------------
+                         required time                          5.415    
+                         arrival time                          -3.526    
+  -------------------------------------------------------------------
+                         slack                                  1.889    
+
+Slack (MET) :             1.905ns  (required time - arrival time)
+  Source:                 bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+                            (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+                            (rising edge-triggered cell DSP48E1 clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             ap_clk
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            10.000ns  (ap_clk rise@10.000ns - ap_clk rise@0.000ns)
+  Data Path Delay:        2.537ns  (logic 0.642ns (25.306%)  route 1.895ns (74.694%))
+  Logic Levels:           1  (LUT3=1)
+  Clock Path Skew:        -0.049ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    0.924ns = ( 10.924 - 10.000 ) 
+    Source Clock Delay      (SCD):    0.973ns
+    Clock Pessimism Removal (CPR):    0.000ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock ap_clk rise edge)     0.000     0.000 r  
+                                                      0.000     0.000 r  ap_clk (IN)
+                         net (fo=3100, unset)         0.973     0.973    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    SLICE_X32Y62         FDRE                                         r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+  -------------------------------------------------------------------    -------------------
+    SLICE_X32Y62         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+                         net (fo=54, routed)          0.999     2.490    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    SLICE_X34Y64         LUT3 (Prop_lut3_I1_O)        0.124     2.614 r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+                         net (fo=1, routed)           0.896     3.510    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    DSP48_X2Y27          DSP48E1                                      r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+  -------------------------------------------------------------------    -------------------
+
+                         (clock ap_clk rise edge)    10.000    10.000 r  
+                                                      0.000    10.000 r  ap_clk (IN)
+                         net (fo=3100, unset)         0.924    10.924    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    DSP48_X2Y27          DSP48E1                                      r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+                         clock pessimism              0.000    10.924    
+                         clock uncertainty           -0.035    10.889    
+    DSP48_X2Y27          DSP48E1 (Setup_dsp48e1_CLK_A[10])
+                                                     -5.474     5.415    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+  -------------------------------------------------------------------
+                         required time                          5.415    
+                         arrival time                          -3.510    
+  -------------------------------------------------------------------
+                         slack                                  1.905    
+
+Slack (MET) :             1.912ns  (required time - arrival time)
+  Source:                 bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+                            (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+                            (rising edge-triggered cell DSP48E1 clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             ap_clk
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            10.000ns  (ap_clk rise@10.000ns - ap_clk rise@0.000ns)
+  Data Path Delay:        2.530ns  (logic 0.642ns (25.378%)  route 1.888ns (74.622%))
+  Logic Levels:           1  (LUT3=1)
+  Clock Path Skew:        -0.049ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    0.924ns = ( 10.924 - 10.000 ) 
+    Source Clock Delay      (SCD):    0.973ns
+    Clock Pessimism Removal (CPR):    0.000ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock ap_clk rise edge)     0.000     0.000 r  
+                                                      0.000     0.000 r  ap_clk (IN)
+                         net (fo=3100, unset)         0.973     0.973    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    SLICE_X32Y60         FDRE                                         r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+  -------------------------------------------------------------------    -------------------
+    SLICE_X32Y60         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+                         net (fo=3, routed)           1.034     2.525    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    SLICE_X34Y64         LUT3 (Prop_lut3_I0_O)        0.124     2.649 r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+                         net (fo=1, routed)           0.854     3.503    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    DSP48_X2Y27          DSP48E1                                      r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+  -------------------------------------------------------------------    -------------------
+
+                         (clock ap_clk rise edge)    10.000    10.000 r  
+                                                      0.000    10.000 r  ap_clk (IN)
+                         net (fo=3100, unset)         0.924    10.924    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+    DSP48_X2Y27          DSP48E1                                      r  bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+                         clock pessimism              0.000    10.924    
+                         clock uncertainty           -0.035    10.889    
+    DSP48_X2Y27          DSP48E1 (Setup_dsp48e1_CLK_A[12])
+                                                     -5.474     5.415    bd_0_wrapper/bd_0/bd_0_hls_inst_0/bd_0_hls_inst_0_chirp/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1/bd_0_hls_inst_0_chirp_faddfsub_32ns_32ns_32_5_full_dsp_1_ip/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>/<hidden>
+  -------------------------------------------------------------------
+                         required time                          5.415    
+                         arrival time                          -3.503    
+  -------------------------------------------------------------------
+                         slack                                  1.912    
 
 
 

@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
-| Date         : Tue Aug 18 16:03:51 2026
+| Date         : Wed Aug 19 11:12:47 2026
 | Host         : BHARADWAJ running 64-bit major release  (build 9200)
 | Command      : report_design_analysis -file ./report/chirp_design_analysis_routed.rpt
 | Design       : bd_0_wrapper
@@ -25,17 +25,17 @@ Table of Contents
 |      Characteristics      |                  Path #1                 |
 +---------------------------+------------------------------------------+
 | Requirement               | 10.000                                   |
-| Path Delay                | 3.207                                    |
-| Logic Delay               | 0.642(21%)                               |
-| Net Delay                 | 2.565(79%)                               |
+| Path Delay                | 2.749                                    |
+| Logic Delay               | 0.580(22%)                               |
+| Net Delay                 | 2.169(78%)                               |
 | Clock Skew                | -0.049                                   |
-| Slack                     | 1.152                                    |
+| Slack                     | 1.610                                    |
 | Clock Uncertainty         | 0.035                                    |
 | Clock Pair Classification | Timed                                    |
 | Clock Delay Group         | Same Clock                               |
 | Logic Levels              | 1                                        |
 | Routes                    | 2                                        |
-| Logical Path              | FDRE/C-(20)-LUT6-(2)-DSP48E1/INMODE[1]   |
+| Logical Path              | FDRE/C-(20)-LUT6-(2)-DSP48E1/INMODE[2]   |
 | Start Point Clock         | ap_clk                                   |
 | End Point Clock           | ap_clk                                   |
 | DSP Block                 | Seq                                      |
@@ -49,9 +49,9 @@ Table of Contents
 | Dont Touch                | 0                                        |
 | Mark Debug                | 0                                        |
 | Start Point Pin Primitive | FDRE/C                                   |
-| End Point Pin Primitive   | DSP48E1/INMODE[1]                        |
+| End Point Pin Primitive   | DSP48E1/INMODE[2]                        |
 | Start Point Pin           | opt_has_pipe.first_q_reg[3]/C            |
-| End Point Pin             | i_no_versal_es1_workaround.DSP/INMODE[1] |
+| End Point Pin             | i_no_versal_es1_workaround.DSP/INMODE[2] |
 +---------------------------+------------------------------------------+
 * Bounding box calculated as % of dimensions for the target device (308, 299)
 
@@ -59,11 +59,11 @@ Table of Contents
 2. Logic Level Distribution
 ---------------------------
 
-+-----------------+-------------+-----+-----+----+----+----+----+----+----+----+----+----+----+----+----+----+----+----+
-| End Point Clock | Requirement |  0  |  1  |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 |
-+-----------------+-------------+-----+-----+----+----+----+----+----+----+----+----+----+----+----+----+----+----+----+
-| ap_clk          | 10.000ns    | 170 | 144 | 86 | 44 | 21 | 94 | 22 | 14 | 79 | 35 | 44 | 60 | 51 | 48 | 41 | 38 |  9 |
-+-----------------+-------------+-----+-----+----+----+----+----+----+----+----+----+----+----+----+----+----+----+----+
++-----------------+-------------+-----+-----+----+----+----+----+----+----+---+----+----+----+----+----+----+----+----+
+| End Point Clock | Requirement |  0  |  1  |  2 |  3 |  4 |  5 |  6 |  7 | 8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 |
++-----------------+-------------+-----+-----+----+----+----+----+----+----+---+----+----+----+----+----+----+----+----+
+| ap_clk          | 10.000ns    | 246 | 175 | 97 | 29 | 19 | 76 | 13 | 10 | 9 | 31 | 50 | 48 | 48 | 48 | 48 | 42 | 11 |
++-----------------+-------------+-----+-----+----+----+----+----+----+----+---+----+----+----+----+----+----+----+----+
 * Columns represent the logic levels per end point clock
 ** Distribution is for top worst 1000 paths
 

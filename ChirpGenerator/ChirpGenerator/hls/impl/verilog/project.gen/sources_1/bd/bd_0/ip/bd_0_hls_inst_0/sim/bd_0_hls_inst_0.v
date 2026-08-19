@@ -48,7 +48,7 @@
 
 
 // IP VLNV: xilinx.com:hls:chirp:1.0
-// IP Revision: 2114746918
+// IP Revision: 2114748067
 
 `timescale 1ns/1ps
 
@@ -67,12 +67,7 @@ module bd_0_hls_inst_0 (
   out_r_d0,
   fs,
   f0,
-  B,
-  Tc,
-  Ti,
-  Tg,
-  Nframe,
-  N_SAMPLES_USED
+  f1
 );
 
 output wire out_r_ce0;
@@ -97,7 +92,7 @@ input wire ap_start;
 (* X_INTERFACE_INFO = "xilinx.com:signal:data:1.0 out_r_address0 DATA" *)
 (* X_INTERFACE_MODE = "master" *)
 (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME out_r_address0, LAYERED_METADATA undef" *)
-output wire [21 : 0] out_r_address0;
+output wire [9 : 0] out_r_address0;
 (* X_INTERFACE_INFO = "xilinx.com:signal:data:1.0 out_r_d0 DATA" *)
 (* X_INTERFACE_MODE = "master" *)
 (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME out_r_d0, LAYERED_METADATA undef" *)
@@ -110,30 +105,10 @@ input wire [31 : 0] fs;
 (* X_INTERFACE_MODE = "slave" *)
 (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME f0, LAYERED_METADATA undef" *)
 input wire [31 : 0] f0;
-(* X_INTERFACE_INFO = "xilinx.com:signal:data:1.0 B DATA" *)
+(* X_INTERFACE_INFO = "xilinx.com:signal:data:1.0 f1 DATA" *)
 (* X_INTERFACE_MODE = "slave" *)
-(* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME B, LAYERED_METADATA undef" *)
-input wire [31 : 0] B;
-(* X_INTERFACE_INFO = "xilinx.com:signal:data:1.0 Tc DATA" *)
-(* X_INTERFACE_MODE = "slave" *)
-(* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME Tc, LAYERED_METADATA undef" *)
-input wire [31 : 0] Tc;
-(* X_INTERFACE_INFO = "xilinx.com:signal:data:1.0 Ti DATA" *)
-(* X_INTERFACE_MODE = "slave" *)
-(* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME Ti, LAYERED_METADATA undef" *)
-input wire [31 : 0] Ti;
-(* X_INTERFACE_INFO = "xilinx.com:signal:data:1.0 Tg DATA" *)
-(* X_INTERFACE_MODE = "slave" *)
-(* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME Tg, LAYERED_METADATA undef" *)
-input wire [31 : 0] Tg;
-(* X_INTERFACE_INFO = "xilinx.com:signal:data:1.0 Nframe DATA" *)
-(* X_INTERFACE_MODE = "slave" *)
-(* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME Nframe, LAYERED_METADATA undef" *)
-input wire [31 : 0] Nframe;
-(* X_INTERFACE_INFO = "xilinx.com:signal:data:1.0 N_SAMPLES_USED DATA" *)
-(* X_INTERFACE_MODE = "slave" *)
-(* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME N_SAMPLES_USED, LAYERED_METADATA undef" *)
-input wire [31 : 0] N_SAMPLES_USED;
+(* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME f1, LAYERED_METADATA undef" *)
+input wire [31 : 0] f1;
 
 (* SDX_KERNEL = "true" *)
 (* SDX_KERNEL_TYPE = "hls" *)
@@ -151,11 +126,6 @@ input wire [31 : 0] N_SAMPLES_USED;
     .out_r_d0(out_r_d0),
     .fs(fs),
     .f0(f0),
-    .B(B),
-    .Tc(Tc),
-    .Ti(Ti),
-    .Tg(Tg),
-    .Nframe(Nframe),
-    .N_SAMPLES_USED(N_SAMPLES_USED)
+    .f1(f1)
   );
 endmodule

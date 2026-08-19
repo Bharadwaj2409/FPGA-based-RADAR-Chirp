@@ -1,18 +1,18 @@
 {
   "0": {
-    "basicblocks": 10,
+    "basicblocks": 4,
     "calls": "1",
-    "control_depth": 2,
+    "control_depth": 1,
     "def_use_depth": 7,
     "file": "chirp.cpp",
-    "fileloc": 11,
-    "instructions": 60,
-    "memory_accesses": 3,
+    "fileloc": 8,
+    "instructions": 37,
+    "memory_accesses": 2,
     "name": "chirp",
     "stores": {
-      "T": 2
+      "T": 1
     },
-    "total_instructions": 253
+    "total_instructions": 230
   },
   "1": {
     "basicblocks": 12,

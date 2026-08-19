@@ -54,27 +54,17 @@
 
 module bd_0_sv (
   (* X_INTERFACE_IGNORE = "true" *)
-  input wire [31:0] B,
-  (* X_INTERFACE_IGNORE = "true" *)
-  input wire [31:0] N_SAMPLES_USED,
-  (* X_INTERFACE_IGNORE = "true" *)
-  input wire [31:0] Nframe,
-  (* X_INTERFACE_IGNORE = "true" *)
-  input wire [31:0] Tc,
-  (* X_INTERFACE_IGNORE = "true" *)
-  input wire [31:0] Tg,
-  (* X_INTERFACE_IGNORE = "true" *)
-  input wire [31:0] Ti,
-  (* X_INTERFACE_IGNORE = "true" *)
   input wire ap_clk,
   (* X_INTERFACE_IGNORE = "true" *)
   input wire ap_rst,
   (* X_INTERFACE_IGNORE = "true" *)
   input wire [31:0] f0,
   (* X_INTERFACE_IGNORE = "true" *)
+  input wire [31:0] f1,
+  (* X_INTERFACE_IGNORE = "true" *)
   input wire [31:0] fs,
   (* X_INTERFACE_IGNORE = "true" *)
-  output wire [21:0] out_r_address0,
+  output wire [9:0] out_r_address0,
   (* X_INTERFACE_IGNORE = "true" *)
   output wire out_r_ce0,
   (* X_INTERFACE_IGNORE = "true" *)
@@ -92,15 +82,10 @@ module bd_0_sv (
 );
 
   bd_0 inst (
-    .B(B),
-    .N_SAMPLES_USED(N_SAMPLES_USED),
-    .Nframe(Nframe),
-    .Tc(Tc),
-    .Tg(Tg),
-    .Ti(Ti),
     .ap_clk(ap_clk),
     .ap_rst(ap_rst),
     .f0(f0),
+    .f1(f1),
     .fs(fs),
     .out_r_address0(out_r_address0),
     .out_r_ce0(out_r_ce0),

@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'chirp'" level="0">
-<item name = "Date">Tue Aug 18 15:46:52 2026
+<item name = "Date">Wed Aug 19 11:05:43 2026
 </item>
 <item name = "Version">2025.2 (Build 6295257 on Nov 14 2025)</item>
 <item name = "Project">ChirpGenerator</item>
@@ -24,14 +24,14 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">?, ?, ?, ?, ?, ?, no</column>
+<column name="">1126, 1126, 11.260 us, 11.260 us, 1127, 1127, no</column>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
-<column name="grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96">chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2, ?, ?, ?, ?, 0, 0, loop pipeline stp</column>
+<column name="grp_chirp_Pipeline_VITIS_LOOP_17_1_fu_60">chirp_Pipeline_VITIS_LOOP_17_1, 1089, 1089, 10.890 us, 10.890 us, 0, 0, loop pipeline stp</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
@@ -48,24 +48,24 @@
 <item name = "Summary"><table name="" hasTotal="1">
 <keys size="6">Name, BRAM_18K, DSP, FF, LUT, URAM</keys>
 <column name="DSP">-, -, -, -, -</column>
-<column name="Expression">-, -, 0, 140, -</column>
+<column name="Expression">-, -, -, -, -</column>
 <column name="FIFO">-, -, -, -, -</column>
-<column name="Instance">-, 39, 6493, 5392, -</column>
+<column name="Instance">-, 35, 3717, 4780, -</column>
 <column name="Memory">-, -, -, -, -</column>
-<column name="Multiplexer">-, -, 0, 187, -</column>
-<column name="Register">-, -, 393, -, -</column>
+<column name="Multiplexer">-, -, 0, 309, -</column>
+<column name="Register">-, -, 199, -, -</column>
 <specialColumn name="Available">280, 220, 106400, 53200, 0</specialColumn>
-<specialColumn name="Utilization (%)">0, 17, 6, 10, 0</specialColumn>
+<specialColumn name="Utilization (%)">0, 15, 3, 9, 0</specialColumn>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
-<column name="grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96">chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2, 0, 32, 6209, 5023, 0</column>
-<column name="fdiv_32ns_32ns_32_16_no_dsp_1_U53">fdiv_32ns_32ns_32_16_no_dsp_1, 0, 0, 0, 0, 0</column>
-<column name="fmul_32ns_32ns_32_4_max_dsp_1_U52">fmul_32ns_32ns_32_4_max_dsp_1, 0, 3, 143, 321, 0</column>
-<column name="mul_31ns_31ns_62_2_1_U54">mul_31ns_31ns_62_2_1, 0, 4, 141, 48, 0</column>
+<column name="grp_chirp_Pipeline_VITIS_LOOP_17_1_fu_60">chirp_Pipeline_VITIS_LOOP_17_1, 0, 30, 3369, 4069, 0</column>
+<column name="faddfsub_32ns_32ns_32_5_full_dsp_1_U44">faddfsub_32ns_32ns_32_5_full_dsp_1, 0, 2, 205, 390, 0</column>
+<column name="fdiv_32ns_32ns_32_16_no_dsp_1_U46">fdiv_32ns_32ns_32_16_no_dsp_1, 0, 0, 0, 0, 0</column>
+<column name="fmul_32ns_32ns_32_4_max_dsp_1_U45">fmul_32ns_32ns_32_4_max_dsp_1, 0, 3, 143, 321, 0</column>
 </table>
 </item>
 <item name = "DSP"><table name="" hasTotal="0">
@@ -82,38 +82,32 @@
 </item>
 <item name = "Expression"><table name="" hasTotal="1">
 <keys size="7">Variable Name, Operation, DSP, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
-<column name="empty_32_fu_157_p2">icmp, 0, 0, 39, 32, 1</column>
-<column name="empty_fu_143_p2">icmp, 0, 0, 39, 32, 1</column>
-<column name="smax1_fu_163_p3">select, 0, 0, 31, 1, 31</column>
-<column name="smax_fu_149_p3">select, 0, 0, 31, 1, 31</column>
 </table>
 </item>
 <item name = "Multiplexer"><table name="" hasTotal="1">
 <keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
-<column name="ap_NS_fsm">113, 23, 1, 23</column>
-<column name="grp_fu_120_ce">9, 2, 1, 2</column>
-<column name="grp_fu_120_p0">14, 3, 32, 96</column>
-<column name="grp_fu_120_p1">14, 3, 32, 96</column>
-<column name="grp_fu_125_ce">9, 2, 1, 2</column>
-<column name="grp_fu_125_p0">14, 3, 32, 96</column>
-<column name="grp_fu_125_p1">14, 3, 32, 96</column>
+<column name="ap_NS_fsm">172, 39, 1, 39</column>
+<column name="grp_fu_77_ce">9, 2, 1, 2</column>
+<column name="grp_fu_77_opcode">14, 3, 2, 6</column>
+<column name="grp_fu_77_p0">14, 3, 32, 96</column>
+<column name="grp_fu_77_p1">14, 3, 32, 96</column>
+<column name="grp_fu_83_ce">9, 2, 1, 2</column>
+<column name="grp_fu_83_p0">14, 3, 32, 96</column>
+<column name="grp_fu_83_p1">14, 3, 32, 96</column>
+<column name="grp_fu_88_ce">9, 2, 1, 2</column>
+<column name="grp_fu_88_p0">20, 4, 32, 128</column>
+<column name="grp_fu_88_p1">20, 4, 32, 128</column>
 </table>
 </item>
 <item name = "Register"><table name="" hasTotal="1">
 <keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
-<column name="N_SAMPLES_USED_read_reg_209">32, 0, 32, 0</column>
-<column name="Tc_read_reg_192">32, 0, 32, 0</column>
-<column name="ap_CS_fsm">22, 0, 22, 0</column>
-<column name="f0_read_reg_244">32, 0, 32, 0</column>
-<column name="fs_read_reg_249">32, 0, 32, 0</column>
-<column name="grp_chirp_Pipeline_VITIS_LOOP_60_1_VITIS_LOOP_63_2_fu_96_ap_start_reg">1, 0, 1, 0</column>
-<column name="k_reg_204">32, 0, 32, 0</column>
-<column name="mul8_reg_234">32, 0, 32, 0</column>
-<column name="mul_ln11_reg_239">62, 0, 62, 0</column>
-<column name="smax1_reg_219">31, 0, 31, 0</column>
-<column name="smax_reg_214">31, 0, 31, 0</column>
-<column name="trunc_ln75_1_reg_259">23, 0, 23, 0</column>
-<column name="trunc_ln75_reg_254">31, 0, 31, 0</column>
+<column name="ap_CS_fsm">38, 0, 38, 0</column>
+<column name="f0_read_reg_111">32, 0, 32, 0</column>
+<column name="fs_read_reg_100">32, 0, 32, 0</column>
+<column name="grp_chirp_Pipeline_VITIS_LOOP_17_1_fu_60_ap_start_reg">1, 0, 1, 0</column>
+<column name="mul3_reg_122">32, 0, 32, 0</column>
+<column name="reg_94">32, 0, 32, 0</column>
+<column name="sub_reg_117">32, 0, 32, 0</column>
 </table>
 </item>
 </section>
@@ -129,18 +123,13 @@
 <column name="ap_done">out, 1, ap_ctrl_hs, chirp, return value</column>
 <column name="ap_idle">out, 1, ap_ctrl_hs, chirp, return value</column>
 <column name="ap_ready">out, 1, ap_ctrl_hs, chirp, return value</column>
-<column name="out_r_address0">out, 22, ap_memory, out_r, array</column>
+<column name="out_r_address0">out, 10, ap_memory, out_r, array</column>
 <column name="out_r_ce0">out, 1, ap_memory, out_r, array</column>
 <column name="out_r_we0">out, 1, ap_memory, out_r, array</column>
 <column name="out_r_d0">out, 32, ap_memory, out_r, array</column>
 <column name="fs">in, 32, ap_none, fs, scalar</column>
 <column name="f0">in, 32, ap_none, f0, scalar</column>
-<column name="B">in, 32, ap_none, B, scalar</column>
-<column name="Tc">in, 32, ap_none, Tc, scalar</column>
-<column name="Ti">in, 32, ap_none, Ti, scalar</column>
-<column name="Tg">in, 32, ap_none, Tg, scalar</column>
-<column name="Nframe">in, 32, ap_none, Nframe, scalar</column>
-<column name="N_SAMPLES_USED">in, 32, ap_none, N_SAMPLES_USED, scalar</column>
+<column name="f1">in, 32, ap_none, f1, scalar</column>
 </table>
 </item>
 </section>

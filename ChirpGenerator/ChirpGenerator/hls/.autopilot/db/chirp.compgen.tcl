@@ -1,5 +1,11 @@
 # This script segment is generated automatically by AutoPilot
 
+set name chirp_faddfsub_32ns_32ns_32_5_full_dsp_1
+if {${::AESL::PGuard_rtl_comp_handler}} {
+	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {fsub} IMPL {fulldsp} LATENCY 4 ALLOW_PRAGMA 1
+}
+
+
 set name chirp_fmul_32ns_32ns_32_4_max_dsp_1
 if {${::AESL::PGuard_rtl_comp_handler}} {
 	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {fmul} IMPL {maxdsp} LATENCY 3 ALLOW_PRAGMA 1
@@ -9,12 +15,6 @@ if {${::AESL::PGuard_rtl_comp_handler}} {
 set name chirp_fdiv_32ns_32ns_32_16_no_dsp_1
 if {${::AESL::PGuard_rtl_comp_handler}} {
 	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {fdiv} IMPL {fabric} LATENCY 15 ALLOW_PRAGMA 1
-}
-
-
-set name chirp_mul_31ns_31ns_62_2_1
-if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {mul} IMPL {auto} LATENCY 1 ALLOW_PRAGMA 1
 }
 
 
@@ -30,14 +30,14 @@ set axilite_register_dict [dict create]
 if {${::AESL::PGuard_autoexp_gen}} {
 if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
 eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
-    id 58 \
+    id 50 \
     name out_r \
     reset_level 1 \
     sync_rst true \
     dir O \
     corename out_r \
     op interface \
-    ports { out_r_address0 { O 22 vector } out_r_ce0 { O 1 bit } out_r_we0 { O 1 bit } out_r_d0 { O 32 vector } } \
+    ports { out_r_address0 { O 10 vector } out_r_ce0 { O 1 bit } out_r_we0 { O 1 bit } out_r_d0 { O 32 vector } } \
 } "
 } else {
 puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'out_r'"
@@ -48,7 +48,7 @@ puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored ge
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 59 \
+    id 51 \
     name fs \
     type other \
     dir I \
@@ -63,7 +63,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 60 \
+    id 52 \
     name f0 \
     type other \
     dir I \
@@ -78,60 +78,15 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 61 \
-    name B \
+    id 53 \
+    name f1 \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_B \
+    corename dc_f1 \
     op interface \
-    ports { B { I 32 vector } } \
-} "
-}
-
-# Direct connection:
-if {${::AESL::PGuard_autoexp_gen}} {
-eval "cg_default_interface_gen_dc { \
-    id 62 \
-    name Tc \
-    type other \
-    dir I \
-    reset_level 1 \
-    sync_rst true \
-    corename dc_Tc \
-    op interface \
-    ports { Tc { I 32 vector } } \
-} "
-}
-
-# Direct connection:
-if {${::AESL::PGuard_autoexp_gen}} {
-eval "cg_default_interface_gen_dc { \
-    id 63 \
-    name Nframe \
-    type other \
-    dir I \
-    reset_level 1 \
-    sync_rst true \
-    corename dc_Nframe \
-    op interface \
-    ports { Nframe { I 32 vector } } \
-} "
-}
-
-# Direct connection:
-if {${::AESL::PGuard_autoexp_gen}} {
-eval "cg_default_interface_gen_dc { \
-    id 64 \
-    name N_SAMPLES_USED \
-    type other \
-    dir I \
-    reset_level 1 \
-    sync_rst true \
-    corename dc_N_SAMPLES_USED \
-    op interface \
-    ports { N_SAMPLES_USED { I 32 vector } } \
+    ports { f1 { I 32 vector } } \
 } "
 }
 

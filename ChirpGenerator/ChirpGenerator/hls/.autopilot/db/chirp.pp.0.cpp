@@ -159,24 +159,11 @@ extern "C" {
 
 
 
-
-
-
 __attribute__((sdx_kernel("chirp", 0))) void chirp(
-
-    float out[512][8192],
-
+    float out[1024],
     float fs,
     float f0,
-    float B,
-
-    float Tc,
-    float Ti,
-    float Tg,
-
-    int Nframe,
-
-    int N_SAMPLES_USED
+    float f1
 );
 # 2 "chirp.cpp" 2
 # 1 "C:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_math.h" 1
@@ -65261,98 +65248,29 @@ namespace hls {
 
 
 
-
-
-
 __attribute__((sdx_kernel("chirp", 0))) void chirp(
-
-    float out[512][8192],
-
+    float out[1024],
     float fs,
     float f0,
-    float B,
-
-    float Tc,
-    float Ti,
-    float Tg,
-
-    int Nframe,
-
-    int N_SAMPLES_USED
-
-)
+    float f1)
 {
 #line 1 "directive"
 #pragma HLSDIRECTIVE TOP name=chirp
-# 28 "chirp.cpp"
+# 13 "chirp.cpp"
 
+    float T = (float)1024 / fs;
+    float k = (f1 - f0) / T;
 
-
-#pragma HLS INTERFACE ap_memory port=out
-
-
-#pragma HLS INTERFACE ap_none port=fs
-#pragma HLS INTERFACE ap_none port=f0
-#pragma HLS INTERFACE ap_none port=B
-# 46 "chirp.cpp"
-#pragma HLS INTERFACE ap_ctrl_hs port=return
-
-
-
-
-    float k = B / Tc;
-
-
-
-    float Tchirp = Tc + Tg + Ti;
-
-
-
-
-    VITIS_LOOP_60_1: for(int chirp = 0; chirp < Nframe; chirp++)
+    VITIS_LOOP_17_1: for (int n = 0; n < 1024; n++)
     {
-
-        VITIS_LOOP_63_2: for(int n = 0; n < N_SAMPLES_USED; n++)
-        {
-
 #pragma HLS PIPELINE II=1
 
+        float t = (float)n / fs;
 
+        float phase =
+            2.0f * 3.14159265358979323846 *
+            (f0 * t + 0.5f * k * t * t);
 
-
-            float t = (float)n / fs;
-
-
-
-            if(t < Tc)
-            {
-
-
-                float phase =
-                    2.0f * 3.14159265358979323846 *
-                    (f0*t + 0.5f*k*t*t);
-
-
-
-                out[chirp][n] =
-                    hls::cosf(phase);
-
-            }
-
-            else
-            {
-
-
-
-                out[chirp][n] = 0.0f;
-
-            }
-
-
-        }
-
+        out[n] = hls::cosf(phase);
     }
-
-
-
 }

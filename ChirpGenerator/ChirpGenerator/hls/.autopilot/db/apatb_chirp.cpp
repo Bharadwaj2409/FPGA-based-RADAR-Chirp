@@ -27,18 +27,8 @@ using namespace std;
 #define AUTOTB_TVOUT_fs "../tv/cdatafile/c.chirp.autotvout_fs.dat"
 #define AUTOTB_TVIN_f0 "../tv/cdatafile/c.chirp.autotvin_f0.dat"
 #define AUTOTB_TVOUT_f0 "../tv/cdatafile/c.chirp.autotvout_f0.dat"
-#define AUTOTB_TVIN_B "../tv/cdatafile/c.chirp.autotvin_B.dat"
-#define AUTOTB_TVOUT_B "../tv/cdatafile/c.chirp.autotvout_B.dat"
-#define AUTOTB_TVIN_Tc "../tv/cdatafile/c.chirp.autotvin_Tc.dat"
-#define AUTOTB_TVOUT_Tc "../tv/cdatafile/c.chirp.autotvout_Tc.dat"
-#define AUTOTB_TVIN_Ti "../tv/cdatafile/c.chirp.autotvin_Ti.dat"
-#define AUTOTB_TVOUT_Ti "../tv/cdatafile/c.chirp.autotvout_Ti.dat"
-#define AUTOTB_TVIN_Tg "../tv/cdatafile/c.chirp.autotvin_Tg.dat"
-#define AUTOTB_TVOUT_Tg "../tv/cdatafile/c.chirp.autotvout_Tg.dat"
-#define AUTOTB_TVIN_Nframe "../tv/cdatafile/c.chirp.autotvin_Nframe.dat"
-#define AUTOTB_TVOUT_Nframe "../tv/cdatafile/c.chirp.autotvout_Nframe.dat"
-#define AUTOTB_TVIN_N_SAMPLES_USED "../tv/cdatafile/c.chirp.autotvin_N_SAMPLES_USED.dat"
-#define AUTOTB_TVOUT_N_SAMPLES_USED "../tv/cdatafile/c.chirp.autotvout_N_SAMPLES_USED.dat"
+#define AUTOTB_TVIN_f1 "../tv/cdatafile/c.chirp.autotvin_f1.dat"
+#define AUTOTB_TVOUT_f1 "../tv/cdatafile/c.chirp.autotvout_f1.dat"
 
 
 // tvout file define:
@@ -1267,10 +1257,10 @@ namespace hls::sim
 
 
 extern "C"
-void chirp_hw_stub_wrapper(void*, float, float, float, float, float, float, hls::sim::Byte<4>, hls::sim::Byte<4>);
+void chirp_hw_stub_wrapper(void*, float, float, float);
 
 extern "C"
-void apatb_chirp_hw(void* __xlx_apatb_param_out_r, float __xlx_apatb_param_fs, float __xlx_apatb_param_f0, float __xlx_apatb_param_B, float __xlx_apatb_param_Tc, float __xlx_apatb_param_Ti, float __xlx_apatb_param_Tg, hls::sim::Byte<4> __xlx_apatb_param_Nframe, hls::sim::Byte<4> __xlx_apatb_param_N_SAMPLES_USED)
+void apatb_chirp_hw(void* __xlx_apatb_param_out_r, float __xlx_apatb_param_fs, float __xlx_apatb_param_f0, float __xlx_apatb_param_f1)
 {
   static hls::sim::Register port0 {
     .name = "fs",
@@ -1295,75 +1285,20 @@ void apatb_chirp_hw(void* __xlx_apatb_param_out_r, float __xlx_apatb_param_fs, f
   port1.param = &__xlx_apatb_param_f0;
 
   static hls::sim::Register port2 {
-    .name = "B",
+    .name = "f1",
     .width = 32,
 #ifdef POST_CHECK
 #else
     .owriter = nullptr,
-    .iwriter = new hls::sim::Writer(AUTOTB_TVIN_B),
+    .iwriter = new hls::sim::Writer(AUTOTB_TVIN_f1),
 #endif
   };
-  port2.param = &__xlx_apatb_param_B;
-
-  static hls::sim::Register port3 {
-    .name = "Tc",
-    .width = 32,
-#ifdef POST_CHECK
-#else
-    .owriter = nullptr,
-    .iwriter = new hls::sim::Writer(AUTOTB_TVIN_Tc),
-#endif
-  };
-  port3.param = &__xlx_apatb_param_Tc;
-
-  static hls::sim::Register port4 {
-    .name = "Ti",
-    .width = 32,
-#ifdef POST_CHECK
-#else
-    .owriter = nullptr,
-    .iwriter = new hls::sim::Writer(AUTOTB_TVIN_Ti),
-#endif
-  };
-  port4.param = &__xlx_apatb_param_Ti;
-
-  static hls::sim::Register port5 {
-    .name = "Tg",
-    .width = 32,
-#ifdef POST_CHECK
-#else
-    .owriter = nullptr,
-    .iwriter = new hls::sim::Writer(AUTOTB_TVIN_Tg),
-#endif
-  };
-  port5.param = &__xlx_apatb_param_Tg;
-
-  static hls::sim::Register port6 {
-    .name = "Nframe",
-    .width = 32,
-#ifdef POST_CHECK
-#else
-    .owriter = nullptr,
-    .iwriter = new hls::sim::Writer(AUTOTB_TVIN_Nframe),
-#endif
-  };
-  port6.param = &__xlx_apatb_param_Nframe;
-
-  static hls::sim::Register port7 {
-    .name = "N_SAMPLES_USED",
-    .width = 32,
-#ifdef POST_CHECK
-#else
-    .owriter = nullptr,
-    .iwriter = new hls::sim::Writer(AUTOTB_TVIN_N_SAMPLES_USED),
-#endif
-  };
-  port7.param = &__xlx_apatb_param_N_SAMPLES_USED;
+  port2.param = &__xlx_apatb_param_f1;
 
 #ifdef USE_BINARY_TV_FILE
-  static hls::sim::Memory<hls::sim::Input, hls::sim::Output> port8 {
+  static hls::sim::Memory<hls::sim::Input, hls::sim::Output> port3 {
 #else
-  static hls::sim::Memory<hls::sim::Reader, hls::sim::Writer> port8 {
+  static hls::sim::Memory<hls::sim::Reader, hls::sim::Writer> port3 {
 #endif
     .width = 32,
     .asize = 4,
@@ -1390,14 +1325,14 @@ void apatb_chirp_hw(void* __xlx_apatb_param_out_r, float __xlx_apatb_param_fs, f
     .hasWrite = { true },
     .max_nbytes = { 0 },
   };
-  port8.param = { __xlx_apatb_param_out_r };
-  port8.mname = { "out_r" };
-  port8.nbytes = { 16777216 };
+  port3.param = { __xlx_apatb_param_out_r };
+  port3.mname = { "out_r" };
+  port3.nbytes = { 4096 };
 
   try {
 #ifdef POST_CHECK
     CodeState = ENTER_WRAPC_PC;
-    check(port8);
+    check(port3);
 #else
     static hls::sim::RefTCL tcl("../tv/cdatafile/ref.tcl");
     tcl.containsVLA = 0;
@@ -1406,24 +1341,14 @@ void apatb_chirp_hw(void* __xlx_apatb_param_out_r, float __xlx_apatb_param_fs, f
     dump(port1, port1.iwriter, tcl.AESL_transaction);
     dump(port2, port2.iwriter, tcl.AESL_transaction);
     dump(port3, port3.iwriter, tcl.AESL_transaction);
-    dump(port4, port4.iwriter, tcl.AESL_transaction);
-    dump(port5, port5.iwriter, tcl.AESL_transaction);
-    dump(port6, port6.iwriter, tcl.AESL_transaction);
-    dump(port7, port7.iwriter, tcl.AESL_transaction);
-    dump(port8, port8.iwriter, tcl.AESL_transaction);
     port0.doTCL(tcl);
     port1.doTCL(tcl);
     port2.doTCL(tcl);
     port3.doTCL(tcl);
-    port4.doTCL(tcl);
-    port5.doTCL(tcl);
-    port6.doTCL(tcl);
-    port7.doTCL(tcl);
-    port8.doTCL(tcl);
     CodeState = CALL_C_DUT;
-    chirp_hw_stub_wrapper(__xlx_apatb_param_out_r, __xlx_apatb_param_fs, __xlx_apatb_param_f0, __xlx_apatb_param_B, __xlx_apatb_param_Tc, __xlx_apatb_param_Ti, __xlx_apatb_param_Tg, __xlx_apatb_param_Nframe, __xlx_apatb_param_N_SAMPLES_USED);
+    chirp_hw_stub_wrapper(__xlx_apatb_param_out_r, __xlx_apatb_param_fs, __xlx_apatb_param_f0, __xlx_apatb_param_f1);
     CodeState = DUMP_OUTPUTS;
-    dump(port8, port8.owriter, tcl.AESL_transaction);
+    dump(port3, port3.owriter, tcl.AESL_transaction);
     tcl.AESL_transaction++;
 #endif
   } catch (const hls::sim::SimException &e) {

@@ -243,19 +243,19 @@ class AESL_RUNTIME_BC {
     string mName;
 };
 using hls::sim::Byte;
-extern "C" void chirp(Byte<4>*, float, float, float, float, float, float, int, int);
-extern "C" void apatb_chirp_hw(volatile void * __xlx_apatb_param_out_r, float __xlx_apatb_param_fs, float __xlx_apatb_param_f0, float __xlx_apatb_param_B, float __xlx_apatb_param_Tc, float __xlx_apatb_param_Ti, float __xlx_apatb_param_Tg, int __xlx_apatb_param_Nframe, int __xlx_apatb_param_N_SAMPLES_USED) {
+extern "C" void chirp(Byte<4>*, float, float, float);
+extern "C" void apatb_chirp_hw(volatile void * __xlx_apatb_param_out_r, float __xlx_apatb_param_fs, float __xlx_apatb_param_f0, float __xlx_apatb_param_f1) {
 using hls::sim::createStream;
   // Collect __xlx_out_r__tmp_vec
 std::vector<Byte<4>> __xlx_out_r__tmp_vec;
-for (size_t i = 0; i < 4194304; ++i){
+for (size_t i = 0; i < 1024; ++i){
 __xlx_out_r__tmp_vec.push_back(((Byte<4>*)__xlx_apatb_param_out_r)[i]);
 }
-  int __xlx_size_param_out_r = 4194304;
+  int __xlx_size_param_out_r = 1024;
   int __xlx_offset_param_out_r = 0;
   int __xlx_offset_byte_param_out_r = 0*4;
   // DUT call
-  chirp(__xlx_out_r__tmp_vec.data(), __xlx_apatb_param_fs, __xlx_apatb_param_f0, __xlx_apatb_param_B, __xlx_apatb_param_Tc, __xlx_apatb_param_Ti, __xlx_apatb_param_Tg, __xlx_apatb_param_Nframe, __xlx_apatb_param_N_SAMPLES_USED);
+  chirp(__xlx_out_r__tmp_vec.data(), __xlx_apatb_param_fs, __xlx_apatb_param_f0, __xlx_apatb_param_f1);
 // print __xlx_apatb_param_out_r
 for (size_t i = 0; i < __xlx_size_param_out_r; ++i) {
 ((Byte<4>*)__xlx_apatb_param_out_r)[i] = __xlx_out_r__tmp_vec[__xlx_offset_param_out_r+i];

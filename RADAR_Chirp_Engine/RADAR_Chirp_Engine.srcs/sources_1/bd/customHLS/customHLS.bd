@@ -12,7 +12,8 @@
     "design_tree": {
       "ZmodAWGController_0": "",
       "floating_point_0": "",
-      "proc_sys_reset_0": ""
+      "proc_sys_reset_0": "",
+      "chirp_0": ""
     },
     "components": {
       "ZmodAWGController_0": {
@@ -37,6 +38,14 @@
         "xci_name": "customHLS_proc_sys_reset_0_0",
         "xci_path": "ip\\customHLS_proc_sys_reset_0_0\\customHLS_proc_sys_reset_0_0.xci",
         "inst_hier_path": "proc_sys_reset_0",
+        "has_run_ip_tcl": "true"
+      },
+      "chirp_0": {
+        "vlnv": "xilinx.com:hls:chirp:1.0",
+        "ip_revision": "2114747997",
+        "xci_name": "customHLS_chirp_0_0",
+        "xci_path": "ip\\customHLS_chirp_0_0\\customHLS_chirp_0_0.xci",
+        "inst_hier_path": "chirp_0",
         "has_run_ip_tcl": "true"
       }
     }
